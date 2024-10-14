@@ -201,18 +201,18 @@ PPP,1.4,Texas,Jill Stein,GRE,1,759,Voters,IVR/Text,Recent
 PPP,1.4,Texas,Cornel West,IND,0,759,Voters,IVR/Text,Recent
 PPP,1.4,Texas,Kamala Harris,DEM,46,759,Voters,IVR/Text,Recent
 PPP,1.4,Texas,Donald Trump,REP,51,759,Voters,IVR/Text,Recent
-Siena/NYT,3,Nebraska CD-2,Kamala Harris,DEM,51,680,Voters,Live Phone,Recent
-Siena/NYT,3,Nebraska CD-2,Donald Trump,REP,42,680,Voters,Live Phone,Recent
-Siena/NYT,3,Nebraska CD-2,Kamala Harris,DEM,49,680,Voters,Live Phone,Recent
-Siena/NYT,3,Nebraska CD-2,Donald Trump,REP,41,680,Voters,Live Phone,Recent
-Siena/NYT,3,Nebraska CD-2,Jill Stein,GRE,2,680,Voters,Live Phone,Recent
-Siena/NYT,3,Nebraska CD-2,Chase Oliver,LIB,2,680,Voters,Live Phone,Recent
-Siena/NYT,3,Nebraska CD-2,Kamala Harris,DEM,52,680,Voters,Live Phone,Recent
-Siena/NYT,3,Nebraska CD-2,Donald Trump,REP,43,680,Voters,Live Phone,Recent
-Siena/NYT,3,Nebraska CD-2,Kamala Harris,DEM,51,680,Voters,Live Phone,Recent
-Siena/NYT,3,Nebraska CD-2,Donald Trump,REP,42,680,Voters,Live Phone,Recent
-Siena/NYT,3,Nebraska CD-2,Jill Stein,GRE,2,680,Voters,Live Phone,Recent
-Siena/NYT,3,Nebraska CD-2,Chase Oliver,LIB,1,680,Voters,Live Phone,Recent
+Siena/NYT,3,Nebraska,Kamala Harris,DEM,51,680,Voters,Live Phone,Recent
+Siena/NYT,3,Nebraska,Donald Trump,REP,42,680,Voters,Live Phone,Recent
+Siena/NYT,3,Nebraska,Kamala Harris,DEM,49,680,Voters,Live Phone,Recent
+Siena/NYT,3,Nebraska,Donald Trump,REP,41,680,Voters,Live Phone,Recent
+Siena/NYT,3,Nebraska,Jill Stein,GRE,2,680,Voters,Live Phone,Recent
+Siena/NYT,3,Nebraska,Chase Oliver,LIB,2,680,Voters,Live Phone,Recent
+Siena/NYT,3,Nebraska,Kamala Harris,DEM,52,680,Voters,Live Phone,Recent
+Siena/NYT,3,Nebraska,Donald Trump,REP,43,680,Voters,Live Phone,Recent
+Siena/NYT,3,Nebraska,Kamala Harris,DEM,51,680,Voters,Live Phone,Recent
+Siena/NYT,3,Nebraska,Donald Trump,REP,42,680,Voters,Live Phone,Recent
+Siena/NYT,3,Nebraska,Jill Stein,GRE,2,680,Voters,Live Phone,Recent
+Siena/NYT,3,Nebraska,Chase Oliver,LIB,1,680,Voters,Live Phone,Recent
 SurveyUSA,2.8,Minnesota,Kamala Harris,DEM,50,646,Voters,Online Panel,Recent
 SurveyUSA,2.8,Minnesota,Donald Trump,REP,44,646,Voters,Online Panel,Recent
 East Carolina University,2.6,North Carolina,Kamala Harris,DEM,47.1,1005,Voters,IVR/Text-to-Web,Recent
@@ -301,11 +301,11 @@ CNN/SSRS,2.8,North Carolina,Donald Trump,REP,48,931,Voters,Live Phone/Text-to-We
 CNN/SSRS,2.8,North Carolina,Cornel West,IND,1,931,Voters,Live Phone/Text-to-Web/Email/Mail-to-Web/Mail-to-Phone,Recent
 CNN/SSRS,2.8,North Carolina,Jill Stein,GRE,0,931,Voters,Live Phone/Text-to-Web/Email/Mail-to-Web/Mail-to-Phone,Recent
 CNN/SSRS,2.8,North Carolina,Chase Oliver,LIB,1,931,Voters,Live Phone/Text-to-Web/Email/Mail-to-Web/Mail-to-Phone,Recent
-CNN/SSRS,2.8,Nebraska CD-2,Kamala Harris,DEM,53,749,Voters,Live Phone/Text-to-Web/Email/Mail-to-Web/Mail-to-Phone,Recent
-CNN/SSRS,2.8,Nebraska CD-2,Donald Trump,REP,42,749,Voters,Live Phone/Text-to-Web/Email/Mail-to-Web/Mail-to-Phone,Recent
-CNN/SSRS,2.8,Nebraska CD-2,Cornel West,IND,1,749,Voters,Live Phone/Text-to-Web/Email/Mail-to-Web/Mail-to-Phone,Recent
-CNN/SSRS,2.8,Nebraska CD-2,Jill Stein,GRE,1,749,Voters,Live Phone/Text-to-Web/Email/Mail-to-Web/Mail-to-Phone,Recent
-CNN/SSRS,2.8,Nebraska CD-2,Chase Oliver,LIB,1,749,Voters,Live Phone/Text-to-Web/Email/Mail-to-Web/Mail-to-Phone,Recent
+CNN/SSRS,2.8,Nebraska,Kamala Harris,DEM,53,749,Voters,Live Phone/Text-to-Web/Email/Mail-to-Web/Mail-to-Phone,Recent
+CNN/SSRS,2.8,Nebraska,Donald Trump,REP,42,749,Voters,Live Phone/Text-to-Web/Email/Mail-to-Web/Mail-to-Phone,Recent
+CNN/SSRS,2.8,Nebraska,Cornel West,IND,1,749,Voters,Live Phone/Text-to-Web/Email/Mail-to-Web/Mail-to-Phone,Recent
+CNN/SSRS,2.8,Nebraska,Jill Stein,GRE,1,749,Voters,Live Phone/Text-to-Web/Email/Mail-to-Web/Mail-to-Phone,Recent
+CNN/SSRS,2.8,Nebraska,Chase Oliver,LIB,1,749,Voters,Live Phone/Text-to-Web/Email/Mail-to-Web/Mail-to-Phone,Recent
 AtlasIntel,2.7,Arizona,Kamala Harris,DEM,48.6,946,Voters,Online Ad,Recent
 AtlasIntel,2.7,Arizona,Donald Trump,REP,49.7,946,Voters,Online Ad,Recent
 AtlasIntel,2.7,Arizona,Jill Stein,GRE,0.4,946,Voters,Online Ad,Recent
@@ -876,10 +876,10 @@ Pan Atlantic Research,2.1,Maine,Donald Trump,REP,41,812,Voters,Online Panel,Rece
 Pan Atlantic Research,2.1,Maine,Cornel West,IND,1,812,Voters,Online Panel,Recent
 Pan Atlantic Research,2.1,Maine,Jill Stein,GRE,1,812,Voters,Online Panel,Recent
 Pan Atlantic Research,2.1,Maine,Chase Oliver,LIB,1,812,Voters,Online Panel,Recent
-Pan Atlantic Research,2.1,Maine CD-1,Kamala Harris,DEM,58,414,Voters,Online Panel,Recent
-Pan Atlantic Research,2.1,Maine CD-1,Donald Trump,REP,32,414,Voters,Online Panel,Recent
-Pan Atlantic Research,2.1,Maine CD-2,Kamala Harris,DEM,42,398,Voters,Online Panel,Recent
-Pan Atlantic Research,2.1,Maine CD-2,Donald Trump,REP,49,398,Voters,Online Panel,Recent
+Pan Atlantic Research,2.1,Maine,Kamala Harris,DEM,58,414,Voters,Online Panel,Recent
+Pan Atlantic Research,2.1,Maine,Donald Trump,REP,32,414,Voters,Online Panel,Recent
+Pan Atlantic Research,2.1,Maine,Kamala Harris,DEM,42,398,Voters,Online Panel,Recent
+Pan Atlantic Research,2.1,Maine,Donald Trump,REP,49,398,Voters,Online Panel,Recent
 Franklin and Marshall College,2.4,Pennsylvania,Kamala Harris,DEM,49,890,Voters,Mail-to-Web/Mail-to-Phone,Recent
 Franklin and Marshall College,2.4,Pennsylvania,Donald Trump,REP,46,890,Voters,Mail-to-Web/Mail-to-Phone,Recent
 Franklin and Marshall College,2.4,Pennsylvania,Jill Stein,GRE,1,890,Voters,Mail-to-Web/Mail-to-Phone,Recent
@@ -1310,8 +1310,8 @@ Morning Consult,1.9,Arizona,Kamala Harris,DEM,48,776,Voters,Online Panel,Older
 Morning Consult,1.9,Arizona,Donald Trump,REP,48,776,Voters,Online Panel,Older
 SurveyUSA,2.8,Nebraska,Kamala Harris,DEM,37,1293,Voters,IVR/Online Panel/Text-to-Web,Older
 SurveyUSA,2.8,Nebraska,Donald Trump,REP,54,1293,Voters,IVR/Online Panel/Text-to-Web,Older
-SurveyUSA,2.8,Nebraska CD-2,Kamala Harris,DEM,47,507,Voters,IVR/Online Panel/Text-to-Web,Older
-SurveyUSA,2.8,Nebraska CD-2,Donald Trump,REP,42,507,Voters,IVR/Online Panel/Text-to-Web,Older
+SurveyUSA,2.8,Nebraska,Kamala Harris,DEM,47,507,Voters,IVR/Online Panel/Text-to-Web,Older
+SurveyUSA,2.8,Nebraska,Donald Trump,REP,42,507,Voters,IVR/Online Panel/Text-to-Web,Older
 Research America,0.7,West Virginia,Kamala Harris,DEM,34,400,Voters,IVR,Older
 Research America,0.7,West Virginia,Donald Trump,REP,61,400,Voters,IVR,Older
 Beacon/Shaw,2.8,Arizona,Kamala Harris,DEM,48,1014,Voters,Live Phone/Text-to-Web,Older
@@ -1564,31 +1564,31 @@ U. New Hampshire,2.6,Maine,Jill Stein,GRE,1,951,Voters,Probability Panel,Older
 U. New Hampshire,2.6,Maine,Cornel West,IND,0,951,Voters,Probability Panel,Older
 U. New Hampshire,2.6,Maine,Kamala Harris,DEM,58,951,Voters,Probability Panel,Older
 U. New Hampshire,2.6,Maine,Donald Trump,REP,41,951,Voters,Probability Panel,Older
-U. New Hampshire,2.6,Maine CD-1,Kamala Harris,DEM,62,490,Voters,Probability Panel,Older
-U. New Hampshire,2.6,Maine CD-1,Donald Trump,REP,33,490,Voters,Probability Panel,Older
-U. New Hampshire,2.6,Maine CD-1,Robert F. Kennedy,IND,2,490,Voters,Probability Panel,Older
-U. New Hampshire,2.6,Maine CD-1,Chase Oliver,LIB,1,490,Voters,Probability Panel,Older
-U. New Hampshire,2.6,Maine CD-1,Jill Stein,GRE,0,490,Voters,Probability Panel,Older
-U. New Hampshire,2.6,Maine CD-1,Cornel West,IND,0,490,Voters,Probability Panel,Older
-U. New Hampshire,2.6,Maine CD-1,Kamala Harris,DEM,64,476,Voters,Probability Panel,Older
-U. New Hampshire,2.6,Maine CD-1,Donald Trump,REP,36,476,Voters,Probability Panel,Older
-U. New Hampshire,2.6,Maine CD-2,Kamala Harris,DEM,49,443,Voters,Probability Panel,Older
-U. New Hampshire,2.6,Maine CD-2,Donald Trump,REP,44,443,Voters,Probability Panel,Older
-U. New Hampshire,2.6,Maine CD-2,Robert F. Kennedy,IND,2,443,Voters,Probability Panel,Older
-U. New Hampshire,2.6,Maine CD-2,Chase Oliver,LIB,1,443,Voters,Probability Panel,Older
-U. New Hampshire,2.6,Maine CD-2,Jill Stein,GRE,1,443,Voters,Probability Panel,Older
-U. New Hampshire,2.6,Maine CD-2,Cornel West,IND,0,443,Voters,Probability Panel,Older
-U. New Hampshire,2.6,Maine CD-2,Kamala Harris,DEM,52,432,Voters,Probability Panel,Older
-U. New Hampshire,2.6,Maine CD-2,Donald Trump,REP,47,432,Voters,Probability Panel,Older
-Remington,2.6,Nebraska CD-2,Kamala Harris,DEM,50,656,Voters,IVR,Older
-Remington,2.6,Nebraska CD-2,Donald Trump,REP,42,656,Voters,IVR,Older
-Remington,2.6,Nebraska CD-2,Robert F. Kennedy,IND,2,656,Voters,IVR,Older
-Remington,2.6,Nebraska CD-2,Cornel West,IND,1,656,Voters,IVR,Older
-Remington,2.6,Nebraska CD-2,Jill Stein,GRE,0,656,Voters,IVR,Older
-Remington,2.6,Nebraska CD-2,Chase Oliver,LIB,1,656,Voters,IVR,Older
-Change Research,1.4,Nebraska CD-2,Kamala Harris,DEM,47,437,Voters,Text-to-Web/Online Ad,Older
-Change Research,1.4,Nebraska CD-2,Donald Trump,REP,42,437,Voters,Text-to-Web/Online Ad,Older
-Change Research,1.4,Nebraska CD-2,Robert F. Kennedy,IND,5,437,Voters,Text-to-Web/Online Ad,Older
+U. New Hampshire,2.6,Maine,Kamala Harris,DEM,62,490,Voters,Probability Panel,Older
+U. New Hampshire,2.6,Maine,Donald Trump,REP,33,490,Voters,Probability Panel,Older
+U. New Hampshire,2.6,Maine,Robert F. Kennedy,IND,2,490,Voters,Probability Panel,Older
+U. New Hampshire,2.6,Maine,Chase Oliver,LIB,1,490,Voters,Probability Panel,Older
+U. New Hampshire,2.6,Maine,Jill Stein,GRE,0,490,Voters,Probability Panel,Older
+U. New Hampshire,2.6,Maine,Cornel West,IND,0,490,Voters,Probability Panel,Older
+U. New Hampshire,2.6,Maine,Kamala Harris,DEM,64,476,Voters,Probability Panel,Older
+U. New Hampshire,2.6,Maine,Donald Trump,REP,36,476,Voters,Probability Panel,Older
+U. New Hampshire,2.6,Maine,Kamala Harris,DEM,49,443,Voters,Probability Panel,Older
+U. New Hampshire,2.6,Maine,Donald Trump,REP,44,443,Voters,Probability Panel,Older
+U. New Hampshire,2.6,Maine,Robert F. Kennedy,IND,2,443,Voters,Probability Panel,Older
+U. New Hampshire,2.6,Maine,Chase Oliver,LIB,1,443,Voters,Probability Panel,Older
+U. New Hampshire,2.6,Maine,Jill Stein,GRE,1,443,Voters,Probability Panel,Older
+U. New Hampshire,2.6,Maine,Cornel West,IND,0,443,Voters,Probability Panel,Older
+U. New Hampshire,2.6,Maine,Kamala Harris,DEM,52,432,Voters,Probability Panel,Older
+U. New Hampshire,2.6,Maine,Donald Trump,REP,47,432,Voters,Probability Panel,Older
+Remington,2.6,Nebraska,Kamala Harris,DEM,50,656,Voters,IVR,Older
+Remington,2.6,Nebraska,Donald Trump,REP,42,656,Voters,IVR,Older
+Remington,2.6,Nebraska,Robert F. Kennedy,IND,2,656,Voters,IVR,Older
+Remington,2.6,Nebraska,Cornel West,IND,1,656,Voters,IVR,Older
+Remington,2.6,Nebraska,Jill Stein,GRE,0,656,Voters,IVR,Older
+Remington,2.6,Nebraska,Chase Oliver,LIB,1,656,Voters,IVR,Older
+Change Research,1.4,Nebraska,Kamala Harris,DEM,47,437,Voters,Text-to-Web/Online Ad,Older
+Change Research,1.4,Nebraska,Donald Trump,REP,42,437,Voters,Text-to-Web/Online Ad,Older
+Change Research,1.4,Nebraska,Robert F. Kennedy,IND,5,437,Voters,Text-to-Web/Online Ad,Older
 Roanoke College,2.6,Virginia,Kamala Harris,DEM,47,691,Voters,Live Phone/Online Panel,Older
 Roanoke College,2.6,Virginia,Donald Trump,REP,44,691,Voters,Live Phone/Online Panel,Older
 Roanoke College,2.6,Virginia,Kamala Harris,DEM,45,691,Voters,Live Phone/Online Panel,Older
@@ -2144,22 +2144,22 @@ U. New Hampshire,2.6,New Hampshire,Kamala Harris,DEM,53,2875,Voters,Online Panel
 U. New Hampshire,2.6,New Hampshire,Donald Trump,REP,46,2875,Voters,Online Panel/Text-to-Web,Older
 SurveyUSA,2.8,Minnesota,Kamala Harris,DEM,50,656,Voters,Online Panel,Older
 SurveyUSA,2.8,Minnesota,Donald Trump,REP,40,656,Voters,Online Panel,Older
-U. New Hampshire,2.6,Maine CD-1,Kamala Harris,DEM,56,732,Voters,Online Panel/Text-to-Web,Older
-U. New Hampshire,2.6,Maine CD-1,Donald Trump,REP,36,732,Voters,Online Panel/Text-to-Web,Older
-U. New Hampshire,2.6,Maine CD-1,Robert F. Kennedy,IND,2,732,Voters,Online Panel/Text-to-Web,Older
-U. New Hampshire,2.6,Maine CD-1,Chase Oliver,LIB,1,732,Voters,Online Panel/Text-to-Web,Older
-U. New Hampshire,2.6,Maine CD-1,Jill Stein,GRE,1,732,Voters,Online Panel/Text-to-Web,Older
-U. New Hampshire,2.6,Maine CD-1,Cornel West,IND,0,732,Voters,Online Panel/Text-to-Web,Older
-U. New Hampshire,2.6,Maine CD-1,Kamala Harris,DEM,60,732,Voters,Online Panel/Text-to-Web,Older
-U. New Hampshire,2.6,Maine CD-1,Donald Trump,REP,39,732,Voters,Online Panel/Text-to-Web,Older
-U. New Hampshire,2.6,Maine CD-2,Kamala Harris,DEM,40,701,Voters,Online Panel/Text-to-Web,Older
-U. New Hampshire,2.6,Maine CD-2,Donald Trump,REP,44,701,Voters,Online Panel/Text-to-Web,Older
-U. New Hampshire,2.6,Maine CD-2,Robert F. Kennedy,IND,5,701,Voters,Online Panel/Text-to-Web,Older
-U. New Hampshire,2.6,Maine CD-2,Chase Oliver,LIB,1,701,Voters,Online Panel/Text-to-Web,Older
-U. New Hampshire,2.6,Maine CD-2,Jill Stein,GRE,3,701,Voters,Online Panel/Text-to-Web,Older
-U. New Hampshire,2.6,Maine CD-2,Cornel West,IND,1,701,Voters,Online Panel/Text-to-Web,Older
-U. New Hampshire,2.6,Maine CD-2,Kamala Harris,DEM,49,701,Voters,Online Panel/Text-to-Web,Older
-U. New Hampshire,2.6,Maine CD-2,Donald Trump,REP,51,701,Voters,Online Panel/Text-to-Web,Older
+U. New Hampshire,2.6,Maine,Kamala Harris,DEM,56,732,Voters,Online Panel/Text-to-Web,Older
+U. New Hampshire,2.6,Maine,Donald Trump,REP,36,732,Voters,Online Panel/Text-to-Web,Older
+U. New Hampshire,2.6,Maine,Robert F. Kennedy,IND,2,732,Voters,Online Panel/Text-to-Web,Older
+U. New Hampshire,2.6,Maine,Chase Oliver,LIB,1,732,Voters,Online Panel/Text-to-Web,Older
+U. New Hampshire,2.6,Maine,Jill Stein,GRE,1,732,Voters,Online Panel/Text-to-Web,Older
+U. New Hampshire,2.6,Maine,Cornel West,IND,0,732,Voters,Online Panel/Text-to-Web,Older
+U. New Hampshire,2.6,Maine,Kamala Harris,DEM,60,732,Voters,Online Panel/Text-to-Web,Older
+U. New Hampshire,2.6,Maine,Donald Trump,REP,39,732,Voters,Online Panel/Text-to-Web,Older
+U. New Hampshire,2.6,Maine,Kamala Harris,DEM,40,701,Voters,Online Panel/Text-to-Web,Older
+U. New Hampshire,2.6,Maine,Donald Trump,REP,44,701,Voters,Online Panel/Text-to-Web,Older
+U. New Hampshire,2.6,Maine,Robert F. Kennedy,IND,5,701,Voters,Online Panel/Text-to-Web,Older
+U. New Hampshire,2.6,Maine,Chase Oliver,LIB,1,701,Voters,Online Panel/Text-to-Web,Older
+U. New Hampshire,2.6,Maine,Jill Stein,GRE,3,701,Voters,Online Panel/Text-to-Web,Older
+U. New Hampshire,2.6,Maine,Cornel West,IND,1,701,Voters,Online Panel/Text-to-Web,Older
+U. New Hampshire,2.6,Maine,Kamala Harris,DEM,49,701,Voters,Online Panel/Text-to-Web,Older
+U. New Hampshire,2.6,Maine,Donald Trump,REP,51,701,Voters,Online Panel/Text-to-Web,Older
 Redfield & Wilton Strategies,1.8,Nevada,Kamala Harris,DEM,43,435,Voters,Online Panel,Older
 Redfield & Wilton Strategies,1.8,Nevada,Donald Trump,REP,45,435,Voters,Online Panel,Older
 Redfield & Wilton Strategies,1.8,Nevada,Robert F. Kennedy,IND,5,435,Voters,Online Panel,Older
@@ -5607,10 +5607,10 @@ Marquette Law School,3,Wisconsin,Joe Biden,DEM,44,908,Voters,Live Phone/Email,Ol
 Marquette Law School,3,Wisconsin,Nikki Haley,REP,53,908,Voters,Live Phone/Email,Older
 Digital Research,1.4,Maine,Joe Biden,DEM,36,614,Voters,Live Phone/Online Panel,Older
 Digital Research,1.4,Maine,Donald Trump,REP,35,614,Voters,Live Phone/Online Panel,Older
-Digital Research,1.4,Maine CD-1,Joe Biden,DEM,43,307,Voters,Live Phone/Online Panel,Older
-Digital Research,1.4,Maine CD-1,Donald Trump,REP,27,307,Voters,Live Phone/Online Panel,Older
-Digital Research,1.4,Maine CD-2,Joe Biden,DEM,28,307,Voters,Live Phone/Online Panel,Older
-Digital Research,1.4,Maine CD-2,Donald Trump,REP,42,307,Voters,Live Phone/Online Panel,Older
+Digital Research,1.4,Maine,Joe Biden,DEM,43,307,Voters,Live Phone/Online Panel,Older
+Digital Research,1.4,Maine,Donald Trump,REP,27,307,Voters,Live Phone/Online Panel,Older
+Digital Research,1.4,Maine,Joe Biden,DEM,28,307,Voters,Live Phone/Online Panel,Older
+Digital Research,1.4,Maine,Donald Trump,REP,42,307,Voters,Live Phone/Online Panel,Older
 Noble Predictive Insights,2.4,Arizona,Joe Biden,DEM,38,1010,Voters,Online Panel,Older
 Noble Predictive Insights,2.4,Arizona,Donald Trump,REP,46,1010,Voters,Online Panel,Older
 Noble Predictive Insights,2.4,Arizona,Joe Biden,DEM,37,1010,Voters,Online Panel,Older
