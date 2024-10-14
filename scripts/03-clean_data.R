@@ -31,6 +31,15 @@ cleaned_data <-
     state = if_else(state == "--", NA_character_, state),
     national_poll = if_else(is.na(state), 1, 0)  # 1 for national, 0 for state-specific
   ) |>
+  # Combine "Maine", "Maine CD-1", and "Maine CD-2" into "Maine"
+  # Combine "Nebraska" and "Nebraska CD-2" into "Nebraska"
+  mutate(
+    state = case_when(
+      state %in% c("Maine", "Maine CD-1", "Maine CD-2") ~ "Maine",
+      state %in% c("Nebraska", "Nebraska CD-2") ~ "Nebraska",
+      TRUE ~ state  # Keep other states unchanged
+    )
+  ) |>
   # Convert polling percentage and sample size to numeric
   mutate(
     pct = as.numeric(pct),
@@ -75,7 +84,8 @@ state_polling_data <-
   filter(national_poll == 0) |>
   select(-national_poll)
 
-#### Save cleaned data ####
+#### Save cleaned data - Parquet file was not able to be used due to unresolved technical issues. ####
 write_csv(cleaned_data, "data/02-analysis_data/cleaned_president_polls.csv")
 write_csv(national_polling_data, "data/02-analysis_data/national_polling_data.csv")
 write_csv(state_polling_data, "data/02-analysis_data/state_polling_data.csv")
+
