@@ -1,0 +1,70 @@
+pollster,numeric_grade,candidate_name,party,pct,sample_size,population,methodology,recent_poll,predicted_pct
+YouGov,3,Kamala Harris,DEM,47,1414,Voters,Online Panel,Recent,47.21295839297203
+YouGov,3,Kamala Harris,DEM,49,1230,Voters,Online Panel,Recent,47.21295839297203
+Siena/NYT,3,Kamala Harris,DEM,49,3385,Voters,Live Phone,Recent,46.36139002985464
+Siena/NYT,3,Kamala Harris,DEM,47,3385,Voters,Live Phone,Recent,46.36139002985464
+YouGov,3,Kamala Harris,DEM,46,1150,Voters,Online Panel,Recent,47.21295839297203
+YouGov,3,Kamala Harris,DEM,47,1032,Voters,Online Panel,Recent,47.21295839297203
+YouGov,3,Kamala Harris,DEM,48,1151,Voters,Online Panel,Recent,47.21295839297203
+YouGov,3,Kamala Harris,DEM,48,1033,Voters,Online Panel,Recent,47.21295839297203
+YouGov,3,Kamala Harris,DEM,48,1463,Voters,Online Panel,Recent,47.21295839297203
+YouGov,3,Kamala Harris,DEM,49,1261,Voters,Online Panel,Recent,47.21295839297203
+McCourtney Institute/YouGov,3,Kamala Harris,DEM,48,848,Voters,Online Panel,Recent,47.93954763502492
+YouGov,3,Kamala Harris,DEM,47,1424,Voters,Online Panel,Recent,47.21295839297203
+YouGov,3,Kamala Harris,DEM,49,1220,Voters,Online Panel,Recent,47.21295839297203
+YouGov,3,Kamala Harris,DEM,52,3129,Voters,Online Panel,Recent,47.21295839297203
+YouGov,3,Kamala Harris,DEM,49,1445,Voters,Online Panel,Recent,47.21295839297203
+Siena/NYT,3,Kamala Harris,DEM,47,2437,Voters,Live Phone,Recent,46.36139002985464
+Siena/NYT,3,Kamala Harris,DEM,46,2437,Voters,Live Phone,Recent,46.36139002985464
+Siena/NYT,3,Kamala Harris,DEM,45,2437,Voters,Live Phone,Recent,46.36139002985464
+Siena/NYT,3,Kamala Harris,DEM,46,2437,Voters,Live Phone,Recent,46.36139002985464
+YouGov,3,Kamala Harris,DEM,50,1177,Voters,Online Panel,Older,46.101688892046816
+YouGov,3,Kamala Harris,DEM,50,1090,Voters,Online Panel,Older,46.101688892046816
+YouGov,3,Kamala Harris,DEM,48,1175,Voters,Online Panel,Older,46.101688892046816
+YouGov,3,Kamala Harris,DEM,49,1090,Voters,Online Panel,Older,46.101688892046816
+YouGov,3,Kamala Harris,DEM,45,1464,Voters,Online Panel,Older,46.101688892046816
+Siena/NYT,3,Kamala Harris,DEM,47,1695,Voters,Live Phone,Older,45.25012052892955
+Siena/NYT,3,Kamala Harris,DEM,45,1695,Voters,Live Phone,Older,45.25012052892955
+Siena/NYT,3,Kamala Harris,DEM,46,1695,Voters,Live Phone,Older,45.25012052892955
+Siena/NYT,3,Kamala Harris,DEM,44,1695,Voters,Live Phone,Older,45.25012052892955
+YouGov,3,Kamala Harris,DEM,47,1389,Voters,Online Panel,Older,46.101688892046816
+YouGov,3,Kamala Harris,DEM,47,1368,Voters,Online Panel,Older,46.101688892046816
+YouGov,3,Kamala Harris,DEM,46,1194,Voters,Online Panel,Older,46.101688892046816
+YouGov,3,Kamala Harris,DEM,47,1197,Voters,Online Panel,Older,46.101688892046816
+YouGov,3,Kamala Harris,DEM,39,1788,Adults,Online Panel,Older,43.06960393805152
+YouGov,3,Kamala Harris,DEM,44,1200,Voters,Online Panel,Older,46.101688892046816
+YouGov,3,Kamala Harris,DEM,44,1835,Adults,Online Panel,Older,43.06960393805152
+YouGov,3,Kamala Harris,DEM,46,1371,Voters,Online Panel,Older,46.101688892046816
+YouGov,3,Kamala Harris,DEM,51,3253,Voters,Online Panel,Older,46.101688892046816
+YouGov,3,Kamala Harris,DEM,49,3253,Voters,Online Panel,Older,46.101688892046816
+YouGov,3,Kamala Harris,DEM,46,1407,Voters,Online Panel,Older,46.101688892046816
+YouGov,3,Kamala Harris,DEM,45,1413,Voters,Online Panel,Older,46.101688892046816
+YouGov,3,Kamala Harris,DEM,50,3092,Voters,Online Panel,Older,46.101688892046816
+YouGov,3,Kamala Harris,DEM,49,3092,Voters,Online Panel,Older,46.101688892046816
+Marquette Law School,3,Kamala Harris,DEM,52,879,Voters,Probability Panel,Older,49.18436660658255
+Marquette Law School,3,Kamala Harris,DEM,53,683,Voters,Probability Panel,Older,49.18436660658255
+Marquette Law School,3,Kamala Harris,DEM,47,879,Voters,Probability Panel,Older,49.18436660658255
+Marquette Law School,3,Kamala Harris,DEM,50,683,Voters,Probability Panel,Older,49.18436660658255
+YouGov,3,Kamala Harris,DEM,46,1434,Voters,Online Panel,Older,46.101688892046816
+Siena/NYT,3,Kamala Harris,DEM,46,1142,Voters,Live Phone,Older,45.25012052892955
+Siena/NYT,3,Kamala Harris,DEM,47,1142,Voters,Live Phone,Older,45.25012052892955
+Siena/NYT,3,Kamala Harris,DEM,42,1142,Voters,Live Phone,Older,45.25012052892955
+Siena/NYT,3,Kamala Harris,DEM,44,1142,Voters,Live Phone,Older,45.25012052892955
+YouGov,3,Kamala Harris,DEM,44,1155,Voters,Online Panel,Older,46.101688892046816
+YouGov,3,Kamala Harris,DEM,41,1435,Voters,Online Panel,Older,46.101688892046816
+YouGov,3,Kamala Harris,DEM,41,1178,Voters,Online Panel,Older,46.101688892046816
+YouGov,3,Kamala Harris,DEM,46,1178,Voters,Online Panel,Older,46.101688892046816
+YouGov,3,Kamala Harris,DEM,48,2240,Voters,Online Panel,Older,46.101688892046816
+YouGov,3,Kamala Harris,DEM,39,1404,Voters,Online Panel,Older,46.101688892046816
+YouGov,3,Kamala Harris,DEM,38,1443,Voters,Online Panel,Older,46.101688892046816
+YouGov,3,Kamala Harris,DEM,45,1176,Voters,Online Panel,Older,46.101688892046816
+Siena/NYT,3,Kamala Harris,DEM,41,980,Voters,Live Phone,Older,45.25012052892955
+Siena/NYT,3,Kamala Harris,DEM,42,980,Voters,Live Phone,Older,45.25012052892955
+YouGov,3,Kamala Harris,DEM,42,1014,Voters,Online Panel,Older,46.101688892046816
+YouGov,3,Kamala Harris,DEM,40,1014,Voters,Online Panel,Older,46.101688892046816
+YouGov,3,Kamala Harris,DEM,42,1557,Adults,Online Panel,Older,43.06960393805152
+YouGov,3,Kamala Harris,DEM,45,1152,Voters,Online Panel,Older,46.101688892046816
+YouGov,3,Kamala Harris,DEM,41,1630,Adults,Online Panel,Older,43.06960393805152
+YouGov,3,Kamala Harris,DEM,41,1630,Adults,Online Panel,Older,43.06960393805152
+YouGov,3,Kamala Harris,DEM,44,1239,Voters,Online Panel,Older,46.101688892046816
+YouGov,3,Kamala Harris,DEM,45,1239,Voters,Online Panel,Older,46.101688892046816

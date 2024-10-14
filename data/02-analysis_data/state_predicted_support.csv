@@ -1,0 +1,115 @@
+pollster,numeric_grade,state,candidate_name,party,pct,sample_size,population,methodology,recent_poll,predicted_pct
+Siena/NYT,3,Florida,Kamala Harris,DEM,41,622,Voters,Live Phone,Recent,46.36139002985464
+Siena/NYT,3,Florida,Kamala Harris,DEM,40,622,Voters,Live Phone,Recent,46.36139002985464
+Siena/NYT,3,Texas,Kamala Harris,DEM,44,617,Voters,Live Phone,Recent,46.36139002985464
+Siena/NYT,3,Texas,Kamala Harris,DEM,42,617,Voters,Live Phone,Recent,46.36139002985464
+The Washington Post,3,North Carolina,Kamala Harris,DEM,48,1001,Voters,Live Phone/Text-to-Web,Recent,47.71638660672389
+The Washington Post,3,North Carolina,Kamala Harris,DEM,47,1001,Voters,Live Phone/Text-to-Web,Recent,47.71638660672389
+Siena/NYT,3,Nebraska CD-2,Kamala Harris,DEM,51,680,Voters,Live Phone,Recent,46.36139002985464
+Siena/NYT,3,Nebraska CD-2,Kamala Harris,DEM,49,680,Voters,Live Phone,Recent,46.36139002985464
+Siena/NYT,3,Nebraska CD-2,Kamala Harris,DEM,52,680,Voters,Live Phone,Recent,46.36139002985464
+Siena/NYT,3,Nebraska CD-2,Kamala Harris,DEM,51,680,Voters,Live Phone,Recent,46.36139002985464
+Siena/NYT,3,Michigan,Kamala Harris,DEM,45,688,Voters,Live Phone,Recent,46.36139002985464
+Siena/NYT,3,Michigan,Kamala Harris,DEM,43,688,Voters,Live Phone,Recent,46.36139002985464
+Siena/NYT,3,Michigan,Kamala Harris,DEM,48,688,Voters,Live Phone,Recent,46.36139002985464
+Siena/NYT,3,Michigan,Kamala Harris,DEM,46,688,Voters,Live Phone,Recent,46.36139002985464
+Siena/NYT,3,Ohio,Kamala Harris,DEM,45,687,Voters,Live Phone,Recent,46.36139002985464
+Siena/NYT,3,Ohio,Kamala Harris,DEM,44,687,Voters,Live Phone,Recent,46.36139002985464
+Siena/NYT,3,Ohio,Kamala Harris,DEM,44,687,Voters,Live Phone,Recent,46.36139002985464
+Siena/NYT,3,Ohio,Kamala Harris,DEM,43,687,Voters,Live Phone,Recent,46.36139002985464
+Siena/NYT,3,Wisconsin,Kamala Harris,DEM,49,680,Voters,Live Phone,Recent,46.36139002985464
+Siena/NYT,3,Wisconsin,Kamala Harris,DEM,48,680,Voters,Live Phone,Recent,46.36139002985464
+Siena/NYT,3,Wisconsin,Kamala Harris,DEM,49,680,Voters,Live Phone,Recent,46.36139002985464
+Siena/NYT,3,Wisconsin,Kamala Harris,DEM,48,680,Voters,Live Phone,Recent,46.36139002985464
+Marquette Law School,3,Wisconsin,Kamala Harris,DEM,52,882,Voters,Probability Panel,Recent,50.29563610750742
+Marquette Law School,3,Wisconsin,Kamala Harris,DEM,52,798,Voters,Probability Panel,Recent,50.29563610750742
+Marquette Law School,3,Wisconsin,Kamala Harris,DEM,48,882,Voters,Probability Panel,Recent,50.29563610750742
+Marquette Law School,3,Wisconsin,Kamala Harris,DEM,49,798,Voters,Probability Panel,Recent,50.29563610750742
+YouGov,3,Georgia,Kamala Harris,DEM,49,1441,Voters,Online Panel,Recent,47.21295839297203
+Siena/NYT,3,Arizona,Kamala Harris,DEM,45,713,Voters,Live Phone,Recent,46.36139002985464
+Siena/NYT,3,Arizona,Kamala Harris,DEM,45,713,Voters,Live Phone,Recent,46.36139002985464
+Siena/NYT,3,Arizona,Kamala Harris,DEM,42,713,Voters,Live Phone,Recent,46.36139002985464
+Siena/NYT,3,Arizona,Kamala Harris,DEM,43,713,Voters,Live Phone,Recent,46.36139002985464
+Siena/NYT,3,Georgia,Kamala Harris,DEM,44,682,Voters,Live Phone,Recent,46.36139002985464
+Siena/NYT,3,Georgia,Kamala Harris,DEM,45,682,Voters,Live Phone,Recent,46.36139002985464
+Siena/NYT,3,Georgia,Kamala Harris,DEM,43,682,Voters,Live Phone,Recent,46.36139002985464
+Siena/NYT,3,Georgia,Kamala Harris,DEM,44,682,Voters,Live Phone,Recent,46.36139002985464
+Siena/NYT,3,North Carolina,Kamala Harris,DEM,47,682,Voters,Live Phone,Recent,46.36139002985464
+Siena/NYT,3,North Carolina,Kamala Harris,DEM,47,682,Voters,Live Phone,Recent,46.36139002985464
+Siena/NYT,3,North Carolina,Kamala Harris,DEM,46,682,Voters,Live Phone,Recent,46.36139002985464
+Siena/NYT,3,North Carolina,Kamala Harris,DEM,45,682,Voters,Live Phone,Recent,46.36139002985464
+The Washington Post,3,Pennsylvania,Kamala Harris,DEM,48,1003,Voters,Live Phone/Text-to-Web,Recent,47.71638660672389
+The Washington Post,3,Pennsylvania,Kamala Harris,DEM,48,1003,Voters,Live Phone/Text-to-Web,Recent,47.71638660672389
+Siena/NYT,3,Pennsylvania,Kamala Harris,DEM,50,1082,Voters,Live Phone,Recent,46.36139002985464
+Siena/NYT,3,Pennsylvania,Kamala Harris,DEM,50,1082,Voters,Live Phone,Recent,46.36139002985464
+Siena/NYT,3,Pennsylvania,Kamala Harris,DEM,48,1082,Voters,Live Phone,Recent,46.36139002985464
+Siena/NYT,3,Pennsylvania,Kamala Harris,DEM,49,1082,Voters,Live Phone,Recent,46.36139002985464
+YouGov,3,Michigan,Kamala Harris,DEM,50,1077,Voters,Online Panel,Older,46.101688892046816
+YouGov,3,Pennsylvania,Kamala Harris,DEM,50,1078,Voters,Online Panel,Older,46.101688892046816
+YouGov,3,Wisconsin,Kamala Harris,DEM,51,946,Voters,Online Panel,Older,46.101688892046816
+Marquette Law School,3,Wisconsin,Kamala Harris,DEM,52,822,Voters,Live Phone/Email,Older,49.18436660658255
+Marquette Law School,3,Wisconsin,Kamala Harris,DEM,52,738,Voters,Live Phone/Email,Older,49.18436660658255
+Marquette Law School,3,Wisconsin,Kamala Harris,DEM,47,822,Voters,Live Phone/Email,Older,49.18436660658255
+Marquette Law School,3,Wisconsin,Kamala Harris,DEM,48,738,Voters,Live Phone/Email,Older,49.18436660658255
+YouGov,3,Texas,Kamala Harris,DEM,44,1200,Voters,Online Panel,Older,46.101688892046816
+YouGov,3,Texas,Kamala Harris,DEM,44,1200,Voters,Online Panel,Older,46.101688892046816
+YouGov,3,Pennsylvania,Kamala Harris,DEM,43,500,Adults,Online Panel,Older,43.06960393805152
+YouGov,3,Pennsylvania,Kamala Harris,DEM,43,500,Adults,Online Panel,Older,43.06960393805152
+YouGov,3,Wisconsin,Kamala Harris,DEM,48,500,Adults,Online Panel,Older,43.06960393805152
+YouGov,3,Wisconsin,Kamala Harris,DEM,45,500,Adults,Online Panel,Older,43.06960393805152
+YouGov,3,Michigan,Kamala Harris,DEM,44,500,Adults,Online Panel,Older,43.06960393805152
+YouGov,3,Michigan,Kamala Harris,DEM,44,500,Adults,Online Panel,Older,43.06960393805152
+YouGov,3,Missouri,Kamala Harris,DEM,41,900,Voters,Online Panel,Older,46.101688892046816
+Siena/NYT,3,Nevada,Kamala Harris,DEM,46,677,Voters,Live Phone,Older,45.25012052892955
+Siena/NYT,3,Nevada,Kamala Harris,DEM,47,677,Voters,Live Phone,Older,45.25012052892955
+Siena/NYT,3,Nevada,Kamala Harris,DEM,42,677,Voters,Live Phone,Older,45.25012052892955
+Siena/NYT,3,Nevada,Kamala Harris,DEM,44,677,Voters,Live Phone,Older,45.25012052892955
+Siena/NYT,3,Arizona,Kamala Harris,DEM,49,677,Voters,Live Phone,Older,45.25012052892955
+Siena/NYT,3,Arizona,Kamala Harris,DEM,50,677,Voters,Live Phone,Older,45.25012052892955
+Siena/NYT,3,Arizona,Kamala Harris,DEM,45,677,Voters,Live Phone,Older,45.25012052892955
+Siena/NYT,3,Arizona,Kamala Harris,DEM,47,677,Voters,Live Phone,Older,45.25012052892955
+Siena/NYT,3,North Carolina,Kamala Harris,DEM,49,655,Voters,Live Phone,Older,45.25012052892955
+Siena/NYT,3,North Carolina,Kamala Harris,DEM,49,655,Voters,Live Phone,Older,45.25012052892955
+Siena/NYT,3,North Carolina,Kamala Harris,DEM,45,655,Voters,Live Phone,Older,45.25012052892955
+Siena/NYT,3,North Carolina,Kamala Harris,DEM,46,655,Voters,Live Phone,Older,45.25012052892955
+Siena/NYT,3,Georgia,Kamala Harris,DEM,44,661,Voters,Live Phone,Older,45.25012052892955
+Siena/NYT,3,Georgia,Kamala Harris,DEM,46,661,Voters,Live Phone,Older,45.25012052892955
+Siena/NYT,3,Georgia,Kamala Harris,DEM,41,661,Voters,Live Phone,Older,45.25012052892955
+Siena/NYT,3,Georgia,Kamala Harris,DEM,44,661,Voters,Live Phone,Older,45.25012052892955
+Siena/NYT,3,Pennsylvania,Kamala Harris,DEM,49,693,Voters,Live Phone,Older,45.25012052892955
+Siena/NYT,3,Pennsylvania,Kamala Harris,DEM,50,693,Voters,Live Phone,Older,45.25012052892955
+Siena/NYT,3,Pennsylvania,Kamala Harris,DEM,45,693,Voters,Live Phone,Older,45.25012052892955
+Siena/NYT,3,Pennsylvania,Kamala Harris,DEM,46,693,Voters,Live Phone,Older,45.25012052892955
+YouGov Blue,3,North Carolina,Kamala Harris,DEM,46,802,Voters,Online Panel,Older,46.03211549552884
+Siena/NYT,3,Michigan,Kamala Harris,DEM,45,619,Voters,Live Phone,Older,45.25012052892955
+Siena/NYT,3,Michigan,Kamala Harris,DEM,50,619,Voters,Live Phone,Older,45.25012052892955
+Siena/NYT,3,Michigan,Kamala Harris,DEM,44,619,Voters,Live Phone,Older,45.25012052892955
+Siena/NYT,3,Michigan,Kamala Harris,DEM,48,619,Voters,Live Phone,Older,45.25012052892955
+Siena/NYT,3,Wisconsin,Kamala Harris,DEM,50,661,Voters,Live Phone,Older,45.25012052892955
+Siena/NYT,3,Wisconsin,Kamala Harris,DEM,50,661,Voters,Live Phone,Older,45.25012052892955
+Siena/NYT,3,Wisconsin,Kamala Harris,DEM,49,661,Voters,Live Phone,Older,45.25012052892955
+Siena/NYT,3,Wisconsin,Kamala Harris,DEM,49,661,Voters,Live Phone,Older,45.25012052892955
+Marquette Law School,3,Wisconsin,Kamala Harris,DEM,49,877,Voters,Live Phone/Email,Older,49.18436660658255
+Marquette Law School,3,Wisconsin,Kamala Harris,DEM,50,801,Voters,Live Phone/Email,Older,49.18436660658255
+Marquette Law School,3,Wisconsin,Kamala Harris,DEM,45,877,Voters,Live Phone/Email,Older,49.18436660658255
+Marquette Law School,3,Wisconsin,Kamala Harris,DEM,46,801,Voters,Live Phone/Email,Older,49.18436660658255
+Siena/NYT,3,Virginia,Kamala Harris,DEM,48,661,Voters,Live Phone,Older,45.25012052892955
+Siena/NYT,3,Virginia,Kamala Harris,DEM,49,661,Voters,Live Phone,Older,45.25012052892955
+Siena/NYT,3,Virginia,Kamala Harris,DEM,41,661,Voters,Live Phone,Older,45.25012052892955
+Siena/NYT,3,Virginia,Kamala Harris,DEM,43,661,Voters,Live Phone,Older,45.25012052892955
+Siena/NYT,3,Pennsylvania,Kamala Harris,DEM,46,872,Voters,Live Phone,Older,45.25012052892955
+Siena/NYT,3,Pennsylvania,Kamala Harris,DEM,47,872,Voters,Live Phone,Older,45.25012052892955
+Siena/NYT,3,Pennsylvania,Kamala Harris,DEM,40,872,Voters,Live Phone,Older,45.25012052892955
+Siena/NYT,3,Pennsylvania,Kamala Harris,DEM,42,872,Voters,Live Phone,Older,45.25012052892955
+Siena/NYT,3,Arizona,Kamala Harris,DEM,43,603,Voters,Live Phone,Older,45.25012052892955
+Siena/NYT,3,Arizona,Kamala Harris,DEM,43,603,Voters,Live Phone,Older,45.25012052892955
+Siena/NYT,3,Georgia,Kamala Harris,DEM,44,629,Voters,Live Phone,Older,45.25012052892955
+Siena/NYT,3,Georgia,Kamala Harris,DEM,44,629,Voters,Live Phone,Older,45.25012052892955
+Siena/NYT,3,Michigan,Kamala Harris,DEM,45,616,Voters,Live Phone,Older,45.25012052892955
+Siena/NYT,3,Michigan,Kamala Harris,DEM,48,616,Voters,Live Phone,Older,45.25012052892955
+Siena/NYT,3,Nevada,Kamala Harris,DEM,42,611,Voters,Live Phone,Older,45.25012052892955
+Siena/NYT,3,Nevada,Kamala Harris,DEM,42,611,Voters,Live Phone,Older,45.25012052892955
+Siena/NYT,3,Pennsylvania,Kamala Harris,DEM,44,600,Voters,Live Phone,Older,45.25012052892955
+Siena/NYT,3,Pennsylvania,Kamala Harris,DEM,44,600,Voters,Live Phone,Older,45.25012052892955
+Siena/NYT,3,Wisconsin,Kamala Harris,DEM,46,603,Voters,Live Phone,Older,45.25012052892955
+Siena/NYT,3,Wisconsin,Kamala Harris,DEM,46,603,Voters,Live Phone,Older,45.25012052892955
