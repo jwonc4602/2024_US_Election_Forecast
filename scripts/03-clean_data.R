@@ -76,5 +76,6 @@ state_polling_data <-
   select(-national_poll)
 
 #### Save cleaned data ####
+write_csv(cleaned_data, "data/02-analysis_data/cleaned_president_polls.csv")
 write_csv(national_polling_data, "data/02-analysis_data/national_polling_data.csv")
 write_csv(state_polling_data, "data/02-analysis_data/state_polling_data.csv")
