@@ -1,44 +1,80 @@
 #### Preamble ####
-# Purpose: Cleans the raw plane data recorded by two observers..... [...UPDATE THIS...]
-# Author: Rohan Alexander [...UPDATE THIS...]
-# Date: 6 April 2023 [...UPDATE THIS...]
-# Contact: rohan.alexander@utoronto.ca [...UPDATE THIS...]
+# Purpose: Cleans the raw presidential polling data and prepares it for state-level and national Electoral College analysis
+# Author: Jiwon Choi
+# Date: 10 October 2024
+# Contact: jwon.choi@mail.utoronto.ca
 # License: MIT
-# Pre-requisites: [...UPDATE THIS...]
-# Any other information needed? [...UPDATE THIS...]
+# Pre-requisites: download the raw dataset
 
 #### Workspace setup ####
 library(tidyverse)
+library(janitor)
+library(lubridate)
 
 #### Clean data ####
-raw_data <- read_csv("inputs/data/plane_data.csv")
+# Load the raw data
+raw_data <- read_csv("data/01-raw_data/president_polls.csv")
 
-cleaned_data <-
+# Clean and select relevant variables
+cleaned_data <- 
   raw_data |>
-  janitor::clean_names() |>
-  select(wing_width_mm, wing_length_mm, flying_time_sec_first_timer) |>
-  filter(wing_width_mm != "caw") |>
-  mutate(
-    flying_time_sec_first_timer = if_else(flying_time_sec_first_timer == "1,35",
-                                   "1.35",
-                                   flying_time_sec_first_timer)
+  clean_names() |>
+  # Select the key columns needed for Electoral College analysis
+  select(
+    pollster, numeric_grade, state, candidate_name, party, pct, sample_size, 
+    population, methodology, start_date, end_date
   ) |>
-  mutate(wing_width_mm = if_else(wing_width_mm == "490",
-                                 "49",
-                                 wing_width_mm)) |>
-  mutate(wing_width_mm = if_else(wing_width_mm == "6",
-                                 "60",
-                                 wing_width_mm)) |>
+  # Drop rows where numeric_grade is NA
+  drop_na(numeric_grade) |>
+  # Convert "--" in state column to NA (non-national polls) and label as national if NA
   mutate(
-    wing_width_mm = as.numeric(wing_width_mm),
-    wing_length_mm = as.numeric(wing_length_mm),
-    flying_time_sec_first_timer = as.numeric(flying_time_sec_first_timer)
+    state = if_else(state == "--", NA_character_, state),
+    national_poll = if_else(is.na(state), 1, 0)  # 1 for national, 0 for state-specific
   ) |>
-  rename(flying_time = flying_time_sec_first_timer,
-         width = wing_width_mm,
-         length = wing_length_mm
-         ) |> 
-  tidyr::drop_na()
+  # Convert polling percentage and sample size to numeric
+  mutate(
+    pct = as.numeric(pct),
+    sample_size = as.numeric(sample_size)
+  ) |>
+  # Standardize the population column based on sample types
+  mutate(
+    population = case_when(
+      str_detect(population, regex("A", ignore_case = TRUE)) ~ "Adults",
+      str_detect(population, regex("V", ignore_case = TRUE)) & population != "LV" & population != "RV" ~ "Voters", 
+      str_detect(population, regex("LV", ignore_case = TRUE)) ~ "Likely Voters",
+      str_detect(population, regex("RV", ignore_case = TRUE)) ~ "Registered Voters",
+      TRUE ~ population  # For any other values not matching A, V, LV, or RV
+    )
+  ) |>
+  # Clean candidate names (e.g., removing trailing/leading spaces)
+  mutate(candidate_name = str_trim(candidate_name)) |>
+  # Convert dates to a consistent date format using lubridate
+  mutate(
+    start_date = mdy(start_date),
+    end_date = mdy(end_date)
+  ) |>
+  # Create an indicator for poll recency without keeping start_date and end_date in the final data
+  mutate(
+    recent_poll = if_else(end_date >= Sys.Date() - 30, "Recent", "Older")
+  ) |>
+  # Remove all rows with any NA values except for the state (which is already handled)
+  drop_na(pct, sample_size, candidate_name, pollster) |>
+  # Drop start_date and end_date as they're not needed in the final dataset
+  select(-start_date, -end_date)
 
-#### Save data ####
-write_csv(cleaned_data, "outputs/data/analysis_data.csv")
+#### Create datasets for national and state polls ####
+# National polling data
+national_polling_data <- 
+  cleaned_data |>
+  filter(national_poll == 1) |>
+  select(-state, -national_poll)
+
+# State-level polling data
+state_polling_data <- 
+  cleaned_data |>
+  filter(national_poll == 0) |>
+  select(-national_poll)
+
+#### Save cleaned data ####
+write_csv(national_polling_data, "data/02-analysis_data/national_polling_data.csv")
+write_csv(state_polling_data, "data/02-analysis_data/state_polling_data.csv")
