@@ -2,14 +2,15 @@
 title: "My title"
 subtitle: "My subtitle if needed"
 author: 
-  - First author
-  - Another author
-thanks: "Code and data are available at: [https://github.com/RohanAlexander/starter_folder](https://github.com/RohanAlexander/starter_folder)."
+  - Jiwon Choi
+  - Kevin Roe
+thanks: "Code and data are available at: [https://github.com/jwonc4602/2024_US_Election_Forecast](https://github.com/jwonc4602/2024_US_Election_Forecast)."
 date: today
 date-format: long
 abstract: "First sentence. Second sentence. Third sentence. Fourth sentence."
 format: pdf
 number-sections: true
+toc: true
 bibliography: references.bib
 ---
 
@@ -19,7 +20,6 @@ bibliography: references.bib
 #| message: false
 
 library(tidyverse)
-library(palmerpenguins)
 ```
 
 
@@ -34,8 +34,6 @@ Results paragraph
 Why it matters paragraph
 
 Telegraphing paragraph: The remainder of this paper is structured as follows. @sec-data....
-
-
 
 
 
@@ -102,11 +100,6 @@ Talk way more about it.
 Add graphs, tables and text.
 
 Use sub-sub-headings for each outcome variable and feel free to combine a few into one if they go together naturally.
-
-
-
-
-
 
 
 
@@ -180,13 +173,15 @@ modelsummary::modelsummary(
 
 If my paper were 10 pages, then should be be at least 2.5 pages. The discussion is a chance to show off what you know and what you learnt from all this. 
 
-## Second discussion point
+## Second discussion point {#sec-second-point}
 
 Please don't use these as sub-heading labels - change them to be what your point actually is.
 
-## Third discussion point
+## Third discussion point {#sec-third-point}
 
-## Weaknesses and next steps
+## Implications {#sec-implications}
+
+## Weaknesses and Next Steps {#sec-weaknesses}
 
 Weaknesses and next steps should also be included.
 
@@ -194,10 +189,11 @@ Weaknesses and next steps should also be included.
 
 \appendix
 
-# Appendix {-}
+# Appendix {#sec-appendix}
 
+# Pollster Methodology Analysis {#sec-appendix-pollster}
 
-# Additional data details
+# Idealized Methodology {#sec-appendix-methodology}
 
 # Model details {#sec-model-details}
 
