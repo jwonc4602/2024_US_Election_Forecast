@@ -1,8 +1,8 @@
 #### Preamble ####
 # Purpose: Cleans the raw presidential polling data and prepares it for state-level and national Electoral College analysis
-# Author: Jiwon Choi
+# Author: Jiwon Choi and Kevin Roe
 # Date: 10 October 2024
-# Contact: jwon.choi@mail.utoronto.ca
+# Contact: jwon.choi@mail.utoronto.ca and kevin.roe@mail.utoronto.ca
 # License: MIT
 # Pre-requisites: download the raw dataset
 
