@@ -25,6 +25,8 @@ library(tidyverse)
 
 # Introduction
 
+
+
 Overview paragraph
 
 Estimand paragraph
@@ -194,6 +196,20 @@ Weaknesses and next steps should also be included.
 # Pollster Methodology Analysis {#sec-appendix-pollster}
 
 # Idealized Methodology {#sec-appendix-methodology}
+
+Because the US operates on the Electoral College system, where state-affiliation matters, I would use Stratified Random Sampling to ensure each state is represented proportionally in the survey, improving accuracy and representativeness. My target population would be voter-eligible citizens in the United States who are above 18 years old. My sampling frame will use voter registration databases that are stratified by key demographics (age, race, gender, geographic region, income, and education level). Finally for my potential sample size, I will aim for around 10,000 respondents to ensure a reasonable margin of error, but I expect the actual sample to be less. 
+
+I would primarily recruit respondents using online methods such as surveys on social media platforms like Facebook and Instagram to reach younger audiences and use interactive voice response systems on the phone to reach older or less tech-savvy demographics. 
+
+To ensure the data aggregated are valid, I would make sure to cross-check responses with voter registration databases and implement various logic checks within the survey to detect inconsistent answers. For example, if a survey respondent claims to have already voted but stated they’re unlikely to vote makes the data response unreliable. 
+
+The biggest concern with online surveys is to handle non-response bias. To mitigate this, I will make sure to over-sample underrepresented groups and use multiple attempts to contact individuals online or run weekly polls. By running frequent surveys, I will make sure to aggregate results using a moving average in the summary results dashboard to smooth out short-term fluctuations. I will also make sure to develop checks online to prevent someone from filling out the form more than once or track the different people we called to ensure we do not have duplicate entries. Finally, because the United States does not run elections using a popular vote, I will weight the survey results to reflect the US voting population based on US Census data and voter turnout estimates, while also factoring demographic factors such as race, gender, and age. 
+
+[NTD: ADD MORE DETAILS ABOUT METHODOLOGY]
+To allocate the \$100,000 budget, I would budget \$20,000 for a survey platform subscription to handle a large amount of data. I would put \$50,000 into advertising and recruitment for targeted digital ads and phone surveys. I will also use \$20,000 for data analysts and poll aggregation services and \$10,000 for re-contact surveys, contingency costs, and other miscellaneous costs. However, I believe \$100,000 is on the lower end to ensure a high-quality poll and will most likely cost more. Regardless, most of the costs will come from collecting the data, and I have budgeted for this reality (ADD CITATION). 
+
+[NTD: ADD THIS AS ANOTHER SECTION]
+Please find the proposed question list for the online survey attached here (INSERT URL).
 
 # Model details {#sec-model-details}
 
