@@ -1,10 +1,10 @@
 #### Preamble ####
-# Purpose: Models the support for Kamala Harris using high-quality pollsters
+# Purpose: Models forecast popular vote and state winners (electoral votes)
 # Author: Jiwon Choi
 # Date: 12 October 2024
 # Contact: jwon.choi@mail.utoronto.ca
 # License: MIT
-# Pre-requisites: 03-cleaned_data.R
+# Pre-requisites: Cleaned data available in respective CSV files
 
 #### Workspace setup ####
 library(tidyverse)
@@ -12,58 +12,41 @@ library(rstanarm)
 
 #### Read data ####
 # Load the cleaned data for modeling
-cleaned_data <- read_csv("data/02-analysis_data/cleaned_president_polls.csv")
+national_data <- read_csv("data/02-analysis_data/national_polling.csv")
 
-# Load the cleaned national and state data for making predictions
-national_polling_data <- read_csv("data/02-analysis_data/national_polling_data.csv")
-state_polling_data <- read_csv("data/02-analysis_data/state_polling_data.csv")
+#### Data filtering ####
+# Filter data to Harris estimates based on high-quality polls after she declared
+filtered_national_data <- national_data |>
+  filter(
+    candidate_name == "Kamala Harris",
+    numeric_grade >= 2.7 # Need to investigate this choice - come back and fix. 
+    # Also need to look at whether the pollster has multiple polls or just one or two - filter out later
+  ) |>
+  filter(end_date >= as.Date("2024-07-21")) # When Harris declared
 
-#### Data filtering for the model ####
-# Filter to high-quality pollsters (numeric_grade >= 2.2) and only Harris  
-analysis_data <- cleaned_data |>
-  filter(numeric_grade >= 3, candidate_name == "Kamala Harris")
-cleaned_national_data <- national_polling_data |>
-  filter(numeric_grade >= 3, candidate_name == "Kamala Harris")
-cleaned_state_data <- state_polling_data |>
-  filter(numeric_grade >= 3, candidate_name == "Kamala Harris")
-
-### Model support for Harris ####
-# Model Harris' support as a function of pollster, national/state poll, and recency
-harris_model <- stan_glm(
-  formula = pct ~ pollster + recent_poll + population,  # Include national_poll as a predictor
-  data = analysis_data,
+#### Model 1: Popular Vote Prediction ####
+popular_vote_model <- stan_glm(
+  formula = pct ~ + pollster + population + recent_poll,
+  data = filtered_national_data,
   family = gaussian(),
   prior = normal(location = 0, scale = 2.5, autoscale = TRUE),
   prior_intercept = normal(location = 0, scale = 2.5, autoscale = TRUE),
   prior_aux = exponential(rate = 1, autoscale = TRUE),
   seed = 853,
-  iter = 4000,  # Default is usually 2000
-  warmup = 2000 # Half of iter is a common choice
+  iter = 4000,
+  warmup = 2000
 )
 
-#### Save model ####
-saveRDS(
-  harris_model,
-  file = "models/harris_model.rds"
-)
+# Summarize and save the popular vote model
+summary(popular_vote_model)
+write_rds(popular_vote_model, "models/popular_vote_model.rds")
 
-#### Model results ####
-print(summary(harris_model))
 
-#### Predictions ####
-# Use the model to make predictions for both national and state data
+#### Predictions: Popular Vote ####
+# Predicting the popular vote percentages for each candidate
+popular_vote_prediction <- predict(popular_vote_model, newdata = filtered_national_data)
+filtered_national_data <- filtered_national_data |>
+  mutate(predicted_pct = popular_vote_prediction)
 
-# Prediction for national polls
-national_predicted_support <- predict(harris_model, newdata = cleaned_national_data)
-cleaned_national_data <- cleaned_national_data |>
-  mutate(predicted_pct = national_predicted_support)
-
-# Prediction for state polls
-state_predicted_support <- predict(harris_model, newdata = cleaned_state_data)
-cleaned_state_data <- cleaned_state_data |>
-  mutate(predicted_pct = state_predicted_support)
-
-#### Save predictions ####
-write_csv(cleaned_national_data, "data/02-analysis_data/national_predicted_support.csv")
-write_csv(cleaned_state_data, "data/02-analysis_data/state_predicted_support.csv")
-
+# Save popular vote predictions
+write_csv(filtered_national_data, "data/02-analysis_data/popular_vote_predictions.csv")
