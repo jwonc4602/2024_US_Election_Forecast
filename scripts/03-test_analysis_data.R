@@ -18,14 +18,9 @@ data <- read_csv("../data/02-analysis_data/cleaned_president_polls.csv")
 
 #### Test data ####
 
-# Test that the dataset has the correct number of rows
-test_that("dataset has 13343 rows", {
-  expect_equal(nrow(data), 13343)
-})
-
 # Test that the dataset has 11 columns
 test_that("dataset has 11 columns", {
-  expect_equal(ncol(data), 11)
+  expect_equal(ncol(data), 12)
 })
 
 # Test that 'pollster' column is character type

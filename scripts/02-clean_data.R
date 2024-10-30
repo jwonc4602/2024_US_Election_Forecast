@@ -15,17 +15,18 @@ library(lubridate)
 # Load the raw data
 raw_data <- read_csv("data/01-raw_data/president_polls.csv")
 
-# Clean and select relevant variables
+# Clean and select relevant variables, and focus on Trump and Harris
 cleaned_data <- 
   raw_data |>
   clean_names() |>
-  # Select the key columns needed for Electoral College analysis
   select(
     pollster, numeric_grade, state, candidate_name, party, pct, sample_size, 
-    population, methodology, start_date, end_date
+    population, start_date, end_date
   ) |>
   # Drop rows where numeric_grade is NA
   drop_na(numeric_grade) |>
+  # Filter for Trump and Harris polls only
+  filter(candidate_name %in% c("Donald Trump", "Kamala Harris")) |>
   # Convert "--" in state column to NA (non-national polls) and label as national if NA
   mutate(
     state = if_else(state == "--", NA_character_, state),
@@ -36,7 +37,7 @@ cleaned_data <-
   mutate(
     state = case_when(
       state %in% c("Maine", "Maine CD-1", "Maine CD-2") ~ "Maine",
-      state %in% c("Nebraska", "Nebraska CD-2") ~ "Nebraska",
+      state %in% c("Nebraska", "Nebraska CD-1", "Nebraska CD-2", "Nebraska CD-3") ~ "Nebraska",
       TRUE ~ state  # Keep other states unchanged
     )
   ) |>
@@ -62,14 +63,12 @@ cleaned_data <-
     start_date = mdy(start_date),
     end_date = mdy(end_date)
   ) |>
-  # Create an indicator for poll recency without keeping start_date and end_date in the final data
+  # Create an indicator for poll recency while keeping start_date and end_date
   mutate(
     recent_poll = if_else(end_date >= Sys.Date() - 30, "Recent", "Older")
   ) |>
   # Remove all rows with any NA values except for the state (which is already handled)
-  drop_na(pct, sample_size, candidate_name, pollster) |>
-  # Drop start_date and end_date as they're not needed in the final dataset
-  select(-start_date, -end_date)
+  drop_na(pct, sample_size, candidate_name, pollster)
 
 #### Create datasets for national and state polls ####
 # National polling data
@@ -84,8 +83,35 @@ state_polling_data <-
   filter(national_poll == 0) |>
   select(-national_poll)
 
-#### Save cleaned data - Parquet file was not able to be used due to unresolved technical issues. ####
+#### Analysis - forecast change over time ####
+# Aggregating national popular vote by candidate over time
+national_popular_vote <- 
+  national_polling_data |>
+  group_by(candidate_name, end_date) |>
+  summarize(
+    avg_pct = mean(pct, na.rm = TRUE),
+    total_sample_size = sum(sample_size, na.rm = TRUE)
+  )
+
+# State-level analysis for electoral votes and close races
+state_analysis <- 
+  state_polling_data |>
+  group_by(state, candidate_name, end_date) |>
+  ungroup() |>
+  group_by(state) |>
+  # Determine who's leading in each state
+  mutate(
+    winner = candidate_name[which.max(pct)],
+    closest_race = abs(diff(range(pct)))  # The difference between the top two candidates' avg_pct
+  ) |>
+  arrange(closest_race) |>  # Sort by closest races
+  select(-candidate_name, -numeric_grade, -sample_size, -population, -start_date, -recent_poll, -pollster)
+
+
+# Export cleaned datasets
 write_csv(cleaned_data, "data/02-analysis_data/cleaned_president_polls.csv")
-write_csv(national_polling_data, "data/02-analysis_data/national_polling_data.csv")
+write_csv(national_polling_data, "data/02-analysis_data/national_polling.csv")
 write_csv(state_polling_data, "data/02-analysis_data/state_polling_data.csv")
+write_csv(national_popular_vote, "data/02-analysis_data/national_popular_vote.csv")
+write_csv(state_analysis, "data/02-analysis_data/state_analysis.csv")
 
