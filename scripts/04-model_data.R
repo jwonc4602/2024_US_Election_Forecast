@@ -19,8 +19,7 @@ national_data <- read_csv("data/02-analysis_data/national_polling.csv")
 filtered_national_data <- national_data |>
   filter(
     candidate_name == "Kamala Harris",
-    numeric_grade >= 2.7 # Need to investigate this choice - come back and fix. 
-    # Also need to look at whether the pollster has multiple polls or just one or two - filter out later
+    numeric_grade >= 2.7
   ) |>
   filter(end_date >= as.Date("2024-07-21")) # When Harris declared
 
@@ -39,7 +38,7 @@ popular_vote_model <- stan_glm(
 
 # Summarize and save the popular vote model
 summary(popular_vote_model)
-write_rds(popular_vote_model, "models/popular_vote_model.rds")
+write_rds(popular_vote_model, "models/vote_for_Harris_model.rds")
 
 
 #### Predictions: Popular Vote ####
@@ -50,3 +49,4 @@ filtered_national_data <- filtered_national_data |>
 
 # Save popular vote predictions
 write_csv(filtered_national_data, "data/02-analysis_data/popular_vote_predictions.csv")
+
