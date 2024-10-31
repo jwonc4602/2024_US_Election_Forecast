@@ -1,8 +1,8 @@
 #### Preamble ####
 # Purpose: Simulates a dataset of U.S. electoral divisions (states), including the state and party that won each state.
-# Author: Jiwon Choi
+# Author: Jiwon Choi and Kevin Roe
 # Date: 24 October 2024
-# Contact: jwon.choi@mail.utoronto.ca
+# Contact: jwon.choi@mail.utoronto.ca and kevin.roe@mail.utoronto.ca
 # License: MIT
 # Pre-requisites: The `tidyverse` package must be installed
 # Any other information needed? None.

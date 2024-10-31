@@ -1,8 +1,8 @@
 #### Preamble ####
 # Purpose: Tests the structure and validity of the simulated U.S. electoral divisions dataset.
-# Author: Jiwon Choi
+# Author: Jiwon Choi and Kevin Roe
 # Date: 30 October 2024
-# Contact: jwon.choi@mail.utoronto.ca
+# Contact: jwon.choi@mail.utoronto.ca and kevin.roe@mail.utoronto.ca
 # License: MIT
 # Pre-requisites: 
 # - The `tidyverse` package must be installed and loaded

@@ -1,8 +1,8 @@
 #### Preamble ####
 # Purpose: Models forecast popular vote and state winners (electoral votes)
-# Author: Jiwon Choi
+# Author: Jiwon Choi and Kevin Roe
 # Date: 12 October 2024
-# Contact: jwon.choi@mail.utoronto.ca
+# Contact: jwon.choi@mail.utoronto.ca and kevin.roe@mail.utoronto.ca
 # License: MIT
 # Pre-requisites: Cleaned data available in respective CSV files
 

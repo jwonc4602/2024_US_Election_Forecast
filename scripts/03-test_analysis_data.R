@@ -1,8 +1,8 @@
 #### Preamble ####
 # Purpose: Tests for cleaning the 'cleaned_president_polls.csv' dataset
-# Author: Jiwon Choi
+# Author: Jiwon Choi and Kevin Roe
 # Date: 14 October 2024
-# Contact: jwon.choi@mail.utoronto.ca
+# Contact: jwon.choi@mail.utoronto.ca and kevin.roe@mail.utoronto.ca
 # License: MIT
 # Pre-requisites: 03-clean_data.R
 # Any other information needed? None.
