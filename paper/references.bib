@@ -9,8 +9,16 @@
     url = {https://www.R-project.org/},
   }
   
-  
-@Article{thereferencecanbewhatever,
+
+@misc{fivethirtyeight_polls,
+  author = {FiveThirtyEight},
+  title = {Latest Polls - FiveThirtyEight},
+  howpublished = {\url{https://projects.fivethirtyeight.com/polls/}},
+  note = {Accessed: 2024-10-24}
+}
+
+
+@Article{tidyverse,
     title = {Welcome to the {tidyverse}},
     author = {Hadley Wickham and Mara Averick and Jennifer Bryan and Winston Chang and Lucy D'Agostino McGowan and Romain François and Garrett Grolemund and Alex Hayes and Lionel Henry and Jim Hester and Max Kuhn and Thomas Lin Pedersen and Evan Miller and Stephan Milton Bache and Kirill Müller and Jeroen Ooms and David Robinson and Dana Paige Seidel and Vitalie Spinu and Kohske Takahashi and Davis Vaughan and Claus Wilke and Kara Woo and Hiroaki Yutani},
     year = {2019},
@@ -20,30 +28,10 @@
     pages = {1686},
     doi = {10.21105/joss.01686},
   }  
-  
-  
-@Manual{citeLahman,
-    title = {{Lahman: Sean `Lahman' Baseball Database}},
-    author = {Michael Friendly and Chris Dalzell and Martin Monkman and Dennis Murphy},
-    year = {2020},
-    note = {R package version 8.0-0},
-    url = {https://CRAN.R-project.org/package=Lahman},
-  }  
-  
-  
-@article{gebru2021datasheets,
-  title={Datasheets for datasets},
-  author={Gebru, Timnit and Morgenstern, Jamie and Vecchione, Briana and Vaughan, Jennifer Wortman and Wallach, Hanna and Iii, Hal Daum{\'e} and Crawford, Kate},
-  journal={Communications of the ACM},
-  volume={64},
-  number={12},
-  pages={86--92},
-  year={2021},
-  publisher={ACM New York, NY, USA}
-}
+
 
 @Misc{rstanarm,
-    title = {{rstanarm: {Bayesian} applied regression modeling via {Stan}}},
+    title = {rstanarm: {Bayesian} applied regression modeling via {Stan}},
     author = {Ben Goodrich and Jonah Gabry and Imad Ali and Sam Brilleman},
     note = {R package version 2.21.3},
     year = {2022},
@@ -51,7 +39,7 @@
   }
   
 @Manual{palmerpenguins,
-    title = {{palmerpenguins: Palmer Archipelago (Antarctica) penguin data}},
+    title = {palmerpenguins: Palmer Archipelago (Antarctica) penguin data},
     author = {Allison Marie Horst and Alison Presmanes Hill and Kristen B Gorman},
     year = {2020},
     note = {R package version 0.1.0},
@@ -59,21 +47,89 @@
     url = {https://allisonhorst.github.io/palmerpenguins/},
   }
   
-  
-@book{tellingstories,
-    title = {Telling Stories with Data},
-    author = {Rohan Alexander},
-    year = {2023},
-    publisher = {Chapman; Hall/CRC},
-    url = {https://tellingstorieswithdata.com/}
-  }  
-  
-  
 
-@Manual{shelter,
-    title = {Deaths of Shelter Residents},
-    author = {{Toronto Shelter & Support Services}},
-    year = {2024},
-    note = {As accessed 2024-10-02.},
-    url = {https://open.toronto.ca/dataset/deaths-of-shelter-residents/},
-  }  
+@Manual{citeIPUMS,
+  title = {IPUMS USA: VERSION 9.0},
+  author = {Steven Ruggles and Sarah Flood and Ronald Goeken and Josiah Grover and Erin Meyer and Jose Pacas and Matthew Sobek},
+  year = {2019},
+  organization = {Minneapolis: University of Minnesota},
+  url = {https://www.ipums.org/projects/ipums-usa/d010.v9.0},
+  }
+
+@Manual{here,
+	author       = {Kirill M\"{u}ller},
+	year         = 2020,
+	title        = {{here: A Simpler Way to Find Your Files}},
+	url          = {https://CRAN.R-project.org/package=here},
+	note         = {R package version 1.0.1},
+}
+
+@Manual{citeKnitr,
+  title = {knitr: A General-Purpose Package for Dynamic Report Generation in R},
+  author = {Yihui Xie},
+  year = {2020},
+  note = {R package version 1.30},
+  url = {https://yihui.org/knitr/},
+}
+  
+@Manual{citekableExtra,
+    title = {kableExtra: Construct Complex Table with 'kable' and Pipe Syntax},
+    author = {Hao Zhu},
+    year = {2020},
+    note = {R package version 1.3.1},
+    url = {https://CRAN.R-project.org/package=kableExtra},
+  }
+  
+  @misc{yougov_mrp_2024,
+  title = {How {YouGov}'s {MRP} model works for the 2024 presidential and congressional elections},
+  author = {{YouGov}},
+  year = {2024},
+  url = {https://today.yougov.com/politics/articles/50587-how-yougov-mrp-model-works-2024-presidential-congressional-elections-polling-methodology},
+  note = {Accessed: 2024-10-24}
+}
+
+@misc{yougov_characterize_polls,
+  title = {How {Americans} characterize polls on policy support and two groups of elections},
+  author = {{YouGov}},
+  year = {2023},
+  url = {https://today.yougov.com/politics/articles/49449-how-americans-characterize-polls-policy-support-two-groups-elections-poll},
+  note = {Accessed: 2024-10-24}
+}
+
+@misc{yougov_trump_conviction,
+  title = {Would {Donald Trump}'s conviction move his voters? {Evidence} from past and present, {Bill Clinton} polls},
+  author = {{YouGov}},
+  year = {2023},
+  url = {https://today.yougov.com/politics/articles/48654-would-donald-trump-conviction-move-his-voters-evidence-from-past-present-bill-clinton-polls},
+  note = {Accessed: 2024-10-24}
+}
+
+@misc{yougov_poll_methodology,
+  title = {How does poll methodology affect survey response?},
+  author = {{YouGov}},
+  year = {2023},
+  url = {https://today.yougov.com/politics/articles/46070-poll-methodology-question-affect-survey-response},
+  note = {Accessed: 2024-10-24}
+}
+
+@misc{yougov_identify_methods,
+  title = {How does {YouGov} identify {Democrats} and {Republicans}?},
+  author = {{YouGov}},
+  year = {2023},
+  url = {https://today.yougov.com/politics/articles/44784-how-yougov-identify-democrat-republican-methods},
+  note = {Accessed: 2024-10-24}
+}
+
+@misc{surveylab_nonresponse_bias,
+  title = {What is non-response bias?},
+  author = {{SurveyLab}},
+  url = {https://www.surveylab.com/blog/what-is-non-response-bias/},
+  note = {Accessed: 2024-10-24}
+}
+
+@misc{cloudresearch_nonresponse_bias,
+  title = {What are the effects of non-response bias in surveys?},
+  author = {{CloudResearch}},
+  url = {https://www.cloudresearch.com/resources/blog/what-effects-non-response-bias-surveys/},
+  note = {Accessed: 2024-10-24}
+}
