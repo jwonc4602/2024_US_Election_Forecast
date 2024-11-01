@@ -25,7 +25,7 @@ filtered_national_data <- national_data |>
 
 #### Model 1: Popular Vote Prediction ####
 popular_vote_model <- stan_glm(
-  formula = pct ~ + pollster + population + recent_poll,
+  formula = pct ~ pollster + population + recent_poll,
   data = filtered_national_data,
   family = gaussian(),
   prior = normal(location = 0, scale = 2.5, autoscale = TRUE),

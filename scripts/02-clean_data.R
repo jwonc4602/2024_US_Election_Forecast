@@ -83,15 +83,6 @@ state_polling_data <-
   filter(national_poll == 0) |>
   select(-national_poll)
 
-#### Analysis - forecast change over time ####
-# Aggregating national popular vote by candidate over time
-national_popular_vote <- 
-  national_polling_data |>
-  group_by(candidate_name, end_date) |>
-  summarize(
-    avg_pct = mean(pct, na.rm = TRUE),
-    total_sample_size = sum(sample_size, na.rm = TRUE)
-  )
 
 # State-level analysis for electoral votes and close races
 state_analysis <- 
@@ -105,13 +96,12 @@ state_analysis <-
     closest_race = abs(diff(range(pct)))  # The difference between the top two candidates' avg_pct
   ) |>
   arrange(closest_race) |>  # Sort by closest races
-  select(-candidate_name, -numeric_grade, -sample_size, -population, -start_date, -recent_poll, -pollster)
+  select(-candidate_name, -numeric_grade, -sample_size, -population, -start_date, -recent_poll, -pollster, - party)
 
 
 # Export cleaned datasets
 write_csv(cleaned_data, "data/02-analysis_data/cleaned_president_polls.csv")
 write_csv(national_polling_data, "data/02-analysis_data/national_polling.csv")
 write_csv(state_polling_data, "data/02-analysis_data/state_polling_data.csv")
-write_csv(national_popular_vote, "data/02-analysis_data/national_popular_vote.csv")
 write_csv(state_analysis, "data/02-analysis_data/state_analysis.csv")
 
