@@ -45,7 +45,7 @@ We forecast support for Kamala Harris based on polling results and apply a Bayes
 
 Factoring in the different results of poll-making organizations, our model found that specific pollsters or demographic characteristics increase or decrease Harris' predicted voter share. Understanding the trajectory of the US might make in foreign policy, economic or global politics prediction allows global stakeholders to take preemptive measures for policy changes of the newly elected government. Thus, this study is a strong tool to navigate uncertainty around the 2024 election. 
 
-The paper is structured as follows: @sec-data and @sec-model explores the data and methodology used, highlighting the filtering and modeling techniques applied to the data; @sec-results presents the results from the Bayesian generalized linear model; @sec-discussion discusses the broader implications of our findings; and @sec-appendix highlights YouGov's methodology, and outlines an idealized survey methodology *SHOULD WE ADD MODEL DIAGNOSTICS HERE?*
+The paper is structured as follows: @sec-data and @sec-model explores the data and methodology used, highlighting the filtering and modeling techniques applied to the data; @sec-results presents the results from the Bayesian generalized linear model; @sec-discussion discusses the broader implications of our findings; and @sec-appendix highlights YouGov's methodology, outlines an idealized survey methodology, and shows model diagnostics. 
 
 
 # Data {#sec-data}
@@ -122,7 +122,7 @@ The model was implemented in R [@citeR] using the `rstanarm` package, which offe
 
 
 # Results {#sec-results}
-To assess model reliability, we examined several key diagnostics. Convergence metrics, such as Rhat values, were close to 1 for all parameters, indicating strong convergence. Additionally, the effective sample size (n_eff) was high across parameters, suggesting low autocorrelation and contributing to model stability. For validation, we conducted out-of-sample testing and calculated the Root Mean Square Error (RMSE) to assess predictive accuracy. This test data, which includes polls not used in training, provides an unbiased estimate of model performance.
+To assess model reliability, we examined several key diagnostics. Convergence metrics, such as Rhat values, were close to 1 for all parameters, indicating strong convergence. Additionally, the effective sample size (n_eff) was high across parameters, suggesting low autocorrelation and contributing to model stability. For validation, we conducted out-of-sample testing and calculated the Root Mean Square Error (RMSE) to assess predictive accuracy. This test data, which includes polls not used in training, provides an unbiased estimate of model performance. See more details of model diagnostic here @sec-model-details-diagnostics.
 
 The model operates under the assumption that residuals follow a Gaussian distribution, though this may not entirely capture extreme polling variances. Additionally, pollster effects are treated as fixed, which, while limiting the model’s ability to reflect dynamic shifts in polling methodologies, simplifies the model and reduces the risk of overfitting. Alternative specifications, including a hierarchical model with random intercepts for pollsters, were considered. However, the added complexity of this approach did not significantly improve predictive accuracy. The chosen GLM specification thus offered a balanced approach, optimizing both interpretability and performance, making it the preferred model for our study.
 
@@ -142,7 +142,7 @@ kable(coefficients, format = "latex", booktabs = TRUE, align = "c") %>%
   kable_styling(latex_options = "scale_down", font_size = 7)
 ```
 
-@tbl-model-coefficients presents the estimated coefficients for the predictors in our GLM model. These coefficients fit into the GLM equation, allowing us to interpret the impact of each predictor on Harris’s predicted vote percentage. Positive values indicate a higher predicted percentage, while negative values indicate a decrease. Key predictors, such as specific pollsters and population types, show distinct effects on the forecasted outcomes. This table is produced using kable from knitr for enhanced readability.
+@tbl-model-coefficients presents the estimated coefficients for the predictors in our GLM model. These coefficients fit into the GLM equation, allowing us to interpret the impact of each predictor on Harris’s predicted vote percentage. Positive values indicate a higher predicted percentage, while negative values indicate a decrease. Key predictors, such as specific pollsters and population types, show distinct effects on the forecasted outcomes.
 
 ```{r}
 #| echo: false
@@ -154,11 +154,11 @@ coefficients %>%
   ggplot(aes(estimate, term)) + 
   geom_point() + 
   geom_errorbar(aes(xmin = conf.low, xmax = conf.high)) + 
-  labs(title = "Coefficient Estimates", x = "Estimate", y = "Predictor") +
+  labs(x = "Estimate", y = "Predictor") +
   theme(axis.text.y = element_text(size = 7))
 ```
 
-@fig-coefficient-estimates visually represents the model coefficients, with error bars indicating the confidence interval for each estimate. Positive coefficients suggest that specific pollsters or demographic characteristics increase Harris’s predicted vote share. For example, the 'CES / YouGov' pollster shows a significant positive impact, while 'Siena/NYT' has a slight negative effect. These error bars help contextualize the reliability of each predictor.
+@fig-coefficient-estimates represents the model coefficients, with error bars indicating the confidence interval for each estimate. Positive coefficients suggest that specific pollsters or demographic characteristics increase Harris’s predicted vote share. For example, the 'CES / YouGov' pollster shows a positive impact, while 'Siena/NYT' has a slight negative effect. These error bars help contextualize the reliability of each predictor.
 
 # Discussion {#sec-discussion}
 
@@ -216,56 +216,40 @@ To allocate the \$100,000 budget, I would budget \$20,000 for a survey platform 
 [NTD: ADD THIS AS ANOTHER SECTION]
 Please find the proposed question list for the online survey attached here (INSERT URL).
 
-# Model details {#sec-model-details}
+# Diagnostics for model {#sec-model-details-diagnostics}
 
-## Posterior predictive check
-
-In @fig-ppcheckandposteriorvsprior-1 we implement a posterior predictive check. This shows...
-
-In @fig-ppcheckandposteriorvsprior-2 we compare the posterior with the prior. This shows... 
-
-```{r}
-#| eval: true
-#| echo: false
-#| message: false
-#| warning: false
-#| label: fig-ppcheckandposteriorvsprior
-#| layout-ncol: 2
-#| fig-cap: "Examining how the model fits, and is affected by, the data"
-#| fig-subcap: ["Posterior prediction check", "Comparing the posterior with the prior"]
-
-#pp_check(first_model) +
-#  theme_classic() +
- # theme(legend.position = "bottom")
-
-#posterior_vs_prior(first_model) +
-#  theme_minimal() +
-#  scale_color_brewer(palette = "Set1") +
- # theme(legend.position = "bottom") +
- # coord_flip()
-```
-
-## Diagnostics
-
-@fig-stanareyouokay-1 is a trace plot. It shows... This suggests...
-
-@fig-stanareyouokay-2 is a Rhat plot. It shows... This suggests...
+@fig-ppcheck compares observed data (dark line) with replicated posterior predictions (lighter lines). The close alignment suggests that the model accurately captures the data's central tendency and variability. @fig-convergencecheckTrace and @fig-convergencecheckRhat show that the sampling algorithm used, the Markov chain Monte Carlo (MCMC) algorithm, did not run into issues as the posterior distribution for the model was created. Using the checks presented by @citetellingstorieswithdata, both graphs do not show anything abnormal since he trace plots in @fig-convergencecheckTrace display substantial horizontal fluctuation across chains, indicating good mixing, while the Rhat values in @fig-convergencecheckRhat are close to 1 and well below 1.1, further supporting convergence.
 
 ```{r}
 #| echo: false
 #| eval: true
 #| message: false
 #| warning: false
-#| label: fig-stanareyouokay
-#| fig-cap: "Checking the convergence of the MCMC algorithm"
-#| fig-subcap: ["Trace plot", "Rhat plot"]
-#| layout-ncol: 2
-
-#plot(first_model, "trace")
-
-#plot(first_model, "rhat")
+#| label: fig-ppcheck
+#| fig-cap: "Posterior Predictive Check: Comparison of Observed and Replicated Data"
+pp_check(harris_model) + theme_minimal()
 ```
 
+
+```{r}
+#| echo: false
+#| eval: true
+#| message: false
+#| warning: false
+#| label: fig-convergencecheckTrace
+#| fig-cap: "Checking the convergence of the MCMC algorithm - Trace"
+plot(harris_model, "trace") + theme_minimal()
+```
+
+```{r}
+#| echo: false
+#| eval: true
+#| message: false
+#| warning: false
+#| label: fig-convergencecheckRhat
+#| fig-cap: "Checking the convergence of the MCMC algorithm - Rhat"
+plot(harris_model, "rhat") + theme_minimal()
+```
 
 
 \newpage
