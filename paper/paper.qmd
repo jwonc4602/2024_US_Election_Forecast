@@ -24,7 +24,6 @@ library(kableExtra)
 library(broom.mixed)
 library(knitr)
 library(rstanarm)
-library(modelsummary)
 
 #### Read in necessary data and model ####
 cleaned_president_polls <-read_csv(file = here("data/02-analysis_data/cleaned_president_polls.csv"), show_col_types = FALSE)
@@ -54,7 +53,7 @@ We have used a poll-of-polls of the upcoming US presidential election dataset ob
 
 To ensure high data quality, we filtered the dataset to include polls with a numeric grade of 2.7 or above and focused only on polls conducted after July 21, 2024, the date of Harris' declaration of candidacy. The filter helped limit bias from older polls from when Joe Biden was the Democratic nominee, which may not reflect the current voter sentiment. 
 
-In performing the analysis, we used several R pacakages. We used tidyverse [@tidyverse] for data manipulation and visualization, and rstanarm [@rstanarm] for Bayesian modeling. We also used modelsummary [@modelsummary] to generate model summaries.To visualize results, we used ggplot2 [@ggplot2] and kable [@kable] *ADD KABLE CITATION?* to format tables for presentation. 
+In performing the analysis, we used several R pacakages. We used tidyverse [@tidyverse] for data manipulation and visualization, and rstanarm [@rstanarm] for Bayesian modeling. To visualize results, we used ggplot2 [@ggplot2] and kableExtra [@citekableExtra] to format tables for presentation. 
 
 ## Measurement {#sec-data-measurement}
 
