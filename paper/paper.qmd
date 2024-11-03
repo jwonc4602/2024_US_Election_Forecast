@@ -1,5 +1,6 @@
 ---
-title: "A Polls-of-Polls Forecast for the 2024 United States Presidential Election:Analysis of Support for Harris Factoring Pollster Differences"
+title: "A Polls-of-Polls Forecast for the 2024 United States Presidential Election Through Generalized Linear Model"
+subtitle: "The Impact of Pollster Differences, Population Type, and Poll Regency on Predicting Support for Kamala Harris"
 author: 
   - Jiwon Choi
   - Kevin Roe
