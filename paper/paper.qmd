@@ -7,7 +7,7 @@ author:
 thanks: "Code and data are available at: [https://github.com/jwonc4602/2024_US_Election_Forecast](https://github.com/jwonc4602/2024_US_Election_Forecast)."
 date: today
 date-format: long
-abstract: "The 2024 U.S. Presidential Election has far-reaching global implications for economic, environmental, and social policy, making it a focal point for international attention. This paper applies a Bayesian generalized linear model to analyze trends in Kamala Harris' support, accounting for pollster differences, population types, and poll recency. Despite steady support at 48%, Harris is projected to lose the national popular vote and key battleground states to Donald Trump. Our findings emphasize the significance of polling methodologies and their role in predicting U.S. policy outcomes. Future research should incorporate the Electoral College to address current limitations."
+abstract: "The 2024 U.S. Presidential Election has far-reaching global implications for economic, environmental, and social policy, making it a focal point for international attention. This paper applies a Bayesian generalized linear model to analyze trends in Kamala Harris' support, accounting for pollster differences, population types, and poll recency. Despite steady support at 48%, Harris is projected to lose the national popular vote and key battleground states to Donald Trump. Our findings highlight the impact of polling methodologies and their role in shaping predictions of U.S. policy outcomes. Future research should incorporate the Electoral College to address current limitations."
 format: pdf
 number-sections: true
 toc: true
@@ -147,7 +147,6 @@ ggplot(prediction, aes(x = predicted_pct)) +
   labs(x = "Predicted Percentage of Support (predicted_pct)", 
        y = "Count")
 ```
-\newpage
 
 ## Predictor variables {#sec-data-predictor}
 
@@ -196,8 +195,6 @@ ggplot(prediction, aes(x = pollster)) +
   theme(axis.text.x = element_text(angle = 90, hjust = 1))
 ```
 
-\newpage
-
 ### Population Type {#sec-data-populationtype}
 
 Population Type was distinguished among different groups surveyed into two groups surveyed: 'Voters' and 'Adults'. 'Adults' is a more general poll that includes voters, likely voters, and non-voters. @fig-populationtype shows that the majority of the polls surveyed voters rather than the general adult population. The discrepancy between the number of polls that surveyed voters and adults could introduce potential biases in responses, as those who are voters may have stronger opinions than those who are not.
@@ -222,7 +219,7 @@ summary_stats %>%
   kable_styling(bootstrap_options = c("striped", "hover", "condensed"), full_width = F)
 
 ```
-\newpage
+ 
 ```{r}
 #| echo: false
 #| message: false
@@ -230,7 +227,7 @@ summary_stats %>%
 #| label: fig-populationtype
 #| fig-cap: Distribution of population type
 #| fig-width: 5
-#| fig-height: 5
+#| fig-height: 2.5
 #| fig-align: center
 
 # Plot distribution of Population Type using histogram
@@ -241,7 +238,7 @@ ggplot(prediction, aes(x = population)) +
        y = "Count") +
   theme(axis.text.x = element_text(angle = 90, hjust = 1))
 ```
-\newpage
+ 
 
 ### Poll Recency {#sec-data-pollrecency}
 
@@ -266,7 +263,7 @@ summary_stats %>%
   kable_styling(bootstrap_options = c("striped", "hover", "condensed"), full_width = F)
 
 ```
-\newpage
+ 
 ```{r}
 #| echo: false
 #| message: false
@@ -274,7 +271,7 @@ summary_stats %>%
 #| label: fig-recency
 #| fig-cap: Distribution of on the amount of polls collected in 30 days 
 #| fig-width: 5 
-#| fig-height: 5
+#| fig-height: 2.5
 #| fig-align: center
 
 # Plot distribution of Population Type using histogram
@@ -286,7 +283,7 @@ ggplot(prediction, aes(x = recent_poll)) +
   theme(axis.text.x = element_text(angle = 90, hjust = 1))
 ```
 
-\newpage
+ 
 
 # Model {#sec-model}
 
@@ -386,7 +383,7 @@ In our model, by separating state-specific polls, we can analyze and model the p
 
 @fig-state-summary shows Harris with a slight lead of 50.4% in the popular vote across five key states: Virginia, Ohio, New Hampshire, Minnesota, and Florida. In other states, she is expected to either be in a close race or lose the popular vote. Pennsylvania, Nevada, Michigan, and Georgia are crucial battlegrounds, where Harris's minority share and Trump’s projected lead reduce her chances of winning the election. Thus, our model predicts that Harris is unlikely to win the general popular vote or key swing states. Consequently, we anticipate Donald Trump will win the 2024 U.S. Presidential election.
 
-\newpage
+ 
 
 ```{r}
 #| echo: false
@@ -493,6 +490,7 @@ Addressing non-response bias is important, and we plan to over-sample underrepre
 To allocate the \$100,000 budget, we will spend \$20,000 on a survey platform subscription, \$50,000 on targeted digital ads and phone surveys for recruitment, \$20,000 on data analysts and poll aggregation services, and \$10,000 for re-contact surveys and miscellaneous costs. However, we recognize that this budget may be on the lower end to ensure a high-quality poll and that the actual costs might exceed this amount. Most expenses will arise from data collection, and we have accounted for this in our budget planning.
 
 Please find the proposed question list for the online survey attached [here](https://forms.gle/AFqodUEk48o864aN6).
+\newpage
 
 ## Diagnostics for model {#sec-model-details-diagnostics}
 
