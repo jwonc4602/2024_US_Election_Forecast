@@ -163,17 +163,139 @@ ggplot(prediction, aes(x = predicted_pct)) +
 
 ## Predictor variables {#sec-data-predictor}
 
-Add graphs, tables and text.
+### Type of Pollster {sec-data-pollster}
 
-Use sub-sub-headings for each outcome variable and feel free to combine a few into one if they go together naturally.
+The pollster variable was selected to consider the effect of changes in pollster on the observed variable. The pollster variable represents the polling organization that conducted the poll. The distribution of polling counts for different pollsters in @fig-pollster suggests that the data is dominated by three pollsters: Ipsos, YouGov and Siena/NYT. Further analysis is needed in their polling methodology to determine potential biases. 
 
-Pollster
+```{r}
+#| label: tbl-pollster
+#| fig-cap: Number of unique high-quality polling organizations
+#| echo: false
+#| tbl-align: center
+#| tbl-width: 82%
 
-Population Type
 
-Poll Regency (old if data collected in 30 days, old to capture regent old
+# Calculate summary statistics for the 'pollster' variable
+summary_stats <- prediction %>%
+  summarize(
+    Pollster = n_distinct(pollster),
+  )
 
-Separated =between
+# Display the summary statistics in a nicely formatted table
+summary_stats %>%
+  kable() %>%
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed"), full_width = F)
+
+```
+
+```{r}
+#| label: fig-pollster
+#| fig-cap: Distribution of high-quality polling organizations
+#| echo: false
+#| fig-width: 5 
+#| fig-align: center
+
+
+
+# Plot distribution using histogram
+ggplot(prediction, aes(x = pollster)) +
+  geom_bar(fill = "blue", alpha = 0.7, color = "black") +
+  theme_minimal() +
+  labs(x = "Pollster",
+       y = "Count") +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1))
+```
+
+
+### Population Type {sec-data-populationtype}
+
+Population Type distinguishes among different groups surveyed into two groups surveyed: voters and adults. Adults is a more general poll that includes voters, likely voters and non-voters. @fig-populationtype shows that majority of the polls surveyed voters rather than the general adult population. The discrepancy between number of polls who surveyed voters and adults could introduce potential biases in responses, as those who are voters may have stronger opinions than those who are not. 
+
+```{r}
+#| label: tbl-populationtype
+#| fig-cap: Number of unique high-quality polling organizations
+#| echo: false
+#| tbl-align: center
+#| tbl-width: 82%
+
+
+# Calculate summary statistics for the 'population' variable
+summary_stats <- prediction %>%
+  summarize(
+    Population = n_distinct(population),
+  )
+
+# Display the summary statistics in a nicely formatted table
+summary_stats %>%
+  kable() %>%
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed"), full_width = F)
+
+```
+
+```{r}
+#| label: fig-populationtype
+#| fig-cap: Distribution of population type 
+#| echo: false
+#| fig-width: 5 
+#| fig-align: center
+
+
+
+# Plot distribution of Population Type using histogram
+ggplot(prediction, aes(x = population)) +
+  geom_bar(fill = "orange", alpha = 0.7, color = "black") +
+  theme_minimal() +
+  labs(x = "Population",
+       y = "Count") +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1))
+```
+
+### Poll Recency {sec-data-pollrecency}
+
+Poll Recency, shown through the variable `recent_poll`, suggests that 
+
+- lot more older datapoints 
+
+Population Type distinguishes among different groups surveyed into two groups surveyed: voters and adults. Adults is a more general poll that includes voters, likely voters and non-voters. @fig-populationtype shows that majority of the polls surveyed voters rather than the general adult population. The discrepancy between number of polls who surveyed voters and adults could introduce potential baises in responses, as those who are voters may have stronger opinions than those who are not. 
+
+```{r}
+#| label: tbl-recency
+#| fig-cap: Number of polls that were collected within 30 days and after
+#| echo: false
+#| tbl-align: center
+#| tbl-width: 82%
+
+
+# Calculate summary statistics for the 'population' variable
+summary_stats <- prediction %>%
+  summarize(
+    Population = n_distinct(recent_poll),
+  )
+
+# Display the summary statistics in a nicely formatted table
+summary_stats %>%
+  kable() %>%
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed"), full_width = F)
+
+```
+
+```{r}
+#| label: fig-recency
+#| fig-cap: Distribution of on the amount of polls collected in 30 days 
+#| echo: false
+#| fig-width: 5 
+#| fig-align: center
+
+# Plot distribution of Population Type using histogram
+ggplot(prediction, aes(x = recent_poll)) +
+  geom_bar(fill = "purple", alpha = 0.7, color = "black") +
+  theme_minimal() +
+  labs(x = "Poll Recency",
+       y = "Count") +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1))
+```
+
+
 
 # Model {#sec-model}
 
@@ -282,9 +404,9 @@ To ensure the data aggregated are valid, I would make sure to cross-check respon
 
 The biggest concern with online surveys is to handle non-response bias. To mitigate this, I will make sure to over-sample underrepresented groups and use multiple attempts to contact individuals online or run weekly polls. By running frequent surveys, I will make sure to aggregate results using a moving average in the summary results dashboard to smooth out short-term fluctuations. I will also make sure to develop checks online to prevent someone from filling out the form more than once or track the different people we called to ensure we do not have duplicate entries. Finally, because the United States does not run elections using a popular vote, I will weight the survey results to reflect the US voting population based on US Census data and voter turnout estimates, while also factoring demographic factors such as race, gender, and age.
 
-\[NTD: ADD MORE DETAILS ABOUT METHODOLOGY\] To allocate the \$100,000 budget, I would budget \$20,000 for a survey platform subscription to handle a large amount of data. I would put \$50,000 into advertising and recruitment for targeted digital ads and phone surveys. I will also use \$20,000 for data analysts and poll aggregation services and \$10,000 for re-contact surveys, contingency costs, and other miscellaneous costs. However, I believe \$100,000 is on the lower end to ensure a high-quality poll and will most likely cost more. Regardless, most of the costs will come from collecting the data, and I have budgeted for this reality (ADD CITATION).
+To allocate the $100,000 budget, I would budget \$20,000 for a survey platform subscription to handle a large amount of data. I would put \$50,000 into advertising and recruitment for targeted digital ads and phone surveys. I will also use \$20,000 for data analysts and poll aggregation services and \$10,000 for re-contact surveys, contingency costs, and other miscellaneous costs. However, I believe \$100,000 is on the lower end to ensure a high-quality poll and will most likely cost more. Regardless, most of the costs will come from collecting the data, and I have budgeted for this reality.
 
-\[NTD: ADD THIS AS ANOTHER SECTION\] Please find the proposed question list for the online survey attached here (INSERT URL).
+Please find the proposed question list for the online survey attached here (INSERT URL).
 
 ## Diagnostics for model {#sec-model-details-diagnostics}
 
