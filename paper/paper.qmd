@@ -24,7 +24,7 @@ library(here)
 library(kableExtra)
 library(broom.mixed)
 library(knitr)
-library(kableExtra)
+library(kable)
 library(rstanarm)
 
 #### Read in necessary data and model ####
@@ -180,7 +180,8 @@ summary_stats <- prediction %>%
   count(pollster, name = "Count")
 
 # Display the summary statistics in a nicely formatted table
-summary_stats %>%
+summary_stats |>
+  kable
   kable() %>%
   kable_styling(bootstrap_options = c("striped", "hover", "condensed"), full_width = F)
 
@@ -350,7 +351,16 @@ coefficients %>%
 # Discussion {#sec-discussion}
 
 ## How has the Forecast Changed Over Time? {#sec-first-point}
+
+
+
 ```{r}
+#| label: fig-predicted-and-real
+#| fig-cap: Comparison of Predicted vs Actual National Poll Percentages for Harris Over Time
+#| echo: false
+#| fig-width: 5 
+#| fig-align: center
+
 filtered_prediction <- prediction %>%
   filter(national_poll == 1)
 
@@ -365,10 +375,15 @@ ggplot(filtered_prediction, aes(x = end_date)) +
   theme_minimal()
 ```
 
-asdfasdfasdfasdf
-
 ## Which States Prefer Harris? {#sec-second-point}
+
+
 ```{r}
+#| label: tbl-state-missing
+#| fig-cap: Summary of missing and total dates across key states
+#| echo: false
+#| tbl-align: center
+
 state_data <- prediction %>% filter(national_poll == 0)
 # Identify missing data
 missing_data_summary <- prediction %>%
@@ -376,7 +391,19 @@ missing_data_summary <- prediction %>%
   summarize(missing_dates = sum(is.na(predicted_pct)),
             total_dates = n())
 
-print(missing_data_summary)
+# Display the summary statistics in a nicely formatted table
+missing_data_summary %>%
+  kable() %>%
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed"), full_width = F)
+
+```
+
+```{r}
+#| label: fig-state-comparison
+#| fig-cap: State-by-State comparison of predicted percentages over time
+#| echo: false
+#| fig-width: 5 
+#| fig-align: center
 
 # Plot with points for sparse data
 ggplot(prediction, aes(x = end_date, y = predicted_pct, color = state)) +
@@ -393,6 +420,12 @@ ggplot(prediction, aes(x = end_date, y = predicted_pct, color = state)) +
 ```
 
 ```{r}
+#| label: fig-state-summary
+#| fig-cap: Summary of Kamala Harris' predicted popular vote by key states
+#| echo: false
+#| fig-width: 5 
+#| fig-align: center
+
 # Filter to keep only the most recent entry for each state based on 'end_date'
 filtered_data <- prediction %>%
   filter(!is.na(state)) %>%
@@ -417,6 +450,8 @@ ggplot(filtered_data, aes(x = reorder(state, predicted_pct), y = predicted_pct, 
 ```
 
 ## Implications {#sec-implications}
+
+asdfasdfasdf
 
 ## Weaknesses and Next Steps {#sec-weaknesses}
 
