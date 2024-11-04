@@ -178,7 +178,7 @@ The pollster variable was selected to consider the effect of changes in pollster
 # Calculate summary statistics for the 'pollster' variable
 summary_stats <- prediction %>%
   summarize(
-    Pollster = n_distinct(pollster),
+    count(pollster, name = "Count")
   )
 
 # Display the summary statistics in a nicely formatted table
@@ -221,9 +221,7 @@ Population Type distinguishes among different groups surveyed into two groups su
 
 # Calculate summary statistics for the 'population' variable
 summary_stats <- prediction %>%
-  summarize(
-    Population = n_distinct(population),
-  )
+  count(population, name = "Count")
 
 # Display the summary statistics in a nicely formatted table
 summary_stats %>%
@@ -252,11 +250,8 @@ ggplot(prediction, aes(x = population)) +
 
 ### Poll Recency {sec-data-pollrecency}
 
-Poll Recency, shown through the variable `recent_poll`, suggests that 
+Poll Recency, shown through the variable `recent_poll`, labels any polls that have been conducted in the last 30 days as Recent and any polls collected before that are labeled Older. Based on our results shown in @tbl-recency, there are 32 less polls collected in the last 30 days than before. This introduces biases in responses as older responses are more represented in our model. In rapidly changing political environments, public opinion can shift dramatically due to major events, debates or crises, making recent data crucial for accurate modeling.The distribution of this variable can also be found in @fig-recency.
 
-- lot more older datapoints 
-
-Population Type distinguishes among different groups surveyed into two groups surveyed: voters and adults. Adults is a more general poll that includes voters, likely voters and non-voters. @fig-populationtype shows that majority of the polls surveyed voters rather than the general adult population. The discrepancy between number of polls who surveyed voters and adults could introduce potential baises in responses, as those who are voters may have stronger opinions than those who are not. 
 
 ```{r}
 #| label: tbl-recency
@@ -266,11 +261,10 @@ Population Type distinguishes among different groups surveyed into two groups su
 #| tbl-width: 82%
 
 
-# Calculate summary statistics for the 'population' variable
+# Calculate summary statistics for the 'recent_poll' variable
 summary_stats <- prediction %>%
-  summarize(
-    Population = n_distinct(recent_poll),
-  )
+  count(recent_poll, name = "Count")
+
 
 # Display the summary statistics in a nicely formatted table
 summary_stats %>%
