@@ -65,21 +65,22 @@ Beyond filtering for high-quality pollsters, we filtered for various criteria to
 
 ## Outcome variables {#sec-data-outcome}
 
-### The Predicted Proportion of Support a Candidate Received in a Poll (%)
+### The Predicted Proportion of Support a Candidate Received in a Poll
 
-The main variable we aim to forecast is the pct variable, which represents the proportion of the vote a candidate received in a poll.@tbl-pct_cleaned and @fig-pct_cleaned shows the summary statistics and distribution of pct variable in a filtered dataset that only comprises of votes from relatively high-quality polling organizations. We also get the popular vote predictions for each candidate using the predict() function and add this to the dataset as the predicted_pct variable. We have showed the summary statistics and distribution for predicted_pct in @tbl-pct_predicted and @fig-pct_predicted, respectively.
+The main variable we aim to forecast is the pct variable, which represents the proportion of the vote a candidate received in a poll.@tbl-pct-cleaned and @fig-pct-cleaned shows the summary statistics and distribution of pct variable in a filtered dataset that only comprises of votes from relatively high-quality polling organizations. We also get the popular vote predictions for each candidate using the predict() function and add this to the dataset as the predicted_pct variable. We have showed the summary statistics and distribution for predicted_pct in @tbl-pct-predicted and @fig-pct-predicted, respectively.
 
-Comparing our predictions to the data, our predictions have a smaller range than the cleaned data. While the difference in mean is 2\'%' lower for our prediction than our cleaned data. The results suggest there is less variation in our predictions than the cleaned dataset. 
+Comparing our predictions to the data, our predictions have a smaller range than the cleaned data. While the difference in mean is 2% lower for our prediction than our cleaned data. The results suggest there is less variation in our predictions than the cleaned dataset. 
 
 ```{r}
-#| label: tbl-pct_cleaned
-#| fig-cap: Summary statistics for the proportion of support candidates received in the poll
+#| label: tbl-pct-cleaned
+#| tbl-cap: Summary statistics for the proportion of support candidates received in the poll
 #| echo: false
+#| message: false
+#| warning: false
 #| tbl-align: center
 #| tbl-width: 82%
 
 
-# Calculate summary statistics for the 'pct' variable
 summary_stats <- cleaned_president_polls %>%
   summarize(
     mean = round(mean(pct, na.rm = TRUE), 2),
@@ -88,10 +89,8 @@ summary_stats <- cleaned_president_polls %>%
     max = round(max(pct, na.rm = TRUE), 2), 
     sd = round(sd(pct, na.rm = TRUE), 2), 
     n = n()
-
   )
 
-# Create a formatted table to display summary statistics 
 summary_stats %>%
   kable() %>%
   kable_styling(bootstrap_options = c("striped", "hover", "condensed"), full_width = F)
@@ -99,10 +98,11 @@ summary_stats %>%
 ```
 
 ```{r}
-#| label: fig-pct_cleaned
+#| label: fig-pct-cleaned
 #| fig-cap: Distribution of the proportion of support candidates received in the poll
 #| echo: false
-
+#| message: false
+#| warning: false
 
 
 # Plot distribution using histogram
@@ -114,9 +114,11 @@ ggplot(cleaned_president_polls, aes(x = pct)) +
 ```
 
 ```{r}
-#| label: tbl-pct_predicted
-#| fig-cap: Summary statistics for the predicted proportion of support candidates received in the poll
+#| label: tbl-pct-predicted
+#| tbl-cap: Summary statistics for the predicted proportion of support candidates received in the poll
 #| echo: false
+#| message: false
+#| warning: false
 #| tbl-align: center
 #| tbl-width: 82%
 
@@ -141,9 +143,11 @@ summary_stats %>%
 ```
 
 ```{r}
-#| label: fig-pct_predicted
+#| label: fig-pct-predicted
 #| fig-cap: Distribution of the predicted proportion of support candidates received in the poll
 #| echo: false
+#| message: false
+#| warning: false
 #| fig-width: 5 
 #| fig-align: center
 
