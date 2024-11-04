@@ -34,7 +34,7 @@ state_polling_data <- read_csv(file = here("data/02-analysis_data/state_polling_
 state_analysis <- read_csv(file = here("data/02-analysis_data/state_analysis.csv"), show_col_types = FALSE)
 
 harris_model <- readRDS(file = here("models/vote_for_Harris_model.rds"))
-prediction <- read_csv(file = here("data/02-analysis_data/popular_vote_predictions.csv"), show_col_types = FALSE)
+prediction <- read_csv(file = here("data/02-analysis_data/vote_for_Harris_predictions.csv"), show_col_types = FALSE)
 ```
 
 # Introduction
@@ -194,7 +194,7 @@ The model was implemented in R [@citeR] using the `rstanarm` package, which offe
 
 # Results {#sec-results}
 
-To assess model reliability, we examined several key diagnostics. Convergence metrics, such as Rhat values, were close to 1 for all parameters, indicating strong convergence. Additionally, the effective sample size (n_eff) was high across parameters, suggesting low autocorrelation and contributing to model stability. For validation, we conducted out-of-sample testing and calculated the Root Mean Square Error (RMSE) to assess predictive accuracy. This test data, which includes polls not used in training, provides an unbiased estimate of model performance. See more details of model diagnostic here @sec-model-details-diagnostics.
+To assess model reliability, we examined several key diagnostics. Convergence metrics, such as Rhat values, were close to 1 for all parameters, indicating strong convergence. Additionally, the effective sample size (n_eff) was high across parameters, suggesting low autocorrelation and contributing to model stability. For validation, we conducted out-of-sample testing and calculated the Root Mean Square Error (RMSE) to assess predictive accuracy. This test data, which includes polls not used in training, provides an unbiased estimate of model performance. See more details of model diagnostic here: @sec-model-details-diagnostics.
 
 The model operates under the assumption that residuals follow a Gaussian distribution, though this may not entirely capture extreme polling variances. Additionally, pollster effects are treated as fixed, which, while limiting the model’s ability to reflect dynamic shifts in polling methodologies, simplifies the model and reduces the risk of overfitting. Alternative specifications, including a hierarchical model with random intercepts for pollsters, were considered. However, the added complexity of this approach did not much improve predictive accuracy. The chosen GLM specification thus offered a balanced approach, optimizing both interpretability and performance, making it the preferred model for our study.
 
@@ -235,12 +235,71 @@ coefficients %>%
 # Discussion {#sec-discussion}
 
 ## How has the Forecast Changed Over Time? {#sec-first-point}
+```{r}
+filtered_prediction <- prediction %>%
+  filter(national_poll == 1)
+
+# Plot the graph with both predicted and real percentages
+ggplot(filtered_prediction, aes(x = end_date)) +
+  geom_line(aes(y = predicted_pct, color = "Predicted Percentage")) +
+  geom_line(aes(y = pct, color = "Real Percentage")) +
+  labs(
+       x = "Date",
+       y = "Percentage",
+       color = "Legend") +
+  theme_minimal()
+```
 
 asdfasdfasdfasdf
 
-## Who is Favoured to Win Each State? {#sec-second-point}
+## Which States Prefer Harris? {#sec-second-point}
+```{r}
+state_data <- prediction %>% filter(national_poll == 0)
+# Identify missing data
+missing_data_summary <- prediction %>%
+  group_by(state) %>%
+  summarize(missing_dates = sum(is.na(predicted_pct)),
+            total_dates = n())
 
-## What are the Closest Races Across States {#sec-third-point}
+print(missing_data_summary)
+
+# Plot with points for sparse data
+ggplot(prediction, aes(x = end_date, y = predicted_pct, color = state)) +
+  geom_line(na.rm = TRUE) +
+  geom_point(na.rm = TRUE) +  # Add points to show actual data entries
+  facet_wrap(~ state, scales = "free_y") +
+  labs(
+       x = "Date",
+       y = "Predicted Percentage (%)") +
+  theme_minimal() +
+  theme(legend.position = "none",
+        strip.text = element_text(size = 10))  # Increase facet label size
+
+```
+
+```{r}
+# Filter to keep only the most recent entry for each state based on 'end_date'
+filtered_data <- prediction %>%
+  filter(!is.na(state)) %>%
+  arrange(state, end_date) %>%
+  group_by(state) %>%
+  slice_tail(n = 1) %>%
+  ungroup() %>%
+  select(state, end_date, predicted_pct)
+
+# Plot the bar chart of predicted percentage for each state with pastel colors
+ggplot(filtered_data, aes(x = reorder(state, predicted_pct), y = predicted_pct, fill = state)) +
+  geom_bar(stat = "identity") +
+  geom_text(aes(label = round(predicted_pct, 1)), hjust = -0.1) + # Display values above bars
+  labs(
+    x = "Predicted %",
+    y = "State"
+  ) +
+  theme_minimal() +
+  coord_flip() + # Flip coordinates for better readability
+  scale_fill_manual(values = scales::hue_pal()(nrow(filtered_data))) + # Pastel-like palette
+  theme(legend.position = "none") # Remove legend for simplicity
+```
 
 ## Implications {#sec-implications}
 
