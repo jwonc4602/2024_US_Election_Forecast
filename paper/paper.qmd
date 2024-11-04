@@ -24,7 +24,6 @@ library(here)
 library(kableExtra)
 library(broom.mixed)
 library(knitr)
-library(kable)
 library(rstanarm)
 
 #### Read in necessary data and model ####
@@ -180,10 +179,9 @@ summary_stats <- prediction %>%
   count(pollster, name = "Count")
 
 # Display the summary statistics in a nicely formatted table
-summary_stats |>
-  kable
+summary_stats %>%
   kable() %>%
-  kable_styling(bootstrap_options = c("striped", "hover", "condensed"), full_width = F)
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed"), full_width = FALSE)
 
 ```
 
