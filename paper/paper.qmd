@@ -147,6 +147,7 @@ ggplot(prediction, aes(x = predicted_pct)) +
   labs(x = "Predicted Percentage of Support (predicted_pct)", 
        y = "Count")
 ```
+\newpage
 
 ## Predictor variables {#sec-data-predictor}
 
@@ -154,7 +155,6 @@ ggplot(prediction, aes(x = predicted_pct)) +
 
 The pollster variable was selected to consider the effect of changes in the pollster on the observed variable. The pollster variable represents the polling organization that conducted the poll. The distribution of polling counts for different pollsters in @fig-pollster suggests that the data is dominated by two pollsters: YouGov and Siena/NYT. Further analysis is needed in their polling methodology to determine potential biases. 
 
-\newpage
 
 ```{r}
 #| echo: false
@@ -225,11 +225,8 @@ summary_stats %>%
 \newpage
 ```{r}
 #| echo: false
-#| message: false
-#| warning: false
-#| label: fig-populationtype
-#| fig-cap: Distribution of population type
-#| fig-width: 5 
+#| fig-width: 5
+#| fig-height: 5
 #| fig-align: center
 
 # Plot distribution of Population Type using histogram
@@ -273,6 +270,7 @@ summary_stats %>%
 #| label: fig-recency
 #| fig-cap: Distribution of on the amount of polls collected in 30 days 
 #| fig-width: 5 
+#| fig-height: 5
 #| fig-align: center
 
 # Plot distribution of Population Type using histogram
@@ -387,6 +385,8 @@ In our model, by separating state-specific polls, we can analyze and model the p
 \newpage
 
 ```{r}
+#| label: tbl-state-missing
+#| tbl-cap: Summary of missing and total dates across key states
 #| echo: false
 #| message: false
 #| warning: false
@@ -401,6 +401,20 @@ missing_data_summary <- prediction %>%
   group_by(state) %>%
   summarize(missing_dates = sum(is.na(predicted_pct)),
             total_dates = n())
+
+# Display the summary statistics in a nicely formatted table
+missing_data_summary %>%
+  kable() %>%
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed"), full_width = F)
+
+```
+
+```{r}
+#| label: fig-state-comparison
+#| fig-cap: State-by-State comparison of predicted percentages over time
+#| echo: false
+#| message: false
+#| fig-align: center
 
 # Plot with points for sparse data
 ggplot(state_data, aes(x = end_date, y = predicted_pct, color = state, group = state)) +
@@ -420,6 +434,7 @@ ggplot(state_data, aes(x = end_date, y = predicted_pct, color = state, group = s
 #| label: fig-state-summary
 #| fig-cap: Summary of Kamala Harris' predicted popular vote by key states
 #| echo: false
+#| message: false
 #| fig-align: center
 # Filter to keep only the most recent entry for each state based on 'end_date'
 filtered_data <- prediction %>%
