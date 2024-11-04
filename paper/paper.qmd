@@ -225,6 +225,10 @@ summary_stats %>%
 \newpage
 ```{r}
 #| echo: false
+#| message: false
+#| warning: false
+#| label: fig-populationtype
+#| fig-cap: Distribution of population type
 #| fig-width: 5
 #| fig-height: 5
 #| fig-align: center
@@ -385,15 +389,13 @@ In our model, by separating state-specific polls, we can analyze and model the p
 \newpage
 
 ```{r}
-#| label: tbl-state-missing
-#| tbl-cap: Summary of missing and total dates across key states
 #| echo: false
 #| message: false
 #| warning: false
 #| label: fig-state-comparison
 #| fig-cap: State-by-State comparison of predicted percentages over time
 #| fig-align: center
-
+#| 
 state_data <- prediction %>% filter(national_poll == 0)
 
 # Identify missing data
@@ -401,20 +403,6 @@ missing_data_summary <- prediction %>%
   group_by(state) %>%
   summarize(missing_dates = sum(is.na(predicted_pct)),
             total_dates = n())
-
-# Display the summary statistics in a nicely formatted table
-missing_data_summary %>%
-  kable() %>%
-  kable_styling(bootstrap_options = c("striped", "hover", "condensed"), full_width = F)
-
-```
-
-```{r}
-#| label: fig-state-comparison
-#| fig-cap: State-by-State comparison of predicted percentages over time
-#| echo: false
-#| message: false
-#| fig-align: center
 
 # Plot with points for sparse data
 ggplot(state_data, aes(x = end_date, y = predicted_pct, color = state, group = state)) +
@@ -431,10 +419,11 @@ ggplot(state_data, aes(x = end_date, y = predicted_pct, color = state, group = s
 ```
 
 ```{r}
-#| label: fig-state-summary
-#| fig-cap: Summary of Kamala Harris' predicted popular vote by key states
 #| echo: false
 #| message: false
+#| warning: false
+#| label: fig-state-summary
+#| fig-cap: Summary of Kamala Harris' predicted popular vote by key states
 #| fig-align: center
 # Filter to keep only the most recent entry for each state based on 'end_date'
 filtered_data <- prediction %>%
