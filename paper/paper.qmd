@@ -28,9 +28,6 @@ library(rstanarm)
 
 #### Read in necessary data and model ####
 cleaned_president_polls <-read_csv(file = here("data/02-analysis_data/cleaned_president_polls.csv"), show_col_types = FALSE)
-cleaned_data_survey <- read_csv(file = here("data/02-analysis_data/national_polling.csv"), show_col_types = FALSE)
-state_polling_data <- read_csv(file = here("data/02-analysis_data/state_polling_data.csv"), show_col_types = FALSE)
-state_analysis <- read_csv(file = here("data/02-analysis_data/state_analysis.csv"), show_col_types = FALSE)
 
 harris_model <- readRDS(file = here("models/vote_for_Harris_model.rds"))
 prediction <- read_csv(file = here("data/02-analysis_data/vote_for_Harris_predictions.csv"), show_col_types = FALSE)

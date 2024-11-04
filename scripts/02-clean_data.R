@@ -70,38 +70,6 @@ cleaned_data <-
   # Remove all rows with any NA values except for the state (which is already handled)
   drop_na(pct, sample_size, candidate_name, pollster)
 
-#### Create datasets for national and state polls ####
-# National polling data
-national_polling_data <- 
-  cleaned_data |>
-  filter(national_poll == 1) |>
-  select(-state, -national_poll)
-
-# State-level polling data
-state_polling_data <- 
-  cleaned_data |>
-  filter(national_poll == 0) |>
-  select(-national_poll)
-
-
-# State-level analysis for electoral votes and close races
-state_analysis <- 
-  state_polling_data |>
-  group_by(state, candidate_name, end_date) |>
-  ungroup() |>
-  group_by(state) |>
-  # Determine who's leading in each state
-  mutate(
-    winner = candidate_name[which.max(pct)],
-    closest_race = abs(diff(range(pct)))  # The difference between the top two candidates' avg_pct
-  ) |>
-  arrange(closest_race) |>  # Sort by closest races
-  select(-candidate_name, -numeric_grade, -sample_size, -population, -start_date, -recent_poll, -pollster, - party)
-
-
 # Export cleaned datasets
 write_csv(cleaned_data, "data/02-analysis_data/cleaned_president_polls.csv")
-write_csv(national_polling_data, "data/02-analysis_data/national_polling.csv")
-write_csv(state_polling_data, "data/02-analysis_data/state_polling_data.csv")
-write_csv(state_analysis, "data/02-analysis_data/state_analysis.csv")
 
