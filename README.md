@@ -12,7 +12,7 @@ The repo is structured as:
 -   `data/01-raw_data` contains the raw data as obtained from [fivethirtyeight](https://projects.fivethirtyeight.com/polls/president-general/2024/national/).
 -   `data/02-analysis_data` contains the cleaned dataset that was constructed.
 -   `model` contains fitted generalized linear models.
--   `other` contains details about LLM chat interactions, and sketches.
+-   `other` contains sketches.
 -   `paper` contains the files used to generate the paper, including the Quarto document and reference bibliography file, as well as the PDF of the paper.
 -   `scripts` contains the R scripts used to simulate, clean, and test data. Also, the folder contains R script for data modeling.
 
