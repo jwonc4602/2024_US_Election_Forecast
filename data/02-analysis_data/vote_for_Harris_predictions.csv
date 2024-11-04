@@ -1,0 +1,312 @@
+pollster,numeric_grade,state,candidate_name,party,pct,sample_size,population,start_date,end_date,national_poll,recent_poll,predicted_pct
+Siena/NYT,3,Michigan,Kamala Harris,DEM,44,998,Voters,2024-10-29,2024-11-02,0,Recent,45.67480489231342
+Siena/NYT,3,Michigan,Kamala Harris,DEM,42,998,Voters,2024-10-29,2024-11-02,0,Recent,45.67480489231342
+Siena/NYT,3,Michigan,Kamala Harris,DEM,47,998,Voters,2024-10-29,2024-11-02,0,Recent,45.67480489231342
+Siena/NYT,3,Michigan,Kamala Harris,DEM,45,998,Voters,2024-10-29,2024-11-02,0,Recent,45.67480489231342
+Siena/NYT,3,Pennsylvania,Kamala Harris,DEM,47,1527,Voters,2024-10-29,2024-11-02,0,Recent,45.67480489231342
+Siena/NYT,3,Pennsylvania,Kamala Harris,DEM,46,1527,Voters,2024-10-29,2024-11-02,0,Recent,45.67480489231342
+Siena/NYT,3,Pennsylvania,Kamala Harris,DEM,48,1527,Voters,2024-10-29,2024-11-02,0,Recent,45.67480489231342
+Siena/NYT,3,Pennsylvania,Kamala Harris,DEM,47,1527,Voters,2024-10-29,2024-11-02,0,Recent,45.67480489231342
+Siena/NYT,3,North Carolina,Kamala Harris,DEM,48,1010,Voters,2024-10-28,2024-11-02,0,Recent,45.67480489231342
+Siena/NYT,3,North Carolina,Kamala Harris,DEM,47,1010,Voters,2024-10-28,2024-11-02,0,Recent,45.67480489231342
+Siena/NYT,3,North Carolina,Kamala Harris,DEM,48,1010,Voters,2024-10-28,2024-11-02,0,Recent,45.67480489231342
+Siena/NYT,3,North Carolina,Kamala Harris,DEM,48,1010,Voters,2024-10-28,2024-11-02,0,Recent,45.67480489231342
+Siena/NYT,3,Arizona,Kamala Harris,DEM,44,1025,Voters,2024-10-25,2024-11-02,0,Recent,45.67480489231342
+Siena/NYT,3,Arizona,Kamala Harris,DEM,42,1025,Voters,2024-10-25,2024-11-02,0,Recent,45.67480489231342
+Siena/NYT,3,Arizona,Kamala Harris,DEM,45,1025,Voters,2024-10-25,2024-11-02,0,Recent,45.67480489231342
+Siena/NYT,3,Arizona,Kamala Harris,DEM,44,1025,Voters,2024-10-25,2024-11-02,0,Recent,45.67480489231342
+Siena/NYT,3,Wisconsin,Kamala Harris,DEM,49,1305,Voters,2024-10-25,2024-11-02,0,Recent,45.67480489231342
+Siena/NYT,3,Wisconsin,Kamala Harris,DEM,48,1305,Voters,2024-10-25,2024-11-02,0,Recent,45.67480489231342
+Siena/NYT,3,Wisconsin,Kamala Harris,DEM,49,1305,Voters,2024-10-25,2024-11-02,0,Recent,45.67480489231342
+Siena/NYT,3,Wisconsin,Kamala Harris,DEM,48,1305,Voters,2024-10-25,2024-11-02,0,Recent,45.67480489231342
+Siena/NYT,3,Nevada,Kamala Harris,DEM,48,1010,Voters,2024-10-24,2024-11-02,0,Recent,45.67480489231342
+Siena/NYT,3,Nevada,Kamala Harris,DEM,47,1010,Voters,2024-10-24,2024-11-02,0,Recent,45.67480489231342
+Siena/NYT,3,Nevada,Kamala Harris,DEM,49,1010,Voters,2024-10-24,2024-11-02,0,Recent,45.67480489231342
+Siena/NYT,3,Nevada,Kamala Harris,DEM,48,1010,Voters,2024-10-24,2024-11-02,0,Recent,45.67480489231342
+Siena/NYT,3,Georgia,Kamala Harris,DEM,46,1004,Voters,2024-10-24,2024-11-01,0,Recent,45.67480489231342
+Siena/NYT,3,Georgia,Kamala Harris,DEM,44,1004,Voters,2024-10-24,2024-11-01,0,Recent,45.67480489231342
+Siena/NYT,3,Georgia,Kamala Harris,DEM,48,1004,Voters,2024-10-24,2024-11-01,0,Recent,45.67480489231342
+Siena/NYT,3,Georgia,Kamala Harris,DEM,46,1004,Voters,2024-10-24,2024-11-01,0,Recent,45.67480489231342
+YouGov,3,NA,Kamala Harris,DEM,47,1267,Voters,2024-10-29,2024-10-31,1,Recent,47.875730877343656
+YouGov,3,NA,Kamala Harris,DEM,48,1152,Voters,2024-10-29,2024-10-31,1,Recent,47.875730877343656
+YouGov,3,NA,Kamala Harris,DEM,48,1267,Voters,2024-10-29,2024-10-31,1,Recent,47.875730877343656
+YouGov,3,NA,Kamala Harris,DEM,49,1152,Voters,2024-10-29,2024-10-31,1,Recent,47.875730877343656
+YouGov,3,Arizona,Kamala Harris,DEM,47,880,Voters,2024-10-25,2024-10-31,0,Recent,47.875730877343656
+YouGov,3,Arizona,Kamala Harris,DEM,48,856,Voters,2024-10-25,2024-10-31,0,Recent,47.875730877343656
+YouGov,3,Arizona,Kamala Harris,DEM,49,880,Voters,2024-10-25,2024-10-31,0,Recent,47.875730877343656
+YouGov,3,Arizona,Kamala Harris,DEM,49,856,Voters,2024-10-25,2024-10-31,0,Recent,47.875730877343656
+YouGov,3,Georgia,Kamala Harris,DEM,46,984,Voters,2024-10-25,2024-10-31,0,Recent,47.875730877343656
+YouGov,3,Georgia,Kamala Harris,DEM,47,939,Voters,2024-10-25,2024-10-31,0,Recent,47.875730877343656
+YouGov,3,Georgia,Kamala Harris,DEM,48,984,Voters,2024-10-25,2024-10-31,0,Recent,47.875730877343656
+YouGov,3,Georgia,Kamala Harris,DEM,48,939,Voters,2024-10-25,2024-10-31,0,Recent,47.875730877343656
+YouGov,3,Michigan,Kamala Harris,DEM,47,985,Voters,2024-10-25,2024-10-31,0,Recent,47.875730877343656
+YouGov,3,Michigan,Kamala Harris,DEM,48,942,Voters,2024-10-25,2024-10-31,0,Recent,47.875730877343656
+YouGov,3,Michigan,Kamala Harris,DEM,50,985,Voters,2024-10-25,2024-10-31,0,Recent,47.875730877343656
+YouGov,3,Michigan,Kamala Harris,DEM,50,942,Voters,2024-10-25,2024-10-31,0,Recent,47.875730877343656
+YouGov,3,Nevada,Kamala Harris,DEM,48,790,Voters,2024-10-25,2024-10-31,0,Recent,47.875730877343656
+YouGov,3,Nevada,Kamala Harris,DEM,48,773,Voters,2024-10-25,2024-10-31,0,Recent,47.875730877343656
+YouGov,3,Nevada,Kamala Harris,DEM,50,790,Voters,2024-10-25,2024-10-31,0,Recent,47.875730877343656
+YouGov,3,Nevada,Kamala Harris,DEM,50,773,Voters,2024-10-25,2024-10-31,0,Recent,47.875730877343656
+YouGov,3,North Carolina,Kamala Harris,DEM,47,987,Voters,2024-10-25,2024-10-31,0,Recent,47.875730877343656
+YouGov,3,North Carolina,Kamala Harris,DEM,48,949,Voters,2024-10-25,2024-10-31,0,Recent,47.875730877343656
+YouGov,3,North Carolina,Kamala Harris,DEM,49,987,Voters,2024-10-25,2024-10-31,0,Recent,47.875730877343656
+YouGov,3,North Carolina,Kamala Harris,DEM,49,949,Voters,2024-10-25,2024-10-31,0,Recent,47.875730877343656
+YouGov,3,Pennsylvania,Kamala Harris,DEM,48,982,Voters,2024-10-25,2024-10-31,0,Recent,47.875730877343656
+YouGov,3,Pennsylvania,Kamala Harris,DEM,49,956,Voters,2024-10-25,2024-10-31,0,Recent,47.875730877343656
+YouGov,3,Pennsylvania,Kamala Harris,DEM,50,982,Voters,2024-10-25,2024-10-31,0,Recent,47.875730877343656
+YouGov,3,Pennsylvania,Kamala Harris,DEM,51,956,Voters,2024-10-25,2024-10-31,0,Recent,47.875730877343656
+YouGov,3,Wisconsin,Kamala Harris,DEM,48,889,Voters,2024-10-25,2024-10-31,0,Recent,47.875730877343656
+YouGov,3,Wisconsin,Kamala Harris,DEM,49,867,Voters,2024-10-25,2024-10-31,0,Recent,47.875730877343656
+YouGov,3,Wisconsin,Kamala Harris,DEM,51,889,Voters,2024-10-25,2024-10-31,0,Recent,47.875730877343656
+YouGov,3,Wisconsin,Kamala Harris,DEM,51,867,Voters,2024-10-25,2024-10-31,0,Recent,47.875730877343656
+The Washington Post,3,Pennsylvania,Kamala Harris,DEM,48,1204,Voters,2024-10-26,2024-10-30,0,Recent,46.76139941962046
+The Washington Post,3,Pennsylvania,Kamala Harris,DEM,48,1204,Voters,2024-10-26,2024-10-30,0,Recent,46.76139941962046
+YouGov,3,NA,Kamala Harris,DEM,47,1446,Voters,2024-10-26,2024-10-29,1,Recent,47.875730877343656
+YouGov,3,NA,Kamala Harris,DEM,49,1310,Voters,2024-10-26,2024-10-29,1,Recent,47.875730877343656
+The Washington Post,3,Michigan,Kamala Harris,DEM,47,1003,Voters,2024-10-24,2024-10-28,0,Recent,46.76139941962046
+The Washington Post,3,Michigan,Kamala Harris,DEM,45,1003,Voters,2024-10-24,2024-10-28,0,Recent,46.76139941962046
+YouGov,3,Pennsylvania,Kamala Harris,DEM,49,1273,Voters,2024-10-22,2024-10-28,0,Recent,47.875730877343656
+YouGov,3,Nebraska,Kamala Harris,DEM,40,1206,Voters,2024-10-21,2024-10-28,0,Recent,47.875730877343656
+YouGov,3,Nebraska,Kamala Harris,DEM,43,408,Voters,2024-10-21,2024-10-28,0,Recent,47.875730877343656
+YouGov,3,Nebraska,Kamala Harris,DEM,52,393,Voters,2024-10-21,2024-10-28,0,Recent,47.875730877343656
+YouGov,3,Nebraska,Kamala Harris,DEM,25,404,Voters,2024-10-21,2024-10-28,0,Recent,47.875730877343656
+Siena/NYT,3,Texas,Kamala Harris,DEM,41,1180,Voters,2024-10-23,2024-10-26,0,Recent,45.67480489231342
+Siena/NYT,3,Texas,Kamala Harris,DEM,40,1180,Voters,2024-10-23,2024-10-26,0,Recent,45.67480489231342
+Siena/NYT,3,Texas,Kamala Harris,DEM,42,1180,Voters,2024-10-23,2024-10-26,0,Recent,45.67480489231342
+Siena/NYT,3,Texas,Kamala Harris,DEM,40,1180,Voters,2024-10-23,2024-10-26,0,Recent,45.67480489231342
+Siena/NYT,3,Nebraska,Kamala Harris,DEM,40,1194,Voters,2024-10-23,2024-10-26,0,Recent,45.67480489231342
+Siena/NYT,3,Nebraska,Kamala Harris,DEM,38,1194,Voters,2024-10-23,2024-10-26,0,Recent,45.67480489231342
+Siena/NYT,3,Nebraska,Kamala Harris,DEM,40,1194,Voters,2024-10-23,2024-10-26,0,Recent,45.67480489231342
+Siena/NYT,3,Nebraska,Kamala Harris,DEM,39,1194,Voters,2024-10-23,2024-10-26,0,Recent,45.67480489231342
+Siena/NYT,3,Nebraska,Kamala Harris,DEM,54,500,Voters,2024-10-23,2024-10-26,0,Recent,45.67480489231342
+Siena/NYT,3,Nebraska,Kamala Harris,DEM,53,500,Voters,2024-10-23,2024-10-26,0,Recent,45.67480489231342
+YouGov,3,NA,Kamala Harris,DEM,50,2154,Voters,2024-10-23,2024-10-25,1,Recent,47.875730877343656
+CES / YouGov,3,NA,Kamala Harris,DEM,51,78247,Adults,2024-10-01,2024-10-25,1,Recent,48.56572649961816
+CES / YouGov,3,NA,Kamala Harris,DEM,51,48732,Voters,2024-10-01,2024-10-25,1,Recent,50.44127210306073
+CES / YouGov,3,Arizona,Kamala Harris,DEM,49,2077,Adults,2024-10-01,2024-10-25,0,Recent,48.56572649961816
+CES / YouGov,3,Arizona,Kamala Harris,DEM,47,2066,Voters,2024-10-01,2024-10-25,0,Recent,50.44127210306073
+CES / YouGov,3,Florida,Kamala Harris,DEM,47,5952,Adults,2024-10-01,2024-10-25,0,Recent,48.56572649961816
+CES / YouGov,3,Florida,Kamala Harris,DEM,46,5916,Voters,2024-10-01,2024-10-25,0,Recent,50.44127210306073
+CES / YouGov,3,Georgia,Kamala Harris,DEM,48,2682,Adults,2024-10-01,2024-10-25,0,Recent,48.56572649961816
+CES / YouGov,3,Georgia,Kamala Harris,DEM,46,2663,Voters,2024-10-01,2024-10-25,0,Recent,50.44127210306073
+CES / YouGov,3,Michigan,Kamala Harris,DEM,52,2347,Adults,2024-10-01,2024-10-25,0,Recent,48.56572649961816
+CES / YouGov,3,Michigan,Kamala Harris,DEM,51,2336,Voters,2024-10-01,2024-10-25,0,Recent,50.44127210306073
+CES / YouGov,3,Minnesota,Kamala Harris,DEM,52,1278,Adults,2024-10-01,2024-10-25,0,Recent,48.56572649961816
+CES / YouGov,3,Minnesota,Kamala Harris,DEM,53,1275,Voters,2024-10-01,2024-10-25,0,Recent,50.44127210306073
+CES / YouGov,3,Nevada,Kamala Harris,DEM,53,940,Adults,2024-10-01,2024-10-25,0,Recent,48.56572649961816
+CES / YouGov,3,Nevada,Kamala Harris,DEM,51,933,Voters,2024-10-01,2024-10-25,0,Recent,50.44127210306073
+CES / YouGov,3,New Hampshire,Kamala Harris,DEM,52,380,Adults,2024-10-01,2024-10-25,0,Recent,48.56572649961816
+CES / YouGov,3,New Hampshire,Kamala Harris,DEM,52,375,Voters,2024-10-01,2024-10-25,0,Recent,50.44127210306073
+CES / YouGov,3,North Carolina,Kamala Harris,DEM,49,2330,Adults,2024-10-01,2024-10-25,0,Recent,48.56572649961816
+CES / YouGov,3,North Carolina,Kamala Harris,DEM,48,2308,Voters,2024-10-01,2024-10-25,0,Recent,50.44127210306073
+CES / YouGov,3,Ohio,Kamala Harris,DEM,45,3120,Adults,2024-10-01,2024-10-25,0,Recent,48.56572649961816
+CES / YouGov,3,Ohio,Kamala Harris,DEM,45,3091,Voters,2024-10-01,2024-10-25,0,Recent,50.44127210306073
+CES / YouGov,3,Pennsylvania,Kamala Harris,DEM,50,3708,Adults,2024-10-01,2024-10-25,0,Recent,48.56572649961816
+CES / YouGov,3,Pennsylvania,Kamala Harris,DEM,49,3685,Voters,2024-10-01,2024-10-25,0,Recent,50.44127210306073
+CES / YouGov,3,Texas,Kamala Harris,DEM,47,6526,Adults,2024-10-01,2024-10-25,0,Recent,48.56572649961816
+CES / YouGov,3,Texas,Kamala Harris,DEM,47,6473,Voters,2024-10-01,2024-10-25,0,Recent,50.44127210306073
+CES / YouGov,3,Virginia,Kamala Harris,DEM,53,2027,Adults,2024-10-01,2024-10-25,0,Recent,48.56572649961816
+CES / YouGov,3,Virginia,Kamala Harris,DEM,52,2015,Voters,2024-10-01,2024-10-25,0,Recent,50.44127210306073
+CES / YouGov,3,Wisconsin,Kamala Harris,DEM,51,1552,Adults,2024-10-01,2024-10-25,0,Recent,48.56572649961816
+CES / YouGov,3,Wisconsin,Kamala Harris,DEM,50,1542,Voters,2024-10-01,2024-10-25,0,Recent,50.44127210306073
+Marquette Law School,3,Wisconsin,Kamala Harris,DEM,50,753,Voters,2024-10-16,2024-10-24,0,Recent,48.780632161022226
+Marquette Law School,3,Wisconsin,Kamala Harris,DEM,46,753,Voters,2024-10-16,2024-10-24,0,Recent,48.780632161022226
+Marquette Law School,3,Wisconsin,Kamala Harris,DEM,51,834,Voters,2024-10-16,2024-10-24,0,Recent,48.780632161022226
+Marquette Law School,3,Wisconsin,Kamala Harris,DEM,46,834,Voters,2024-10-16,2024-10-24,0,Recent,48.780632161022226
+Siena/NYT,3,NA,Kamala Harris,DEM,47,2516,Voters,2024-10-20,2024-10-23,1,Recent,45.67480489231342
+Siena/NYT,3,NA,Kamala Harris,DEM,45,2516,Voters,2024-10-20,2024-10-23,1,Recent,45.67480489231342
+Siena/NYT,3,NA,Kamala Harris,DEM,48,2516,Voters,2024-10-20,2024-10-23,1,Recent,45.67480489231342
+Siena/NYT,3,NA,Kamala Harris,DEM,46,2516,Voters,2024-10-20,2024-10-23,1,Recent,45.67480489231342
+YouGov,3,NA,Kamala Harris,DEM,48,1422,Voters,2024-10-19,2024-10-22,1,Recent,47.875730877343656
+YouGov,3,NA,Kamala Harris,DEM,49,1293,Voters,2024-10-19,2024-10-22,1,Recent,47.875730877343656
+YouGov,3,NA,Kamala Harris,DEM,47,1266,Voters,2024-10-18,2024-10-21,1,Recent,47.875730877343656
+YouGov,3,NA,Kamala Harris,DEM,48,1189,Voters,2024-10-18,2024-10-21,1,Recent,47.875730877343656
+YouGov,3,California,Kamala Harris,DEM,63,1139,Voters,2024-10-07,2024-10-17,0,Recent,47.875730877343656
+YouGov,3,California,Kamala Harris,DEM,63,1139,Voters,2024-10-07,2024-10-17,0,Recent,47.875730877343656
+YouGov,3,Pennsylvania,Kamala Harris,DEM,50,1062,Voters,2024-10-07,2024-10-17,0,Recent,47.875730877343656
+YouGov,3,Pennsylvania,Kamala Harris,DEM,50,1043,Voters,2024-10-07,2024-10-17,0,Recent,47.875730877343656
+YouGov,3,Florida,Kamala Harris,DEM,46,1094,Voters,2024-10-07,2024-10-17,0,Recent,47.875730877343656
+YouGov,3,Florida,Kamala Harris,DEM,46,1076,Voters,2024-10-07,2024-10-17,0,Recent,47.875730877343656
+YouGov,3,Texas,Kamala Harris,DEM,45,1108,Voters,2024-10-07,2024-10-17,0,Recent,47.875730877343656
+YouGov,3,Texas,Kamala Harris,DEM,46,1075,Voters,2024-10-07,2024-10-17,0,Recent,47.875730877343656
+YouGov,3,New York,Kamala Harris,DEM,58,1089,Voters,2024-10-07,2024-10-17,0,Recent,47.875730877343656
+YouGov,3,New York,Kamala Harris,DEM,58,1089,Voters,2024-10-07,2024-10-17,0,Recent,47.875730877343656
+YouGov,3,NA,Kamala Harris,DEM,50,1500,Voters,2024-10-07,2024-10-17,1,Recent,47.875730877343656
+YouGov,3,NA,Kamala Harris,DEM,51,1500,Voters,2024-10-07,2024-10-17,1,Recent,47.875730877343656
+YouGov,3,Arizona,Kamala Harris,DEM,48,1435,Voters,2024-10-11,2024-10-16,0,Recent,47.875730877343656
+YouGov,3,NA,Kamala Harris,DEM,48,1457,Voters,2024-10-12,2024-10-15,1,Recent,47.875730877343656
+YouGov,3,NA,Kamala Harris,DEM,49,1314,Voters,2024-10-12,2024-10-15,1,Recent,47.875730877343656
+YouGov,3,NA,Kamala Harris,DEM,51,2712,Voters,2024-10-08,2024-10-11,1,Recent,47.875730877343656
+Siena/NYT,3,Pennsylvania,Kamala Harris,DEM,50,857,Voters,2024-10-07,2024-10-10,0,Recent,45.67480489231342
+Siena/NYT,3,Pennsylvania,Kamala Harris,DEM,49,857,Voters,2024-10-07,2024-10-10,0,Recent,45.67480489231342
+Siena/NYT,3,Pennsylvania,Kamala Harris,DEM,50,857,Voters,2024-10-07,2024-10-10,0,Recent,45.67480489231342
+Siena/NYT,3,Pennsylvania,Kamala Harris,DEM,49,857,Voters,2024-10-07,2024-10-10,0,Recent,45.67480489231342
+Siena/NYT,3,Arizona,Kamala Harris,DEM,46,808,Voters,2024-10-07,2024-10-10,0,Recent,45.67480489231342
+Siena/NYT,3,Arizona,Kamala Harris,DEM,45,808,Voters,2024-10-07,2024-10-10,0,Recent,45.67480489231342
+Siena/NYT,3,Arizona,Kamala Harris,DEM,45,808,Voters,2024-10-07,2024-10-10,0,Recent,45.67480489231342
+Siena/NYT,3,Arizona,Kamala Harris,DEM,44,808,Voters,2024-10-07,2024-10-10,0,Recent,45.67480489231342
+YouGov,3,Texas,Kamala Harris,DEM,46,1091,Voters,2024-10-02,2024-10-10,0,Recent,47.875730877343656
+Marquette Law School,3,NA,Kamala Harris,DEM,50,780,Voters,2024-10-01,2024-10-10,1,Recent,48.780632161022226
+Marquette Law School,3,NA,Kamala Harris,DEM,43,780,Voters,2024-10-01,2024-10-10,1,Recent,48.780632161022226
+Marquette Law School,3,NA,Kamala Harris,DEM,50,652,Voters,2024-10-01,2024-10-10,1,Recent,48.780632161022226
+Marquette Law School,3,NA,Kamala Harris,DEM,44,652,Voters,2024-10-01,2024-10-10,1,Recent,48.780632161022226
+Siena/NYT,3,Montana,Kamala Harris,DEM,39,656,Voters,2024-10-05,2024-10-08,0,Recent,45.67480489231342
+Siena/NYT,3,Montana,Kamala Harris,DEM,38,656,Voters,2024-10-05,2024-10-08,0,Recent,45.67480489231342
+Siena/NYT,3,Montana,Kamala Harris,DEM,40,656,Voters,2024-10-05,2024-10-08,0,Recent,45.67480489231342
+Siena/NYT,3,Montana,Kamala Harris,DEM,39,656,Voters,2024-10-05,2024-10-08,0,Recent,45.67480489231342
+YouGov,3,NA,Kamala Harris,DEM,47,1414,Voters,2024-10-06,2024-10-07,1,Recent,47.875730877343656
+YouGov,3,NA,Kamala Harris,DEM,49,1230,Voters,2024-10-06,2024-10-07,1,Recent,47.875730877343656
+The Washington Post,3,Ohio,Kamala Harris,DEM,45,1002,Voters,2024-10-03,2024-10-07,0,Recent,46.76139941962046
+The Washington Post,3,Ohio,Kamala Harris,DEM,44,1002,Voters,2024-10-03,2024-10-07,0,Recent,46.76139941962046
+Siena/NYT,3,NA,Kamala Harris,DEM,49,3385,Voters,2024-09-29,2024-10-06,1,Recent,45.67480489231342
+Siena/NYT,3,NA,Kamala Harris,DEM,47,3385,Voters,2024-09-29,2024-10-06,1,Recent,45.67480489231342
+Siena/NYT,3,Florida,Kamala Harris,DEM,41,622,Voters,2024-09-29,2024-10-06,0,Recent,45.67480489231342
+Siena/NYT,3,Florida,Kamala Harris,DEM,40,622,Voters,2024-09-29,2024-10-06,0,Recent,45.67480489231342
+Siena/NYT,3,Florida,Kamala Harris,DEM,41,622,Voters,2024-09-29,2024-10-06,0,Recent,45.67480489231342
+Siena/NYT,3,Florida,Kamala Harris,DEM,40,622,Voters,2024-09-29,2024-10-06,0,Recent,45.67480489231342
+YouGov,3,NA,Kamala Harris,DEM,46,1150,Voters,2024-10-02,2024-10-04,1,Older,47.94645761929733
+YouGov,3,NA,Kamala Harris,DEM,48,1032,Voters,2024-10-02,2024-10-04,1,Older,47.94645761929733
+YouGov,3,NA,Kamala Harris,DEM,48,1151,Voters,2024-10-02,2024-10-04,1,Older,47.94645761929733
+YouGov,3,NA,Kamala Harris,DEM,49,1033,Voters,2024-10-02,2024-10-04,1,Older,47.94645761929733
+Siena/NYT,3,Texas,Kamala Harris,DEM,44,617,Voters,2024-09-29,2024-10-04,0,Older,45.74553163426734
+Siena/NYT,3,Texas,Kamala Harris,DEM,42,617,Voters,2024-09-29,2024-10-04,0,Older,45.74553163426734
+Siena/NYT,3,Texas,Kamala Harris,DEM,44,617,Voters,2024-09-29,2024-10-04,0,Older,45.74553163426734
+Siena/NYT,3,Texas,Kamala Harris,DEM,41,617,Voters,2024-09-29,2024-10-04,0,Older,45.74553163426734
+YouGov/Center for Working Class Politics,3,Pennsylvania,Kamala Harris,DEM,46.8,1000,Voters,2024-09-24,2024-10-02,0,Older,46.76032991243629
+YouGov,3,NA,Kamala Harris,DEM,48,1463,Voters,2024-09-29,2024-10-01,1,Older,47.94645761929733
+YouGov,3,NA,Kamala Harris,DEM,49,1261,Voters,2024-09-29,2024-10-01,1,Older,47.94645761929733
+The Washington Post,3,North Carolina,Kamala Harris,DEM,48,1001,Voters,2024-09-25,2024-09-29,0,Older,46.83212616157406
+The Washington Post,3,North Carolina,Kamala Harris,DEM,47,1001,Voters,2024-09-25,2024-09-29,0,Older,46.83212616157406
+McCourtney Institute/YouGov,3,NA,Kamala Harris,DEM,48,848,Voters,2024-09-23,2024-09-27,1,Older,48.01192521078921
+Siena/NYT,3,Nebraska,Kamala Harris,DEM,51,680,Voters,2024-09-24,2024-09-26,0,Older,45.74553163426734
+Siena/NYT,3,Nebraska,Kamala Harris,DEM,49,680,Voters,2024-09-24,2024-09-26,0,Older,45.74553163426734
+Siena/NYT,3,Nebraska,Kamala Harris,DEM,52,680,Voters,2024-09-24,2024-09-26,0,Older,45.74553163426734
+Siena/NYT,3,Nebraska,Kamala Harris,DEM,51,680,Voters,2024-09-24,2024-09-26,0,Older,45.74553163426734
+Siena/NYT,3,Michigan,Kamala Harris,DEM,45,688,Voters,2024-09-21,2024-09-26,0,Older,45.74553163426734
+Siena/NYT,3,Michigan,Kamala Harris,DEM,43,688,Voters,2024-09-21,2024-09-26,0,Older,45.74553163426734
+Siena/NYT,3,Michigan,Kamala Harris,DEM,48,688,Voters,2024-09-21,2024-09-26,0,Older,45.74553163426734
+Siena/NYT,3,Michigan,Kamala Harris,DEM,46,688,Voters,2024-09-21,2024-09-26,0,Older,45.74553163426734
+Siena/NYT,3,Ohio,Kamala Harris,DEM,45,687,Voters,2024-09-21,2024-09-26,0,Older,45.74553163426734
+Siena/NYT,3,Ohio,Kamala Harris,DEM,44,687,Voters,2024-09-21,2024-09-26,0,Older,45.74553163426734
+Siena/NYT,3,Ohio,Kamala Harris,DEM,44,687,Voters,2024-09-21,2024-09-26,0,Older,45.74553163426734
+Siena/NYT,3,Ohio,Kamala Harris,DEM,43,687,Voters,2024-09-21,2024-09-26,0,Older,45.74553163426734
+Siena/NYT,3,Wisconsin,Kamala Harris,DEM,49,680,Voters,2024-09-21,2024-09-26,0,Older,45.74553163426734
+Siena/NYT,3,Wisconsin,Kamala Harris,DEM,48,680,Voters,2024-09-21,2024-09-26,0,Older,45.74553163426734
+Siena/NYT,3,Wisconsin,Kamala Harris,DEM,49,680,Voters,2024-09-21,2024-09-26,0,Older,45.74553163426734
+Siena/NYT,3,Wisconsin,Kamala Harris,DEM,48,680,Voters,2024-09-21,2024-09-26,0,Older,45.74553163426734
+Marquette Law School,3,Wisconsin,Kamala Harris,DEM,52,882,Voters,2024-09-18,2024-09-26,0,Older,48.85135890297567
+Marquette Law School,3,Wisconsin,Kamala Harris,DEM,52,798,Voters,2024-09-18,2024-09-26,0,Older,48.85135890297567
+Marquette Law School,3,Wisconsin,Kamala Harris,DEM,48,882,Voters,2024-09-18,2024-09-26,0,Older,48.85135890297567
+Marquette Law School,3,Wisconsin,Kamala Harris,DEM,49,798,Voters,2024-09-18,2024-09-26,0,Older,48.85135890297567
+YouGov,3,NA,Kamala Harris,DEM,47,1424,Voters,2024-09-21,2024-09-24,1,Older,47.94645761929733
+YouGov,3,NA,Kamala Harris,DEM,49,1220,Voters,2024-09-21,2024-09-24,1,Older,47.94645761929733
+YouGov,3,Georgia,Kamala Harris,DEM,49,1441,Voters,2024-09-20,2024-09-24,0,Older,47.94645761929733
+Siena/NYT,3,Arizona,Kamala Harris,DEM,45,713,Voters,2024-09-17,2024-09-21,0,Older,45.74553163426734
+Siena/NYT,3,Arizona,Kamala Harris,DEM,45,713,Voters,2024-09-17,2024-09-21,0,Older,45.74553163426734
+Siena/NYT,3,Arizona,Kamala Harris,DEM,42,713,Voters,2024-09-17,2024-09-21,0,Older,45.74553163426734
+Siena/NYT,3,Arizona,Kamala Harris,DEM,43,713,Voters,2024-09-17,2024-09-21,0,Older,45.74553163426734
+Siena/NYT,3,Georgia,Kamala Harris,DEM,44,682,Voters,2024-09-17,2024-09-21,0,Older,45.74553163426734
+Siena/NYT,3,Georgia,Kamala Harris,DEM,45,682,Voters,2024-09-17,2024-09-21,0,Older,45.74553163426734
+Siena/NYT,3,Georgia,Kamala Harris,DEM,43,682,Voters,2024-09-17,2024-09-21,0,Older,45.74553163426734
+Siena/NYT,3,Georgia,Kamala Harris,DEM,44,682,Voters,2024-09-17,2024-09-21,0,Older,45.74553163426734
+Siena/NYT,3,North Carolina,Kamala Harris,DEM,47,682,Voters,2024-09-17,2024-09-21,0,Older,45.74553163426734
+Siena/NYT,3,North Carolina,Kamala Harris,DEM,47,682,Voters,2024-09-17,2024-09-21,0,Older,45.74553163426734
+Siena/NYT,3,North Carolina,Kamala Harris,DEM,46,682,Voters,2024-09-17,2024-09-21,0,Older,45.74553163426734
+Siena/NYT,3,North Carolina,Kamala Harris,DEM,45,682,Voters,2024-09-17,2024-09-21,0,Older,45.74553163426734
+YouGov,3,NA,Kamala Harris,DEM,52,3129,Voters,2024-09-18,2024-09-20,1,Older,47.94645761929733
+YouGov,3,NA,Kamala Harris,DEM,49,1445,Voters,2024-09-15,2024-09-17,1,Older,47.94645761929733
+The Washington Post,3,Pennsylvania,Kamala Harris,DEM,48,1003,Voters,2024-09-12,2024-09-16,0,Older,46.83212616157406
+The Washington Post,3,Pennsylvania,Kamala Harris,DEM,48,1003,Voters,2024-09-12,2024-09-16,0,Older,46.83212616157406
+Siena/NYT,3,NA,Kamala Harris,DEM,47,2437,Voters,2024-09-11,2024-09-16,1,Older,45.74553163426734
+Siena/NYT,3,NA,Kamala Harris,DEM,46,2437,Voters,2024-09-11,2024-09-16,1,Older,45.74553163426734
+Siena/NYT,3,NA,Kamala Harris,DEM,45,2437,Voters,2024-09-11,2024-09-16,1,Older,45.74553163426734
+Siena/NYT,3,NA,Kamala Harris,DEM,46,2437,Voters,2024-09-11,2024-09-16,1,Older,45.74553163426734
+Siena/NYT,3,Pennsylvania,Kamala Harris,DEM,50,1082,Voters,2024-09-11,2024-09-16,0,Older,45.74553163426734
+Siena/NYT,3,Pennsylvania,Kamala Harris,DEM,50,1082,Voters,2024-09-11,2024-09-16,0,Older,45.74553163426734
+Siena/NYT,3,Pennsylvania,Kamala Harris,DEM,48,1082,Voters,2024-09-11,2024-09-16,0,Older,45.74553163426734
+Siena/NYT,3,Pennsylvania,Kamala Harris,DEM,49,1082,Voters,2024-09-11,2024-09-16,0,Older,45.74553163426734
+YouGov,3,NA,Kamala Harris,DEM,50,1177,Voters,2024-09-11,2024-09-13,1,Older,47.94645761929733
+YouGov,3,NA,Kamala Harris,DEM,50,1090,Voters,2024-09-11,2024-09-13,1,Older,47.94645761929733
+YouGov,3,NA,Kamala Harris,DEM,48,1175,Voters,2024-09-11,2024-09-13,1,Older,47.94645761929733
+YouGov,3,NA,Kamala Harris,DEM,49,1090,Voters,2024-09-11,2024-09-13,1,Older,47.94645761929733
+YouGov,3,NA,Kamala Harris,DEM,45,1464,Voters,2024-09-08,2024-09-10,1,Older,47.94645761929733
+YouGov,3,Michigan,Kamala Harris,DEM,50,1077,Voters,2024-09-03,2024-09-06,0,Older,47.94645761929733
+YouGov,3,Pennsylvania,Kamala Harris,DEM,50,1078,Voters,2024-09-03,2024-09-06,0,Older,47.94645761929733
+YouGov,3,Wisconsin,Kamala Harris,DEM,51,946,Voters,2024-09-03,2024-09-06,0,Older,47.94645761929733
+Siena/NYT,3,NA,Kamala Harris,DEM,47,1695,Voters,2024-09-03,2024-09-06,1,Older,45.74553163426734
+Siena/NYT,3,NA,Kamala Harris,DEM,45,1695,Voters,2024-09-03,2024-09-06,1,Older,45.74553163426734
+Siena/NYT,3,NA,Kamala Harris,DEM,46,1695,Voters,2024-09-03,2024-09-06,1,Older,45.74553163426734
+Siena/NYT,3,NA,Kamala Harris,DEM,44,1695,Voters,2024-09-03,2024-09-06,1,Older,45.74553163426734
+Marquette Law School,3,Wisconsin,Kamala Harris,DEM,52,822,Voters,2024-08-28,2024-09-05,0,Older,48.85135890297567
+Marquette Law School,3,Wisconsin,Kamala Harris,DEM,52,738,Voters,2024-08-28,2024-09-05,0,Older,48.85135890297567
+Marquette Law School,3,Wisconsin,Kamala Harris,DEM,47,822,Voters,2024-08-28,2024-09-05,0,Older,48.85135890297567
+Marquette Law School,3,Wisconsin,Kamala Harris,DEM,48,738,Voters,2024-08-28,2024-09-05,0,Older,48.85135890297567
+YouGov,3,NA,Kamala Harris,DEM,47,1389,Voters,2024-09-01,2024-09-03,1,Older,47.94645761929733
+YouGov,3,Texas,Kamala Harris,DEM,44,1200,Voters,2024-08-23,2024-08-31,0,Older,47.94645761929733
+YouGov,3,Texas,Kamala Harris,DEM,44,1200,Voters,2024-08-23,2024-08-31,0,Older,47.94645761929733
+YouGov,3,NA,Kamala Harris,DEM,47,1368,Voters,2024-08-25,2024-08-27,1,Older,47.94645761929733
+YouGov,3,NA,Kamala Harris,DEM,46,1194,Voters,2024-08-22,2024-08-26,1,Older,47.94645761929733
+YouGov,3,NA,Kamala Harris,DEM,47,1197,Voters,2024-08-22,2024-08-26,1,Older,47.94645761929733
+YouGov,3,NA,Kamala Harris,DEM,39,1788,Adults,2024-08-22,2024-08-26,1,Older,46.070912015854624
+YouGov,3,NA,Kamala Harris,DEM,44,1200,Voters,2024-08-22,2024-08-26,1,Older,47.94645761929733
+YouGov,3,Pennsylvania,Kamala Harris,DEM,43,500,Adults,2024-08-15,2024-08-23,0,Older,46.070912015854624
+YouGov,3,Pennsylvania,Kamala Harris,DEM,43,500,Adults,2024-08-15,2024-08-23,0,Older,46.070912015854624
+YouGov,3,Wisconsin,Kamala Harris,DEM,48,500,Adults,2024-08-15,2024-08-23,0,Older,46.070912015854624
+YouGov,3,Wisconsin,Kamala Harris,DEM,45,500,Adults,2024-08-15,2024-08-23,0,Older,46.070912015854624
+YouGov,3,Michigan,Kamala Harris,DEM,44,500,Adults,2024-08-15,2024-08-23,0,Older,46.070912015854624
+YouGov,3,Michigan,Kamala Harris,DEM,44,500,Adults,2024-08-15,2024-08-23,0,Older,46.070912015854624
+YouGov,3,NA,Kamala Harris,DEM,44,1835,Adults,2024-08-15,2024-08-22,1,Older,46.070912015854624
+YouGov,3,NA,Kamala Harris,DEM,46,1371,Voters,2024-08-17,2024-08-20,1,Older,47.94645761929733
+YouGov,3,NA,Kamala Harris,DEM,51,3253,Voters,2024-08-14,2024-08-16,1,Older,47.94645761929733
+YouGov,3,NA,Kamala Harris,DEM,49,3253,Voters,2024-08-14,2024-08-16,1,Older,47.94645761929733
+YouGov,3,Missouri,Kamala Harris,DEM,41,900,Voters,2024-08-08,2024-08-16,0,Older,47.94645761929733
+Siena/NYT,3,Nevada,Kamala Harris,DEM,46,677,Voters,2024-08-12,2024-08-15,0,Older,45.74553163426734
+Siena/NYT,3,Nevada,Kamala Harris,DEM,47,677,Voters,2024-08-12,2024-08-15,0,Older,45.74553163426734
+Siena/NYT,3,Nevada,Kamala Harris,DEM,42,677,Voters,2024-08-12,2024-08-15,0,Older,45.74553163426734
+Siena/NYT,3,Nevada,Kamala Harris,DEM,44,677,Voters,2024-08-12,2024-08-15,0,Older,45.74553163426734
+Siena/NYT,3,Arizona,Kamala Harris,DEM,49,677,Voters,2024-08-08,2024-08-15,0,Older,45.74553163426734
+Siena/NYT,3,Arizona,Kamala Harris,DEM,50,677,Voters,2024-08-08,2024-08-15,0,Older,45.74553163426734
+Siena/NYT,3,Arizona,Kamala Harris,DEM,45,677,Voters,2024-08-08,2024-08-15,0,Older,45.74553163426734
+Siena/NYT,3,Arizona,Kamala Harris,DEM,47,677,Voters,2024-08-08,2024-08-15,0,Older,45.74553163426734
+Siena/NYT,3,North Carolina,Kamala Harris,DEM,49,655,Voters,2024-08-09,2024-08-14,0,Older,45.74553163426734
+Siena/NYT,3,North Carolina,Kamala Harris,DEM,49,655,Voters,2024-08-09,2024-08-14,0,Older,45.74553163426734
+Siena/NYT,3,North Carolina,Kamala Harris,DEM,45,655,Voters,2024-08-09,2024-08-14,0,Older,45.74553163426734
+Siena/NYT,3,North Carolina,Kamala Harris,DEM,46,655,Voters,2024-08-09,2024-08-14,0,Older,45.74553163426734
+Siena/NYT,3,Georgia,Kamala Harris,DEM,44,661,Voters,2024-08-09,2024-08-14,0,Older,45.74553163426734
+Siena/NYT,3,Georgia,Kamala Harris,DEM,46,661,Voters,2024-08-09,2024-08-14,0,Older,45.74553163426734
+Siena/NYT,3,Georgia,Kamala Harris,DEM,41,661,Voters,2024-08-09,2024-08-14,0,Older,45.74553163426734
+Siena/NYT,3,Georgia,Kamala Harris,DEM,44,661,Voters,2024-08-09,2024-08-14,0,Older,45.74553163426734
+YouGov,3,NA,Kamala Harris,DEM,46,1407,Voters,2024-08-11,2024-08-13,1,Older,47.94645761929733
+Siena/NYT,3,Pennsylvania,Kamala Harris,DEM,49,693,Voters,2024-08-06,2024-08-09,0,Older,45.74553163426734
+Siena/NYT,3,Pennsylvania,Kamala Harris,DEM,50,693,Voters,2024-08-06,2024-08-09,0,Older,45.74553163426734
+Siena/NYT,3,Pennsylvania,Kamala Harris,DEM,45,693,Voters,2024-08-06,2024-08-09,0,Older,45.74553163426734
+Siena/NYT,3,Pennsylvania,Kamala Harris,DEM,46,693,Voters,2024-08-06,2024-08-09,0,Older,45.74553163426734
+YouGov Blue,3,North Carolina,Kamala Harris,DEM,46,802,Voters,2024-08-05,2024-08-09,0,Older,45.96973686627887
+Siena/NYT,3,Michigan,Kamala Harris,DEM,45,619,Voters,2024-08-05,2024-08-08,0,Older,45.74553163426734
+Siena/NYT,3,Michigan,Kamala Harris,DEM,50,619,Voters,2024-08-05,2024-08-08,0,Older,45.74553163426734
+Siena/NYT,3,Michigan,Kamala Harris,DEM,44,619,Voters,2024-08-05,2024-08-08,0,Older,45.74553163426734
+Siena/NYT,3,Michigan,Kamala Harris,DEM,48,619,Voters,2024-08-05,2024-08-08,0,Older,45.74553163426734
+Siena/NYT,3,Wisconsin,Kamala Harris,DEM,50,661,Voters,2024-08-05,2024-08-08,0,Older,45.74553163426734
+Siena/NYT,3,Wisconsin,Kamala Harris,DEM,50,661,Voters,2024-08-05,2024-08-08,0,Older,45.74553163426734
+Siena/NYT,3,Wisconsin,Kamala Harris,DEM,49,661,Voters,2024-08-05,2024-08-08,0,Older,45.74553163426734
+Siena/NYT,3,Wisconsin,Kamala Harris,DEM,49,661,Voters,2024-08-05,2024-08-08,0,Older,45.74553163426734
+YouGov,3,NA,Kamala Harris,DEM,45,1413,Voters,2024-08-04,2024-08-06,1,Older,47.94645761929733
+YouGov,3,NA,Kamala Harris,DEM,50,3092,Voters,2024-07-30,2024-08-02,1,Older,47.94645761929733
+YouGov,3,NA,Kamala Harris,DEM,49,3092,Voters,2024-07-30,2024-08-02,1,Older,47.94645761929733
+Marquette Law School,3,Wisconsin,Kamala Harris,DEM,49,877,Voters,2024-07-24,2024-08-01,0,Older,48.85135890297567
+Marquette Law School,3,Wisconsin,Kamala Harris,DEM,50,801,Voters,2024-07-24,2024-08-01,0,Older,48.85135890297567
+Marquette Law School,3,Wisconsin,Kamala Harris,DEM,45,877,Voters,2024-07-24,2024-08-01,0,Older,48.85135890297567
+Marquette Law School,3,Wisconsin,Kamala Harris,DEM,46,801,Voters,2024-07-24,2024-08-01,0,Older,48.85135890297567
+Marquette Law School,3,NA,Kamala Harris,DEM,52,879,Voters,2024-07-24,2024-08-01,1,Older,48.85135890297567
+Marquette Law School,3,NA,Kamala Harris,DEM,53,683,Voters,2024-07-24,2024-08-01,1,Older,48.85135890297567
+Marquette Law School,3,NA,Kamala Harris,DEM,47,879,Voters,2024-07-24,2024-08-01,1,Older,48.85135890297567
+Marquette Law School,3,NA,Kamala Harris,DEM,50,683,Voters,2024-07-24,2024-08-01,1,Older,48.85135890297567
+YouGov,3,NA,Kamala Harris,DEM,46,1434,Voters,2024-07-27,2024-07-30,1,Older,47.94645761929733
+Siena/NYT,3,NA,Kamala Harris,DEM,46,1142,Voters,2024-07-22,2024-07-24,1,Older,45.74553163426734
+Siena/NYT,3,NA,Kamala Harris,DEM,47,1142,Voters,2024-07-22,2024-07-24,1,Older,45.74553163426734
+Siena/NYT,3,NA,Kamala Harris,DEM,42,1142,Voters,2024-07-22,2024-07-24,1,Older,45.74553163426734
+Siena/NYT,3,NA,Kamala Harris,DEM,44,1142,Voters,2024-07-22,2024-07-24,1,Older,45.74553163426734
+YouGov,3,NA,Kamala Harris,DEM,44,1155,Voters,2024-07-22,2024-07-23,1,Older,47.94645761929733
+YouGov,3,NA,Kamala Harris,DEM,41,1435,Voters,2024-07-21,2024-07-23,1,Older,47.94645761929733
+YouGov,3,NA,Kamala Harris,DEM,41,1178,Voters,2024-07-19,2024-07-22,1,Older,47.94645761929733
+YouGov,3,NA,Kamala Harris,DEM,46,1178,Voters,2024-07-19,2024-07-22,1,Older,47.94645761929733

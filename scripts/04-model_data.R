@@ -12,21 +12,22 @@ library(rstanarm)
 
 #### Read data ####
 # Load the cleaned data for modeling
-national_data <- read_csv("data/02-analysis_data/national_polling.csv")
+cleaned_president_polls <- read_csv("data/02-analysis_data/cleaned_president_polls.csv")
+state_data <- read_csv("data/02-analysis_data/state_polling_data.csv")
 
 #### Data filtering ####
 # Filter data to Harris estimates based on high-quality polls after she declared
-filtered_national_data <- national_data |>
+filtered_data <- cleaned_president_polls |>
   filter(
     candidate_name == "Kamala Harris",
-    numeric_grade >= 2.7
+    numeric_grade >= 3.0
   ) |>
   filter(end_date >= as.Date("2024-07-21")) # When Harris declared
 
-#### Model 1: Popular Vote Prediction ####
-popular_vote_model <- stan_glm(
+#### Model: Vote Prediction ####
+vote_for_Harris <- stan_glm(
   formula = pct ~ pollster + population + recent_poll,
-  data = filtered_national_data,
+  data = filtered_data,
   family = gaussian(),
   prior = normal(location = 0, scale = 2.5, autoscale = TRUE),
   prior_intercept = normal(location = 0, scale = 2.5, autoscale = TRUE),
@@ -37,16 +38,16 @@ popular_vote_model <- stan_glm(
 )
 
 # Summarize and save the popular vote model
-summary(popular_vote_model)
-write_rds(popular_vote_model, "models/vote_for_Harris_model.rds")
-
+summary(vote_for_Harris)
+write_rds(vote_for_Harris, "models/vote_for_Harris_model.rds")
 
 #### Predictions: Popular Vote ####
-# Predicting the popular vote percentages for each candidate
-popular_vote_prediction <- predict(popular_vote_model, newdata = filtered_national_data)
-filtered_national_data <- filtered_national_data |>
+# Predicting the popular vote percentages
+popular_vote_prediction <- predict(vote_for_Harris, newdata = filtered_data)
+filtered_data <- filtered_data |>
   mutate(predicted_pct = popular_vote_prediction)
 
-# Save popular vote predictions
-write_csv(filtered_national_data, "data/02-analysis_data/popular_vote_predictions.csv")
+
+# Save predictions
+write_csv(filtered_data, "data/02-analysis_data/vote_for_Harris_predictions.csv")
 

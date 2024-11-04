@@ -1,12 +1,434 @@
 pollster,numeric_grade,state,candidate_name,party,pct,sample_size,population,start_date,end_date,national_poll,recent_poll
+Patriot Polling,1.1,NA,Kamala Harris,DEM,49.4,1115,Voters,2024-11-01,2024-11-03,1,Recent
+Patriot Polling,1.1,NA,Donald Trump,REP,48.1,1115,Voters,2024-11-01,2024-11-03,1,Recent
+Patriot Polling,1.1,Pennsylvania,Kamala Harris,DEM,48.7,903,Voters,2024-11-01,2024-11-03,0,Recent
+Patriot Polling,1.1,Pennsylvania,Donald Trump,REP,49.6,903,Voters,2024-11-01,2024-11-03,0,Recent
+Patriot Polling,1.1,Michigan,Kamala Harris,DEM,49.2,858,Voters,2024-11-01,2024-11-03,0,Recent
+Patriot Polling,1.1,Michigan,Donald Trump,REP,48.5,858,Voters,2024-11-01,2024-11-03,0,Recent
+Patriot Polling,1.1,Wisconsin,Kamala Harris,DEM,49,835,Voters,2024-11-01,2024-11-03,0,Recent
+Patriot Polling,1.1,Wisconsin,Donald Trump,REP,48.7,835,Voters,2024-11-01,2024-11-03,0,Recent
+Patriot Polling,1.1,North Carolina,Kamala Harris,DEM,48.9,799,Voters,2024-11-01,2024-11-03,0,Recent
+Patriot Polling,1.1,North Carolina,Donald Trump,REP,50.5,799,Voters,2024-11-01,2024-11-03,0,Recent
+Patriot Polling,1.1,Georgia,Kamala Harris,DEM,48.6,818,Voters,2024-11-01,2024-11-03,0,Recent
+Patriot Polling,1.1,Georgia,Donald Trump,REP,50.4,818,Voters,2024-11-01,2024-11-03,0,Recent
+Patriot Polling,1.1,Arizona,Kamala Harris,DEM,47.6,801,Voters,2024-11-01,2024-11-03,0,Recent
+Patriot Polling,1.1,Arizona,Donald Trump,REP,51.1,801,Voters,2024-11-01,2024-11-03,0,Recent
+Patriot Polling,1.1,Nevada,Kamala Harris,DEM,49.4,792,Voters,2024-11-01,2024-11-03,0,Recent
+Patriot Polling,1.1,Nevada,Donald Trump,REP,49.5,792,Voters,2024-11-01,2024-11-03,0,Recent
+Trafalgar Group,0.7,Pennsylvania,Kamala Harris,DEM,46.7,1089,Voters,2024-11-01,2024-11-03,0,Recent
+Trafalgar Group,0.7,Pennsylvania,Donald Trump,REP,48.4,1089,Voters,2024-11-01,2024-11-03,0,Recent
+Trafalgar Group,0.7,Wisconsin,Kamala Harris,DEM,48.2,1086,Voters,2024-11-01,2024-11-03,0,Recent
+Trafalgar Group,0.7,Wisconsin,Donald Trump,REP,47,1086,Voters,2024-11-01,2024-11-03,0,Recent
+Trafalgar Group,0.7,Michigan,Kamala Harris,DEM,47.4,1079,Voters,2024-11-01,2024-11-03,0,Recent
+Trafalgar Group,0.7,Michigan,Donald Trump,REP,47.8,1079,Voters,2024-11-01,2024-11-03,0,Recent
+Leger,2,NA,Kamala Harris,DEM,49,950,Voters,2024-10-31,2024-11-03,1,Recent
+Leger,2,NA,Donald Trump,REP,49,950,Voters,2024-10-31,2024-11-03,1,Recent
+Emerson,2.9,Iowa,Kamala Harris,DEM,44.8,800,Voters,2024-11-01,2024-11-02,0,Recent
+Emerson,2.9,Iowa,Donald Trump,REP,53.9,800,Voters,2024-11-01,2024-11-02,0,Recent
+AtlasIntel,2.7,NA,Kamala Harris,DEM,47.2,2463,Voters,2024-11-01,2024-11-02,1,Recent
+AtlasIntel,2.7,NA,Donald Trump,REP,49,2463,Voters,2024-11-01,2024-11-02,1,Recent
+AtlasIntel,2.7,NA,Kamala Harris,DEM,48.3,2463,Voters,2024-11-01,2024-11-02,1,Recent
+AtlasIntel,2.7,NA,Donald Trump,REP,49.8,2463,Voters,2024-11-01,2024-11-02,1,Recent
+AtlasIntel,2.7,Arizona,Kamala Harris,DEM,45.1,967,Voters,2024-11-01,2024-11-02,0,Recent
+AtlasIntel,2.7,Arizona,Donald Trump,REP,51.9,967,Voters,2024-11-01,2024-11-02,0,Recent
+AtlasIntel,2.7,Arizona,Kamala Harris,DEM,45.8,967,Voters,2024-11-01,2024-11-02,0,Recent
+AtlasIntel,2.7,Arizona,Donald Trump,REP,52.3,967,Voters,2024-11-01,2024-11-02,0,Recent
+AtlasIntel,2.7,Georgia,Kamala Harris,DEM,46.8,1174,Voters,2024-11-01,2024-11-02,0,Recent
+AtlasIntel,2.7,Georgia,Donald Trump,REP,48.6,1174,Voters,2024-11-01,2024-11-02,0,Recent
+AtlasIntel,2.7,Georgia,Kamala Harris,DEM,47.6,1174,Voters,2024-11-01,2024-11-02,0,Recent
+AtlasIntel,2.7,Georgia,Donald Trump,REP,50.1,1174,Voters,2024-11-01,2024-11-02,0,Recent
+AtlasIntel,2.7,Michigan,Kamala Harris,DEM,47.8,1198,Voters,2024-11-01,2024-11-02,0,Recent
+AtlasIntel,2.7,Michigan,Donald Trump,REP,49.3,1198,Voters,2024-11-01,2024-11-02,0,Recent
+AtlasIntel,2.7,Michigan,Kamala Harris,DEM,48.2,1198,Voters,2024-11-01,2024-11-02,0,Recent
+AtlasIntel,2.7,Michigan,Donald Trump,REP,49.7,1198,Voters,2024-11-01,2024-11-02,0,Recent
+AtlasIntel,2.7,Wisconsin,Kamala Harris,DEM,48,728,Voters,2024-11-01,2024-11-02,0,Recent
+AtlasIntel,2.7,Wisconsin,Donald Trump,REP,49.3,728,Voters,2024-11-01,2024-11-02,0,Recent
+AtlasIntel,2.7,Wisconsin,Kamala Harris,DEM,48.6,728,Voters,2024-11-01,2024-11-02,0,Recent
+AtlasIntel,2.7,Wisconsin,Donald Trump,REP,49.6,728,Voters,2024-11-01,2024-11-02,0,Recent
+AtlasIntel,2.7,Pennsylvania,Kamala Harris,DEM,47.4,2049,Voters,2024-11-01,2024-11-02,0,Recent
+AtlasIntel,2.7,Pennsylvania,Donald Trump,REP,49.1,2049,Voters,2024-11-01,2024-11-02,0,Recent
+AtlasIntel,2.7,Pennsylvania,Kamala Harris,DEM,47.8,2049,Voters,2024-11-01,2024-11-02,0,Recent
+AtlasIntel,2.7,Pennsylvania,Donald Trump,REP,49.6,2049,Voters,2024-11-01,2024-11-02,0,Recent
+AtlasIntel,2.7,North Carolina,Kamala Harris,DEM,46.8,1310,Voters,2024-11-01,2024-11-02,0,Recent
+AtlasIntel,2.7,North Carolina,Donald Trump,REP,50.4,1310,Voters,2024-11-01,2024-11-02,0,Recent
+AtlasIntel,2.7,North Carolina,Kamala Harris,DEM,47.1,1310,Voters,2024-11-01,2024-11-02,0,Recent
+AtlasIntel,2.7,North Carolina,Donald Trump,REP,50.5,1310,Voters,2024-11-01,2024-11-02,0,Recent
+AtlasIntel,2.7,Nevada,Kamala Harris,DEM,45.9,782,Voters,2024-11-01,2024-11-02,0,Recent
+AtlasIntel,2.7,Nevada,Donald Trump,REP,51.4,782,Voters,2024-11-01,2024-11-02,0,Recent
+AtlasIntel,2.7,Nevada,Kamala Harris,DEM,46,782,Voters,2024-11-01,2024-11-02,0,Recent
+AtlasIntel,2.7,Nevada,Donald Trump,REP,51.5,782,Voters,2024-11-01,2024-11-02,0,Recent
+InsiderAdvantage,2,Arizona,Kamala Harris,DEM,46,800,Voters,2024-11-01,2024-11-02,0,Recent
+InsiderAdvantage,2,Arizona,Donald Trump,REP,49,800,Voters,2024-11-01,2024-11-02,0,Recent
+InsiderAdvantage,2,Michigan,Kamala Harris,DEM,47,800,Voters,2024-11-01,2024-11-02,0,Recent
+InsiderAdvantage,2,Michigan,Donald Trump,REP,47,800,Voters,2024-11-01,2024-11-02,0,Recent
+InsiderAdvantage,2,Wisconsin,Kamala Harris,DEM,48,800,Voters,2024-11-01,2024-11-02,0,Recent
+InsiderAdvantage,2,Wisconsin,Donald Trump,REP,49,800,Voters,2024-11-01,2024-11-02,0,Recent
+InsiderAdvantage,2,Pennsylvania,Kamala Harris,DEM,48,800,Voters,2024-11-01,2024-11-02,0,Recent
+InsiderAdvantage,2,Pennsylvania,Donald Trump,REP,49,800,Voters,2024-11-01,2024-11-02,0,Recent
+InsiderAdvantage,2,North Carolina,Kamala Harris,DEM,47,800,Voters,2024-11-01,2024-11-02,0,Recent
+InsiderAdvantage,2,North Carolina,Donald Trump,REP,49,800,Voters,2024-11-01,2024-11-02,0,Recent
+TIPP,1.8,NA,Kamala Harris,DEM,48,1305,Voters,2024-10-31,2024-11-02,1,Recent
+TIPP,1.8,NA,Donald Trump,REP,49,1305,Voters,2024-10-31,2024-11-02,1,Recent
+TIPP,1.8,NA,Kamala Harris,DEM,47.6,1305,Voters,2024-10-31,2024-11-02,1,Recent
+TIPP,1.8,NA,Donald Trump,REP,48.6,1305,Voters,2024-10-31,2024-11-02,1,Recent
+Emerson,2.9,NA,Kamala Harris,DEM,49.4,1000,Voters,2024-10-30,2024-11-02,1,Recent
+Emerson,2.9,NA,Donald Trump,REP,49.2,1000,Voters,2024-10-30,2024-11-02,1,Recent
+Hart/POS,2.6,NA,Kamala Harris,DEM,46,1000,Voters,2024-10-30,2024-11-02,1,Recent
+Hart/POS,2.6,NA,Donald Trump,REP,47,1000,Voters,2024-10-30,2024-11-02,1,Recent
+Hart/POS,2.6,NA,Kamala Harris,DEM,49,1000,Voters,2024-10-30,2024-11-02,1,Recent
+Hart/POS,2.6,NA,Donald Trump,REP,49,1000,Voters,2024-10-30,2024-11-02,1,Recent
+Siena/NYT,3,Michigan,Kamala Harris,DEM,44,998,Voters,2024-10-29,2024-11-02,0,Recent
+Siena/NYT,3,Michigan,Donald Trump,REP,47,998,Voters,2024-10-29,2024-11-02,0,Recent
+Siena/NYT,3,Michigan,Kamala Harris,DEM,42,998,Voters,2024-10-29,2024-11-02,0,Recent
+Siena/NYT,3,Michigan,Donald Trump,REP,44,998,Voters,2024-10-29,2024-11-02,0,Recent
+Siena/NYT,3,Michigan,Kamala Harris,DEM,47,998,Voters,2024-10-29,2024-11-02,0,Recent
+Siena/NYT,3,Michigan,Donald Trump,REP,47,998,Voters,2024-10-29,2024-11-02,0,Recent
+Siena/NYT,3,Michigan,Kamala Harris,DEM,45,998,Voters,2024-10-29,2024-11-02,0,Recent
+Siena/NYT,3,Michigan,Donald Trump,REP,45,998,Voters,2024-10-29,2024-11-02,0,Recent
+Siena/NYT,3,Pennsylvania,Kamala Harris,DEM,47,1527,Voters,2024-10-29,2024-11-02,0,Recent
+Siena/NYT,3,Pennsylvania,Donald Trump,REP,48,1527,Voters,2024-10-29,2024-11-02,0,Recent
+Siena/NYT,3,Pennsylvania,Kamala Harris,DEM,46,1527,Voters,2024-10-29,2024-11-02,0,Recent
+Siena/NYT,3,Pennsylvania,Donald Trump,REP,47,1527,Voters,2024-10-29,2024-11-02,0,Recent
+Siena/NYT,3,Pennsylvania,Kamala Harris,DEM,48,1527,Voters,2024-10-29,2024-11-02,0,Recent
+Siena/NYT,3,Pennsylvania,Donald Trump,REP,48,1527,Voters,2024-10-29,2024-11-02,0,Recent
+Siena/NYT,3,Pennsylvania,Kamala Harris,DEM,47,1527,Voters,2024-10-29,2024-11-02,0,Recent
+Siena/NYT,3,Pennsylvania,Donald Trump,REP,47,1527,Voters,2024-10-29,2024-11-02,0,Recent
+U. New Hampshire,2.6,New Hampshire,Kamala Harris,DEM,51,2814,Voters,2024-10-29,2024-11-02,0,Recent
+U. New Hampshire,2.6,New Hampshire,Donald Trump,REP,46,2814,Voters,2024-10-29,2024-11-02,0,Recent
+U. New Hampshire,2.6,Maine,Kamala Harris,DEM,52,1485,Voters,2024-10-29,2024-11-02,0,Recent
+U. New Hampshire,2.6,Maine,Donald Trump,REP,41,1485,Voters,2024-10-29,2024-11-02,0,Recent
+U. New Hampshire,2.6,Massachusetts,Kamala Harris,DEM,60,744,Voters,2024-10-29,2024-11-02,0,Recent
+U. New Hampshire,2.6,Massachusetts,Donald Trump,REP,34,744,Voters,2024-10-29,2024-11-02,0,Recent
+U. New Hampshire,2.6,Rhode Island,Kamala Harris,DEM,54,708,Voters,2024-10-29,2024-11-02,0,Recent
+U. New Hampshire,2.6,Rhode Island,Donald Trump,REP,40,708,Voters,2024-10-29,2024-11-02,0,Recent
+U. New Hampshire,2.6,Vermont,Kamala Harris,DEM,63,1167,Voters,2024-10-29,2024-11-02,0,Recent
+U. New Hampshire,2.6,Vermont,Donald Trump,REP,31,1167,Voters,2024-10-29,2024-11-02,0,Recent
+U. New Hampshire,2.6,Maine,Kamala Harris,DEM,60,801,Voters,2024-10-29,2024-11-02,0,Recent
+U. New Hampshire,2.6,Maine,Donald Trump,REP,36,801,Voters,2024-10-29,2024-11-02,0,Recent
+U. New Hampshire,2.6,Maine,Kamala Harris,DEM,44,683,Voters,2024-10-29,2024-11-02,0,Recent
+U. New Hampshire,2.6,Maine,Donald Trump,REP,48,683,Voters,2024-10-29,2024-11-02,0,Recent
+Mitchell,2.4,Michigan,Kamala Harris,DEM,49,585,Voters,2024-10-29,2024-11-02,0,Recent
+Mitchell,2.4,Michigan,Donald Trump,REP,48,585,Voters,2024-10-29,2024-11-02,0,Recent
+Mitchell,2.4,Michigan,Kamala Harris,DEM,50,585,Voters,2024-10-29,2024-11-02,0,Recent
+Mitchell,2.4,Michigan,Donald Trump,REP,48,585,Voters,2024-10-29,2024-11-02,0,Recent
+Siena/NYT,3,North Carolina,Kamala Harris,DEM,48,1010,Voters,2024-10-28,2024-11-02,0,Recent
+Siena/NYT,3,North Carolina,Donald Trump,REP,44,1010,Voters,2024-10-28,2024-11-02,0,Recent
+Siena/NYT,3,North Carolina,Kamala Harris,DEM,47,1010,Voters,2024-10-28,2024-11-02,0,Recent
+Siena/NYT,3,North Carolina,Donald Trump,REP,43,1010,Voters,2024-10-28,2024-11-02,0,Recent
+Siena/NYT,3,North Carolina,Kamala Harris,DEM,48,1010,Voters,2024-10-28,2024-11-02,0,Recent
+Siena/NYT,3,North Carolina,Donald Trump,REP,46,1010,Voters,2024-10-28,2024-11-02,0,Recent
+Siena/NYT,3,North Carolina,Kamala Harris,DEM,48,1010,Voters,2024-10-28,2024-11-02,0,Recent
+Siena/NYT,3,North Carolina,Donald Trump,REP,45,1010,Voters,2024-10-28,2024-11-02,0,Recent
+Siena/NYT,3,Arizona,Kamala Harris,DEM,44,1025,Voters,2024-10-25,2024-11-02,0,Recent
+Siena/NYT,3,Arizona,Donald Trump,REP,48,1025,Voters,2024-10-25,2024-11-02,0,Recent
+Siena/NYT,3,Arizona,Kamala Harris,DEM,42,1025,Voters,2024-10-25,2024-11-02,0,Recent
+Siena/NYT,3,Arizona,Donald Trump,REP,47,1025,Voters,2024-10-25,2024-11-02,0,Recent
+Siena/NYT,3,Arizona,Kamala Harris,DEM,45,1025,Voters,2024-10-25,2024-11-02,0,Recent
+Siena/NYT,3,Arizona,Donald Trump,REP,49,1025,Voters,2024-10-25,2024-11-02,0,Recent
+Siena/NYT,3,Arizona,Kamala Harris,DEM,44,1025,Voters,2024-10-25,2024-11-02,0,Recent
+Siena/NYT,3,Arizona,Donald Trump,REP,48,1025,Voters,2024-10-25,2024-11-02,0,Recent
+Siena/NYT,3,Wisconsin,Kamala Harris,DEM,49,1305,Voters,2024-10-25,2024-11-02,0,Recent
+Siena/NYT,3,Wisconsin,Donald Trump,REP,47,1305,Voters,2024-10-25,2024-11-02,0,Recent
+Siena/NYT,3,Wisconsin,Kamala Harris,DEM,48,1305,Voters,2024-10-25,2024-11-02,0,Recent
+Siena/NYT,3,Wisconsin,Donald Trump,REP,45,1305,Voters,2024-10-25,2024-11-02,0,Recent
+Siena/NYT,3,Wisconsin,Kamala Harris,DEM,49,1305,Voters,2024-10-25,2024-11-02,0,Recent
+Siena/NYT,3,Wisconsin,Donald Trump,REP,47,1305,Voters,2024-10-25,2024-11-02,0,Recent
+Siena/NYT,3,Wisconsin,Kamala Harris,DEM,48,1305,Voters,2024-10-25,2024-11-02,0,Recent
+Siena/NYT,3,Wisconsin,Donald Trump,REP,45,1305,Voters,2024-10-25,2024-11-02,0,Recent
+Siena/NYT,3,Nevada,Kamala Harris,DEM,48,1010,Voters,2024-10-24,2024-11-02,0,Recent
+Siena/NYT,3,Nevada,Donald Trump,REP,46,1010,Voters,2024-10-24,2024-11-02,0,Recent
+Siena/NYT,3,Nevada,Kamala Harris,DEM,47,1010,Voters,2024-10-24,2024-11-02,0,Recent
+Siena/NYT,3,Nevada,Donald Trump,REP,44,1010,Voters,2024-10-24,2024-11-02,0,Recent
+Siena/NYT,3,Nevada,Kamala Harris,DEM,49,1010,Voters,2024-10-24,2024-11-02,0,Recent
+Siena/NYT,3,Nevada,Donald Trump,REP,46,1010,Voters,2024-10-24,2024-11-02,0,Recent
+Siena/NYT,3,Nevada,Kamala Harris,DEM,48,1010,Voters,2024-10-24,2024-11-02,0,Recent
+Siena/NYT,3,Nevada,Donald Trump,REP,46,1010,Voters,2024-10-24,2024-11-02,0,Recent
+MassINC Polling Group,2.8,Massachusetts,Kamala Harris,DEM,61,582,Voters,2024-10-29,2024-11-01,0,Recent
+MassINC Polling Group,2.8,Massachusetts,Donald Trump,REP,31,582,Voters,2024-10-29,2024-11-01,0,Recent
+Ipsos,2.8,NA,Kamala Harris,DEM,49,3140,Adults,2024-10-29,2024-11-01,1,Recent
+Ipsos,2.8,NA,Donald Trump,REP,46,3140,Adults,2024-10-29,2024-11-01,1,Recent
+Ipsos,2.8,NA,Kamala Harris,DEM,49,2735,Voters,2024-10-29,2024-11-01,1,Recent
+Ipsos,2.8,NA,Donald Trump,REP,46,2735,Voters,2024-10-29,2024-11-01,1,Recent
+Ipsos,2.8,NA,Kamala Harris,DEM,49,2267,Voters,2024-10-29,2024-11-01,1,Recent
+Ipsos,2.8,NA,Donald Trump,REP,46,2267,Voters,2024-10-29,2024-11-01,1,Recent
+Stetson University Center for Public Opinion Research,1.5,Florida,Kamala Harris,DEM,46,452,Voters,2024-10-25,2024-11-01,0,Recent
+Stetson University Center for Public Opinion Research,1.5,Florida,Donald Trump,REP,53,452,Voters,2024-10-25,2024-11-01,0,Recent
+Siena/NYT,3,Georgia,Kamala Harris,DEM,46,1004,Voters,2024-10-24,2024-11-01,0,Recent
+Siena/NYT,3,Georgia,Donald Trump,REP,46,1004,Voters,2024-10-24,2024-11-01,0,Recent
+Siena/NYT,3,Georgia,Kamala Harris,DEM,44,1004,Voters,2024-10-24,2024-11-01,0,Recent
+Siena/NYT,3,Georgia,Donald Trump,REP,43,1004,Voters,2024-10-24,2024-11-01,0,Recent
+Siena/NYT,3,Georgia,Kamala Harris,DEM,48,1004,Voters,2024-10-24,2024-11-01,0,Recent
+Siena/NYT,3,Georgia,Donald Trump,REP,47,1004,Voters,2024-10-24,2024-11-01,0,Recent
+Siena/NYT,3,Georgia,Kamala Harris,DEM,46,1004,Voters,2024-10-24,2024-11-01,0,Recent
+Siena/NYT,3,Georgia,Donald Trump,REP,46,1004,Voters,2024-10-24,2024-11-01,0,Recent
+Morning Consult,1.9,Florida,Kamala Harris,DEM,46.1,2022,Voters,2024-10-23,2024-11-01,0,Recent
+Morning Consult,1.9,Florida,Donald Trump,REP,50.9,2022,Voters,2024-10-23,2024-11-01,0,Recent
+Morning Consult,1.9,Maryland,Kamala Harris,DEM,63.7,472,Voters,2024-10-23,2024-11-01,0,Recent
+Morning Consult,1.9,Maryland,Donald Trump,REP,31.3,472,Voters,2024-10-23,2024-11-01,0,Recent
+Morning Consult,1.9,North Carolina,Kamala Harris,DEM,47.4,1056,Voters,2024-10-23,2024-11-01,0,Recent
+Morning Consult,1.9,North Carolina,Donald Trump,REP,49.2,1056,Voters,2024-10-23,2024-11-01,0,Recent
+Morning Consult,1.9,Ohio,Kamala Harris,DEM,43.7,1254,Voters,2024-10-23,2024-11-01,0,Recent
+Morning Consult,1.9,Ohio,Donald Trump,REP,52.9,1254,Voters,2024-10-23,2024-11-01,0,Recent
+Kaplan Strategies,2,NA,Kamala Harris,DEM,47,671,Voters,2024-10-31,2024-10-31,1,Recent
+Kaplan Strategies,2,NA,Donald Trump,REP,48,671,Voters,2024-10-31,2024-10-31,1,Recent
+AtlasIntel,2.7,NA,Kamala Harris,DEM,47.2,3490,Voters,2024-10-30,2024-10-31,1,Recent
+AtlasIntel,2.7,NA,Donald Trump,REP,49.1,3490,Voters,2024-10-30,2024-10-31,1,Recent
+AtlasIntel,2.7,NA,Kamala Harris,DEM,48.2,3490,Voters,2024-10-30,2024-10-31,1,Recent
+AtlasIntel,2.7,NA,Donald Trump,REP,49.6,3490,Voters,2024-10-30,2024-10-31,1,Recent
+AtlasIntel,2.7,North Carolina,Kamala Harris,DEM,46.7,1373,Voters,2024-10-30,2024-10-31,0,Recent
+AtlasIntel,2.7,North Carolina,Donald Trump,REP,50.7,1373,Voters,2024-10-30,2024-10-31,0,Recent
+AtlasIntel,2.7,North Carolina,Kamala Harris,DEM,47,1373,Voters,2024-10-30,2024-10-31,0,Recent
+AtlasIntel,2.7,North Carolina,Donald Trump,REP,50.7,1373,Voters,2024-10-30,2024-10-31,0,Recent
+AtlasIntel,2.7,Arizona,Kamala Harris,DEM,45.9,1005,Voters,2024-10-30,2024-10-31,0,Recent
+AtlasIntel,2.7,Arizona,Donald Trump,REP,50.8,1005,Voters,2024-10-30,2024-10-31,0,Recent
+AtlasIntel,2.7,Arizona,Kamala Harris,DEM,46.8,1005,Voters,2024-10-30,2024-10-31,0,Recent
+AtlasIntel,2.7,Arizona,Donald Trump,REP,51,1005,Voters,2024-10-30,2024-10-31,0,Recent
+AtlasIntel,2.7,Georgia,Kamala Harris,DEM,47.2,1212,Voters,2024-10-30,2024-10-31,0,Recent
+AtlasIntel,2.7,Georgia,Donald Trump,REP,48.8,1212,Voters,2024-10-30,2024-10-31,0,Recent
+AtlasIntel,2.7,Georgia,Kamala Harris,DEM,47.8,1212,Voters,2024-10-30,2024-10-31,0,Recent
+AtlasIntel,2.7,Georgia,Donald Trump,REP,50.1,1212,Voters,2024-10-30,2024-10-31,0,Recent
+AtlasIntel,2.7,Michigan,Kamala Harris,DEM,48.3,1136,Voters,2024-10-30,2024-10-31,0,Recent
+AtlasIntel,2.7,Michigan,Donald Trump,REP,49.2,1136,Voters,2024-10-30,2024-10-31,0,Recent
+AtlasIntel,2.7,Michigan,Kamala Harris,DEM,48.7,1136,Voters,2024-10-30,2024-10-31,0,Recent
+AtlasIntel,2.7,Michigan,Donald Trump,REP,49.3,1136,Voters,2024-10-30,2024-10-31,0,Recent
+AtlasIntel,2.7,Nevada,Kamala Harris,DEM,46.9,845,Voters,2024-10-30,2024-10-31,0,Recent
+AtlasIntel,2.7,Nevada,Donald Trump,REP,50.5,845,Voters,2024-10-30,2024-10-31,0,Recent
+AtlasIntel,2.7,Nevada,Kamala Harris,DEM,47,845,Voters,2024-10-30,2024-10-31,0,Recent
+AtlasIntel,2.7,Nevada,Donald Trump,REP,50.6,845,Voters,2024-10-30,2024-10-31,0,Recent
+AtlasIntel,2.7,Pennsylvania,Kamala Harris,DEM,47.4,1738,Voters,2024-10-30,2024-10-31,0,Recent
+AtlasIntel,2.7,Pennsylvania,Donald Trump,REP,48.5,1738,Voters,2024-10-30,2024-10-31,0,Recent
+AtlasIntel,2.7,Pennsylvania,Kamala Harris,DEM,47.9,1738,Voters,2024-10-30,2024-10-31,0,Recent
+AtlasIntel,2.7,Pennsylvania,Donald Trump,REP,49.4,1738,Voters,2024-10-30,2024-10-31,0,Recent
+AtlasIntel,2.7,Wisconsin,Kamala Harris,DEM,48.2,673,Voters,2024-10-30,2024-10-31,0,Recent
+AtlasIntel,2.7,Wisconsin,Donald Trump,REP,48.5,673,Voters,2024-10-30,2024-10-31,0,Recent
+AtlasIntel,2.7,Wisconsin,Kamala Harris,DEM,49,673,Voters,2024-10-30,2024-10-31,0,Recent
+AtlasIntel,2.7,Wisconsin,Donald Trump,REP,48.8,673,Voters,2024-10-30,2024-10-31,0,Recent
+Change Research,1.4,Nebraska,Kamala Harris,DEM,39,600,Voters,2024-10-30,2024-10-31,0,Recent
+Change Research,1.4,Nebraska,Donald Trump,REP,57,600,Voters,2024-10-30,2024-10-31,0,Recent
+Emerson,2.9,Nevada,Kamala Harris,DEM,48.6,700,Voters,2024-10-29,2024-10-31,0,Recent
+Emerson,2.9,Nevada,Donald Trump,REP,48.3,700,Voters,2024-10-29,2024-10-31,0,Recent
+TIPP,1.8,NA,Kamala Harris,DEM,48,1249,Voters,2024-10-29,2024-10-31,1,Recent
+TIPP,1.8,NA,Donald Trump,REP,49,1249,Voters,2024-10-29,2024-10-31,1,Recent
+TIPP,1.8,NA,Kamala Harris,DEM,47.8,1249,Voters,2024-10-29,2024-10-31,1,Recent
+TIPP,1.8,NA,Donald Trump,REP,48.5,1249,Voters,2024-10-29,2024-10-31,1,Recent
+OnMessage Inc.,1.1,Pennsylvania,Kamala Harris,DEM,47,800,Voters,2024-10-29,2024-10-31,0,Recent
+OnMessage Inc.,1.1,Pennsylvania,Donald Trump,REP,49,800,Voters,2024-10-29,2024-10-31,0,Recent
+OnMessage Inc.,1.1,Michigan,Kamala Harris,DEM,48,800,Voters,2024-10-29,2024-10-31,0,Recent
+OnMessage Inc.,1.1,Michigan,Donald Trump,REP,48,800,Voters,2024-10-29,2024-10-31,0,Recent
+OnMessage Inc.,1.1,Wisconsin,Kamala Harris,DEM,47,800,Voters,2024-10-29,2024-10-31,0,Recent
+OnMessage Inc.,1.1,Wisconsin,Donald Trump,REP,48,800,Voters,2024-10-29,2024-10-31,0,Recent
+OnMessage Inc.,1.1,Arizona,Kamala Harris,DEM,47,800,Voters,2024-10-29,2024-10-31,0,Recent
+OnMessage Inc.,1.1,Arizona,Donald Trump,REP,50,800,Voters,2024-10-29,2024-10-31,0,Recent
+Morning Consult,1.9,NA,Kamala Harris,DEM,49,8918,Voters,2024-10-29,2024-10-31,1,Recent
+Morning Consult,1.9,NA,Donald Trump,REP,47,8918,Voters,2024-10-29,2024-10-31,1,Recent
+YouGov,3,NA,Kamala Harris,DEM,47,1267,Voters,2024-10-29,2024-10-31,1,Recent
+YouGov,3,NA,Donald Trump,REP,47,1267,Voters,2024-10-29,2024-10-31,1,Recent
+YouGov,3,NA,Kamala Harris,DEM,48,1152,Voters,2024-10-29,2024-10-31,1,Recent
+YouGov,3,NA,Donald Trump,REP,48,1152,Voters,2024-10-29,2024-10-31,1,Recent
+YouGov,3,NA,Kamala Harris,DEM,48,1267,Voters,2024-10-29,2024-10-31,1,Recent
+YouGov,3,NA,Donald Trump,REP,48,1267,Voters,2024-10-29,2024-10-31,1,Recent
+YouGov,3,NA,Kamala Harris,DEM,49,1152,Voters,2024-10-29,2024-10-31,1,Recent
+YouGov,3,NA,Donald Trump,REP,48,1152,Voters,2024-10-29,2024-10-31,1,Recent
+SurveyUSA,2.8,New Mexico,Kamala Harris,DEM,50,632,Voters,2024-10-28,2024-10-31,0,Recent
+SurveyUSA,2.8,New Mexico,Donald Trump,REP,44,632,Voters,2024-10-28,2024-10-31,0,Recent
+Susquehanna,2.3,Nevada,Kamala Harris,DEM,44.2,400,Voters,2024-10-28,2024-10-31,0,Recent
+Susquehanna,2.3,Nevada,Donald Trump,REP,50.2,400,Voters,2024-10-28,2024-10-31,0,Recent
+Redfield & Wilton Strategies,1.8,Arizona,Kamala Harris,DEM,47,652,Voters,2024-10-28,2024-10-31,0,Recent
+Redfield & Wilton Strategies,1.8,Arizona,Donald Trump,REP,48,652,Voters,2024-10-28,2024-10-31,0,Recent
+Redfield & Wilton Strategies,1.8,Georgia,Kamala Harris,DEM,47,1779,Voters,2024-10-28,2024-10-31,0,Recent
+Redfield & Wilton Strategies,1.8,Georgia,Donald Trump,REP,48,1779,Voters,2024-10-28,2024-10-31,0,Recent
+Redfield & Wilton Strategies,1.8,Michigan,Kamala Harris,DEM,47,1731,Voters,2024-10-28,2024-10-31,0,Recent
+Redfield & Wilton Strategies,1.8,Michigan,Donald Trump,REP,47,1731,Voters,2024-10-28,2024-10-31,0,Recent
+Redfield & Wilton Strategies,1.8,Nevada,Kamala Harris,DEM,47,690,Voters,2024-10-28,2024-10-31,0,Recent
+Redfield & Wilton Strategies,1.8,Nevada,Donald Trump,REP,48,690,Voters,2024-10-28,2024-10-31,0,Recent
+Redfield & Wilton Strategies,1.8,North Carolina,Kamala Harris,DEM,47,1123,Voters,2024-10-28,2024-10-31,0,Recent
+Redfield & Wilton Strategies,1.8,North Carolina,Donald Trump,REP,48,1123,Voters,2024-10-28,2024-10-31,0,Recent
+Redfield & Wilton Strategies,1.8,Pennsylvania,Kamala Harris,DEM,48,1596,Voters,2024-10-28,2024-10-31,0,Recent
+Redfield & Wilton Strategies,1.8,Pennsylvania,Donald Trump,REP,48,1596,Voters,2024-10-28,2024-10-31,0,Recent
+Redfield & Wilton Strategies,1.8,Wisconsin,Kamala Harris,DEM,48,932,Voters,2024-10-28,2024-10-31,0,Recent
+Redfield & Wilton Strategies,1.8,Wisconsin,Donald Trump,REP,47,932,Voters,2024-10-28,2024-10-31,0,Recent
+Echelon Insights,2.7,NA,Kamala Harris,DEM,49,1328,Voters,2024-10-28,2024-10-31,1,Recent
+Echelon Insights,2.7,NA,Donald Trump,REP,47,1328,Voters,2024-10-28,2024-10-31,1,Recent
+Echelon Insights,2.7,NA,Kamala Harris,DEM,50,1328,Voters,2024-10-28,2024-10-31,1,Recent
+Echelon Insights,2.7,NA,Donald Trump,REP,48,1328,Voters,2024-10-28,2024-10-31,1,Recent
+Noble Predictive Insights,2.4,Nevada,Kamala Harris,DEM,49,593,Voters,2024-10-28,2024-10-31,0,Recent
+Noble Predictive Insights,2.4,Nevada,Donald Trump,REP,48,593,Voters,2024-10-28,2024-10-31,0,Recent
+Selzer,2.8,Iowa,Kamala Harris,DEM,47,808,Voters,2024-10-28,2024-10-31,0,Recent
+Selzer,2.8,Iowa,Donald Trump,REP,44,808,Voters,2024-10-28,2024-10-31,0,Recent
+YouGov,3,Arizona,Kamala Harris,DEM,47,880,Voters,2024-10-25,2024-10-31,0,Recent
+YouGov,3,Arizona,Donald Trump,REP,48,880,Voters,2024-10-25,2024-10-31,0,Recent
+YouGov,3,Arizona,Kamala Harris,DEM,48,856,Voters,2024-10-25,2024-10-31,0,Recent
+YouGov,3,Arizona,Donald Trump,REP,48,856,Voters,2024-10-25,2024-10-31,0,Recent
+YouGov,3,Arizona,Kamala Harris,DEM,49,880,Voters,2024-10-25,2024-10-31,0,Recent
+YouGov,3,Arizona,Donald Trump,REP,50,880,Voters,2024-10-25,2024-10-31,0,Recent
+YouGov,3,Arizona,Kamala Harris,DEM,49,856,Voters,2024-10-25,2024-10-31,0,Recent
+YouGov,3,Arizona,Donald Trump,REP,50,856,Voters,2024-10-25,2024-10-31,0,Recent
+YouGov,3,Georgia,Kamala Harris,DEM,46,984,Voters,2024-10-25,2024-10-31,0,Recent
+YouGov,3,Georgia,Donald Trump,REP,48,984,Voters,2024-10-25,2024-10-31,0,Recent
+YouGov,3,Georgia,Kamala Harris,DEM,47,939,Voters,2024-10-25,2024-10-31,0,Recent
+YouGov,3,Georgia,Donald Trump,REP,48,939,Voters,2024-10-25,2024-10-31,0,Recent
+YouGov,3,Georgia,Kamala Harris,DEM,48,984,Voters,2024-10-25,2024-10-31,0,Recent
+YouGov,3,Georgia,Donald Trump,REP,50,984,Voters,2024-10-25,2024-10-31,0,Recent
+YouGov,3,Georgia,Kamala Harris,DEM,48,939,Voters,2024-10-25,2024-10-31,0,Recent
+YouGov,3,Georgia,Donald Trump,REP,50,939,Voters,2024-10-25,2024-10-31,0,Recent
+YouGov,3,Michigan,Kamala Harris,DEM,47,985,Voters,2024-10-25,2024-10-31,0,Recent
+YouGov,3,Michigan,Donald Trump,REP,45,985,Voters,2024-10-25,2024-10-31,0,Recent
+YouGov,3,Michigan,Kamala Harris,DEM,48,942,Voters,2024-10-25,2024-10-31,0,Recent
+YouGov,3,Michigan,Donald Trump,REP,45,942,Voters,2024-10-25,2024-10-31,0,Recent
+YouGov,3,Michigan,Kamala Harris,DEM,50,985,Voters,2024-10-25,2024-10-31,0,Recent
+YouGov,3,Michigan,Donald Trump,REP,46,985,Voters,2024-10-25,2024-10-31,0,Recent
+YouGov,3,Michigan,Kamala Harris,DEM,50,942,Voters,2024-10-25,2024-10-31,0,Recent
+YouGov,3,Michigan,Donald Trump,REP,47,942,Voters,2024-10-25,2024-10-31,0,Recent
+YouGov,3,Nevada,Kamala Harris,DEM,48,790,Voters,2024-10-25,2024-10-31,0,Recent
+YouGov,3,Nevada,Donald Trump,REP,47,790,Voters,2024-10-25,2024-10-31,0,Recent
+YouGov,3,Nevada,Kamala Harris,DEM,48,773,Voters,2024-10-25,2024-10-31,0,Recent
+YouGov,3,Nevada,Donald Trump,REP,47,773,Voters,2024-10-25,2024-10-31,0,Recent
+YouGov,3,Nevada,Kamala Harris,DEM,50,790,Voters,2024-10-25,2024-10-31,0,Recent
+YouGov,3,Nevada,Donald Trump,REP,49,790,Voters,2024-10-25,2024-10-31,0,Recent
+YouGov,3,Nevada,Kamala Harris,DEM,50,773,Voters,2024-10-25,2024-10-31,0,Recent
+YouGov,3,Nevada,Donald Trump,REP,49,773,Voters,2024-10-25,2024-10-31,0,Recent
+YouGov,3,North Carolina,Kamala Harris,DEM,47,987,Voters,2024-10-25,2024-10-31,0,Recent
+YouGov,3,North Carolina,Donald Trump,REP,48,987,Voters,2024-10-25,2024-10-31,0,Recent
+YouGov,3,North Carolina,Kamala Harris,DEM,48,949,Voters,2024-10-25,2024-10-31,0,Recent
+YouGov,3,North Carolina,Donald Trump,REP,49,949,Voters,2024-10-25,2024-10-31,0,Recent
+YouGov,3,North Carolina,Kamala Harris,DEM,49,987,Voters,2024-10-25,2024-10-31,0,Recent
+YouGov,3,North Carolina,Donald Trump,REP,49,987,Voters,2024-10-25,2024-10-31,0,Recent
+YouGov,3,North Carolina,Kamala Harris,DEM,49,949,Voters,2024-10-25,2024-10-31,0,Recent
+YouGov,3,North Carolina,Donald Trump,REP,50,949,Voters,2024-10-25,2024-10-31,0,Recent
+YouGov,3,Pennsylvania,Kamala Harris,DEM,48,982,Voters,2024-10-25,2024-10-31,0,Recent
+YouGov,3,Pennsylvania,Donald Trump,REP,46,982,Voters,2024-10-25,2024-10-31,0,Recent
+YouGov,3,Pennsylvania,Kamala Harris,DEM,49,956,Voters,2024-10-25,2024-10-31,0,Recent
+YouGov,3,Pennsylvania,Donald Trump,REP,46,956,Voters,2024-10-25,2024-10-31,0,Recent
+YouGov,3,Pennsylvania,Kamala Harris,DEM,50,982,Voters,2024-10-25,2024-10-31,0,Recent
+YouGov,3,Pennsylvania,Donald Trump,REP,48,982,Voters,2024-10-25,2024-10-31,0,Recent
+YouGov,3,Pennsylvania,Kamala Harris,DEM,51,956,Voters,2024-10-25,2024-10-31,0,Recent
+YouGov,3,Pennsylvania,Donald Trump,REP,48,956,Voters,2024-10-25,2024-10-31,0,Recent
+YouGov,3,Wisconsin,Kamala Harris,DEM,48,889,Voters,2024-10-25,2024-10-31,0,Recent
+YouGov,3,Wisconsin,Donald Trump,REP,45,889,Voters,2024-10-25,2024-10-31,0,Recent
+YouGov,3,Wisconsin,Kamala Harris,DEM,49,867,Voters,2024-10-25,2024-10-31,0,Recent
+YouGov,3,Wisconsin,Donald Trump,REP,45,867,Voters,2024-10-25,2024-10-31,0,Recent
+YouGov,3,Wisconsin,Kamala Harris,DEM,51,889,Voters,2024-10-25,2024-10-31,0,Recent
+YouGov,3,Wisconsin,Donald Trump,REP,47,889,Voters,2024-10-25,2024-10-31,0,Recent
+YouGov,3,Wisconsin,Kamala Harris,DEM,51,867,Voters,2024-10-25,2024-10-31,0,Recent
+YouGov,3,Wisconsin,Donald Trump,REP,47,867,Voters,2024-10-25,2024-10-31,0,Recent
+Data for Progress,2.6,Pennsylvania,Kamala Harris,DEM,50,908,Voters,2024-10-25,2024-10-31,0,Recent
+Data for Progress,2.6,Pennsylvania,Donald Trump,REP,48,908,Voters,2024-10-25,2024-10-31,0,Recent
+Data for Progress,2.6,Georgia,Kamala Harris,DEM,49,972,Voters,2024-10-25,2024-10-31,0,Recent
+Data for Progress,2.6,Georgia,Donald Trump,REP,48,972,Voters,2024-10-25,2024-10-31,0,Recent
+Morning Consult,1.9,Michigan,Kamala Harris,DEM,48.5,1108,Voters,2024-10-22,2024-10-31,0,Recent
+Morning Consult,1.9,Michigan,Donald Trump,REP,47.5,1108,Voters,2024-10-22,2024-10-31,0,Recent
+Morning Consult,1.9,Pennsylvania,Kamala Harris,DEM,48,1538,Voters,2024-10-22,2024-10-31,0,Recent
+Morning Consult,1.9,Pennsylvania,Donald Trump,REP,48,1538,Voters,2024-10-22,2024-10-31,0,Recent
+Morning Consult,1.9,Texas,Kamala Harris,DEM,45,2120,Voters,2024-10-22,2024-10-31,0,Recent
+Morning Consult,1.9,Texas,Donald Trump,REP,51.7,2120,Voters,2024-10-22,2024-10-31,0,Recent
+Morning Consult,1.9,Wisconsin,Kamala Harris,DEM,47.6,540,Voters,2024-10-22,2024-10-31,0,Recent
+Morning Consult,1.9,Wisconsin,Donald Trump,REP,48.2,540,Voters,2024-10-22,2024-10-31,0,Recent
+TIPP,1.8,NA,Kamala Harris,DEM,48,1265,Voters,2024-10-28,2024-10-30,1,Recent
+TIPP,1.8,NA,Donald Trump,REP,48,1265,Voters,2024-10-28,2024-10-30,1,Recent
+TIPP,1.8,NA,Kamala Harris,DEM,48,1265,Voters,2024-10-28,2024-10-30,1,Recent
+TIPP,1.8,NA,Donald Trump,REP,48,1265,Voters,2024-10-28,2024-10-30,1,Recent
+Keating Research,1.5,Colorado,Kamala Harris,DEM,53,600,Voters,2024-10-28,2024-10-30,0,Recent
+Keating Research,1.5,Colorado,Donald Trump,REP,41,600,Voters,2024-10-28,2024-10-30,0,Recent
+TIPP,1.8,Wisconsin,Kamala Harris,DEM,48,1038,Voters,2024-10-28,2024-10-30,0,Recent
+TIPP,1.8,Wisconsin,Donald Trump,REP,46,1038,Voters,2024-10-28,2024-10-30,0,Recent
+TIPP,1.8,Wisconsin,Kamala Harris,DEM,48,831,Voters,2024-10-28,2024-10-30,0,Recent
+TIPP,1.8,Wisconsin,Donald Trump,REP,48,831,Voters,2024-10-28,2024-10-30,0,Recent
+TIPP,1.8,Wisconsin,Kamala Harris,DEM,46,1038,Voters,2024-10-28,2024-10-30,0,Recent
+TIPP,1.8,Wisconsin,Donald Trump,REP,44,1038,Voters,2024-10-28,2024-10-30,0,Recent
+TIPP,1.8,Wisconsin,Kamala Harris,DEM,48,831,Voters,2024-10-28,2024-10-30,0,Recent
+TIPP,1.8,Wisconsin,Donald Trump,REP,47,831,Voters,2024-10-28,2024-10-30,0,Recent
+Noble Predictive Insights,2.4,Arizona,Kamala Harris,DEM,47,775,Voters,2024-10-28,2024-10-30,0,Recent
+Noble Predictive Insights,2.4,Arizona,Donald Trump,REP,48,775,Voters,2024-10-28,2024-10-30,0,Recent
+OnMessage Inc.,1.1,NA,Kamala Harris,DEM,45,800,Voters,2024-10-28,2024-10-30,1,Recent
+OnMessage Inc.,1.1,NA,Donald Trump,REP,47,800,Voters,2024-10-28,2024-10-30,1,Recent
+Chism Strategies,2.4,Virginia,Kamala Harris,DEM,45.2,520,Voters,2024-10-28,2024-10-30,0,Recent
+Chism Strategies,2.4,Virginia,Donald Trump,REP,44.5,520,Voters,2024-10-28,2024-10-30,0,Recent
+Chism Strategies,2.4,Minnesota,Kamala Harris,DEM,48.3,534,Voters,2024-10-28,2024-10-30,0,Recent
+Chism Strategies,2.4,Minnesota,Donald Trump,REP,42.9,534,Voters,2024-10-28,2024-10-30,0,Recent
+Chism Strategies,2.4,Maryland,Kamala Harris,DEM,55.8,510,Voters,2024-10-28,2024-10-30,0,Recent
+Chism Strategies,2.4,Maryland,Donald Trump,REP,33.3,510,Voters,2024-10-28,2024-10-30,0,Recent
+Morning Consult,1.9,NA,Kamala Harris,DEM,50,8868,Voters,2024-10-28,2024-10-30,1,Recent
+Morning Consult,1.9,NA,Donald Trump,REP,47,8868,Voters,2024-10-28,2024-10-30,1,Recent
+Echelon Insights,2.7,Wisconsin,Kamala Harris,DEM,48,600,Voters,2024-10-27,2024-10-30,0,Recent
+Echelon Insights,2.7,Wisconsin,Donald Trump,REP,48,600,Voters,2024-10-27,2024-10-30,0,Recent
+Echelon Insights,2.7,Wisconsin,Kamala Harris,DEM,49,600,Voters,2024-10-27,2024-10-30,0,Recent
+Echelon Insights,2.7,Wisconsin,Donald Trump,REP,49,600,Voters,2024-10-27,2024-10-30,0,Recent
+Echelon Insights,2.7,Michigan,Kamala Harris,DEM,47,600,Voters,2024-10-27,2024-10-30,0,Recent
+Echelon Insights,2.7,Michigan,Donald Trump,REP,47,600,Voters,2024-10-27,2024-10-30,0,Recent
+Echelon Insights,2.7,Michigan,Kamala Harris,DEM,48,600,Voters,2024-10-27,2024-10-30,0,Recent
+Echelon Insights,2.7,Michigan,Donald Trump,REP,48,600,Voters,2024-10-27,2024-10-30,0,Recent
+Echelon Insights,2.7,Pennsylvania,Kamala Harris,DEM,46,600,Voters,2024-10-27,2024-10-30,0,Recent
+Echelon Insights,2.7,Pennsylvania,Donald Trump,REP,51,600,Voters,2024-10-27,2024-10-30,0,Recent
+Echelon Insights,2.7,Pennsylvania,Kamala Harris,DEM,46,600,Voters,2024-10-27,2024-10-30,0,Recent
+Echelon Insights,2.7,Pennsylvania,Donald Trump,REP,52,600,Voters,2024-10-27,2024-10-30,0,Recent
+Suffolk,2.9,Pennsylvania,Kamala Harris,DEM,48.6,500,Voters,2024-10-27,2024-10-30,0,Recent
+Suffolk,2.9,Pennsylvania,Donald Trump,REP,48.6,500,Voters,2024-10-27,2024-10-30,0,Recent
+Marist,2.9,Wisconsin,Kamala Harris,DEM,50,1444,Voters,2024-10-27,2024-10-30,0,Recent
+Marist,2.9,Wisconsin,Donald Trump,REP,48,1444,Voters,2024-10-27,2024-10-30,0,Recent
+Marist,2.9,Wisconsin,Kamala Harris,DEM,50,1330,Voters,2024-10-27,2024-10-30,0,Recent
+Marist,2.9,Wisconsin,Donald Trump,REP,48,1330,Voters,2024-10-27,2024-10-30,0,Recent
+Marist,2.9,Pennsylvania,Kamala Harris,DEM,51,1558,Voters,2024-10-27,2024-10-30,0,Recent
+Marist,2.9,Pennsylvania,Donald Trump,REP,47,1558,Voters,2024-10-27,2024-10-30,0,Recent
+Marist,2.9,Pennsylvania,Kamala Harris,DEM,50,1400,Voters,2024-10-27,2024-10-30,0,Recent
+Marist,2.9,Pennsylvania,Donald Trump,REP,48,1400,Voters,2024-10-27,2024-10-30,0,Recent
+Marist,2.9,Michigan,Kamala Harris,DEM,51,1356,Voters,2024-10-27,2024-10-30,0,Recent
+Marist,2.9,Michigan,Donald Trump,REP,48,1356,Voters,2024-10-27,2024-10-30,0,Recent
+Marist,2.9,Michigan,Kamala Harris,DEM,51,1214,Voters,2024-10-27,2024-10-30,0,Recent
+Marist,2.9,Michigan,Donald Trump,REP,48,1214,Voters,2024-10-27,2024-10-30,0,Recent
+Cygnal,2.1,California,Kamala Harris,DEM,55.4,611,Voters,2024-10-27,2024-10-30,0,Recent
+Cygnal,2.1,California,Donald Trump,REP,30.9,611,Voters,2024-10-27,2024-10-30,0,Recent
+Muhlenberg,2.8,Pennsylvania,Kamala Harris,DEM,49,460,Voters,2024-10-27,2024-10-30,0,Recent
+Muhlenberg,2.8,Pennsylvania,Donald Trump,REP,47,460,Voters,2024-10-27,2024-10-30,0,Recent
+The Washington Post,3,Pennsylvania,Kamala Harris,DEM,48,1204,Voters,2024-10-26,2024-10-30,0,Recent
+The Washington Post,3,Pennsylvania,Donald Trump,REP,47,1204,Voters,2024-10-26,2024-10-30,0,Recent
+The Washington Post,3,Pennsylvania,Kamala Harris,DEM,48,1204,Voters,2024-10-26,2024-10-30,0,Recent
+The Washington Post,3,Pennsylvania,Donald Trump,REP,47,1204,Voters,2024-10-26,2024-10-30,0,Recent
+Data for Progress,2.6,Arizona,Kamala Harris,DEM,47,1079,Voters,2024-10-25,2024-10-30,0,Recent
+Data for Progress,2.6,Arizona,Donald Trump,REP,48,1079,Voters,2024-10-25,2024-10-30,0,Recent
+Data for Progress,2.6,Nevada,Kamala Harris,DEM,49,721,Voters,2024-10-25,2024-10-30,0,Recent
+Data for Progress,2.6,Nevada,Donald Trump,REP,47,721,Voters,2024-10-25,2024-10-30,0,Recent
+Morning Consult,1.9,Arizona,Kamala Harris,DEM,48.3,666,Voters,2024-10-21,2024-10-30,0,Recent
+Morning Consult,1.9,Arizona,Donald Trump,REP,48.4,666,Voters,2024-10-21,2024-10-30,0,Recent
+Morning Consult,1.9,Georgia,Kamala Harris,DEM,48,1009,Voters,2024-10-21,2024-10-30,0,Recent
+Morning Consult,1.9,Georgia,Donald Trump,REP,49.6,1009,Voters,2024-10-21,2024-10-30,0,Recent
+RABA Research,1.3,NA,Kamala Harris,DEM,48,781,Voters,2024-10-29,2024-10-29,1,Recent
+RABA Research,1.3,NA,Donald Trump,REP,44,781,Voters,2024-10-29,2024-10-29,1,Recent
+St. Anselm,2.4,New Hampshire,Kamala Harris,DEM,51,2791,Voters,2024-10-28,2024-10-29,0,Recent
+St. Anselm,2.4,New Hampshire,Donald Trump,REP,46,2791,Voters,2024-10-28,2024-10-29,0,Recent
+Remington,2.6,Missouri,Kamala Harris,DEM,40,721,Voters,2024-10-28,2024-10-29,0,Recent
+Remington,2.6,Missouri,Donald Trump,REP,54,721,Voters,2024-10-28,2024-10-29,0,Recent
 TIPP,1.8,NA,Kamala Harris,DEM,48.3,1302,Voters,2024-10-27,2024-10-29,1,Recent
 TIPP,1.8,NA,Donald Trump,REP,47.5,1302,Voters,2024-10-27,2024-10-29,1,Recent
 TIPP,1.8,NA,Kamala Harris,DEM,48,1302,Voters,2024-10-27,2024-10-29,1,Recent
 TIPP,1.8,NA,Donald Trump,REP,47,1302,Voters,2024-10-27,2024-10-29,1,Recent
+HarrisX,1.5,NA,Kamala Harris,DEM,51,4523,Voters,2024-10-27,2024-10-29,1,Recent
+HarrisX,1.5,NA,Donald Trump,REP,49,4523,Voters,2024-10-27,2024-10-29,1,Recent
+HarrisX,1.5,NA,Kamala Harris,DEM,51,3718,Voters,2024-10-27,2024-10-29,1,Recent
+HarrisX,1.5,NA,Donald Trump,REP,49,3718,Voters,2024-10-27,2024-10-29,1,Recent
+HarrisX,1.5,NA,Kamala Harris,DEM,48,4523,Voters,2024-10-27,2024-10-29,1,Recent
+HarrisX,1.5,NA,Donald Trump,REP,47,4523,Voters,2024-10-27,2024-10-29,1,Recent
+HarrisX,1.5,NA,Kamala Harris,DEM,49,3718,Voters,2024-10-27,2024-10-29,1,Recent
+HarrisX,1.5,NA,Donald Trump,REP,48,3718,Voters,2024-10-27,2024-10-29,1,Recent
+Cygnal,2.1,Virginia,Kamala Harris,DEM,50.3,600,Voters,2024-10-27,2024-10-29,0,Recent
+Cygnal,2.1,Virginia,Donald Trump,REP,42.7,600,Voters,2024-10-27,2024-10-29,0,Recent
+Big Data Poll,1.1,NA,Kamala Harris,DEM,49.7,2814,Voters,2024-10-27,2024-10-29,1,Recent
+Big Data Poll,1.1,NA,Donald Trump,REP,50.3,2814,Voters,2024-10-27,2024-10-29,1,Recent
+Big Data Poll,1.1,NA,Kamala Harris,DEM,49.9,2992,Voters,2024-10-27,2024-10-29,1,Recent
+Big Data Poll,1.1,NA,Donald Trump,REP,50.1,2992,Voters,2024-10-27,2024-10-29,1,Recent
+Big Data Poll,1.1,NA,Kamala Harris,DEM,47.3,2814,Voters,2024-10-27,2024-10-29,1,Recent
+Big Data Poll,1.1,NA,Donald Trump,REP,48,2814,Voters,2024-10-27,2024-10-29,1,Recent
+Big Data Poll,1.1,NA,Kamala Harris,DEM,46.8,2992,Voters,2024-10-27,2024-10-29,1,Recent
+Big Data Poll,1.1,NA,Donald Trump,REP,47,2992,Voters,2024-10-27,2024-10-29,1,Recent
+Morning Consult,1.9,NA,Kamala Harris,DEM,50,8999,Voters,2024-10-27,2024-10-29,1,Recent
+Morning Consult,1.9,NA,Donald Trump,REP,47,8999,Voters,2024-10-27,2024-10-29,1,Recent
 YouGov,3,NA,Kamala Harris,DEM,47,1446,Voters,2024-10-26,2024-10-29,1,Recent
 YouGov,3,NA,Donald Trump,REP,46,1446,Voters,2024-10-26,2024-10-29,1,Recent
 YouGov,3,NA,Kamala Harris,DEM,49,1310,Voters,2024-10-26,2024-10-29,1,Recent
 YouGov,3,NA,Donald Trump,REP,47,1310,Voters,2024-10-26,2024-10-29,1,Recent
+J.L. Partners,1.6,NA,Kamala Harris,DEM,46,1000,Voters,2024-10-26,2024-10-29,1,Recent
+J.L. Partners,1.6,NA,Donald Trump,REP,49,1000,Voters,2024-10-26,2024-10-29,1,Recent
+J.L. Partners,1.6,NA,Kamala Harris,DEM,47,1000,Voters,2024-10-26,2024-10-29,1,Recent
+J.L. Partners,1.6,NA,Donald Trump,REP,50,1000,Voters,2024-10-26,2024-10-29,1,Recent
 AtlasIntel,2.7,NA,Kamala Harris,DEM,47,3032,Voters,2024-10-25,2024-10-29,1,Recent
 AtlasIntel,2.7,NA,Donald Trump,REP,49.5,3032,Voters,2024-10-25,2024-10-29,1,Recent
 AtlasIntel,2.7,NA,Kamala Harris,DEM,48.1,3032,Voters,2024-10-25,2024-10-29,1,Recent
@@ -39,18 +461,48 @@ AtlasIntel,2.7,Wisconsin,Kamala Harris,DEM,48.1,1470,Voters,2024-10-25,2024-10-2
 AtlasIntel,2.7,Wisconsin,Donald Trump,REP,48.7,1470,Voters,2024-10-25,2024-10-29,0,Recent
 AtlasIntel,2.7,Wisconsin,Kamala Harris,DEM,48.5,1470,Voters,2024-10-25,2024-10-29,0,Recent
 AtlasIntel,2.7,Wisconsin,Donald Trump,REP,49,1470,Voters,2024-10-25,2024-10-29,0,Recent
+Roanoke College,2.6,Virginia,Kamala Harris,DEM,51,851,Voters,2024-10-25,2024-10-29,0,Recent
+Roanoke College,2.6,Virginia,Donald Trump,REP,41,851,Voters,2024-10-25,2024-10-29,0,Recent
+SurveyUSA,2.8,Maine,Kamala Harris,DEM,51,1079,Voters,2024-10-24,2024-10-29,0,Recent
+SurveyUSA,2.8,Maine,Donald Trump,REP,43,1079,Voters,2024-10-24,2024-10-29,0,Recent
+SurveyUSA,2.8,Maine,Kamala Harris,DEM,58,482,Voters,2024-10-24,2024-10-29,0,Recent
+SurveyUSA,2.8,Maine,Donald Trump,REP,37,482,Voters,2024-10-24,2024-10-29,0,Recent
+SurveyUSA,2.8,Maine,Kamala Harris,DEM,44,484,Voters,2024-10-24,2024-10-29,0,Recent
+SurveyUSA,2.8,Maine,Donald Trump,REP,49,484,Voters,2024-10-24,2024-10-29,0,Recent
+UC Berkeley,2.5,California,Kamala Harris,DEM,57,4341,Voters,2024-10-22,2024-10-29,0,Recent
+UC Berkeley,2.5,California,Donald Trump,REP,35,4341,Voters,2024-10-22,2024-10-29,0,Recent
+Mitchell,2.4,Arizona,Kamala Harris,DEM,48,610,Voters,2024-10-28,2024-10-28,0,Recent
+Mitchell,2.4,Arizona,Donald Trump,REP,50,610,Voters,2024-10-28,2024-10-28,0,Recent
+Mitchell,2.4,Arizona,Kamala Harris,DEM,48,610,Voters,2024-10-28,2024-10-28,0,Recent
+Mitchell,2.4,Arizona,Donald Trump,REP,50,610,Voters,2024-10-28,2024-10-28,0,Recent
 TIPP,1.8,NA,Kamala Harris,DEM,48,1291,Voters,2024-10-26,2024-10-28,1,Recent
 TIPP,1.8,NA,Donald Trump,REP,47,1291,Voters,2024-10-26,2024-10-28,1,Recent
 Data Orbital,2.9,Arizona,Kamala Harris,DEM,41.9,550,Voters,2024-10-26,2024-10-28,0,Recent
 Data Orbital,2.9,Arizona,Donald Trump,REP,49.7,550,Voters,2024-10-26,2024-10-28,0,Recent
 Cygnal,2.1,Texas,Kamala Harris,DEM,43,600,Voters,2024-10-26,2024-10-28,0,Recent
 Cygnal,2.1,Texas,Donald Trump,REP,51,600,Voters,2024-10-26,2024-10-28,0,Recent
+Cygnal,2.1,Florida,Kamala Harris,DEM,43.1,600,Voters,2024-10-26,2024-10-28,0,Recent
+Cygnal,2.1,Florida,Donald Trump,REP,48.2,600,Voters,2024-10-26,2024-10-28,0,Recent
+Cygnal,2.1,Wyoming,Kamala Harris,DEM,26.5,600,Voters,2024-10-26,2024-10-28,0,Recent
+Cygnal,2.1,Wyoming,Donald Trump,REP,69,600,Voters,2024-10-26,2024-10-28,0,Recent
+Morning Consult,1.9,NA,Kamala Harris,DEM,50,9148,Voters,2024-10-26,2024-10-28,1,Recent
+Morning Consult,1.9,NA,Donald Trump,REP,46,9148,Voters,2024-10-26,2024-10-28,1,Recent
 Trafalgar Group,0.7,North Carolina,Kamala Harris,DEM,46.2,1091,Voters,2024-10-25,2024-10-28,0,Recent
 Trafalgar Group,0.7,North Carolina,Donald Trump,REP,49.4,1091,Voters,2024-10-25,2024-10-28,0,Recent
 Trafalgar Group,0.7,Nevada,Kamala Harris,DEM,47.8,1082,Voters,2024-10-25,2024-10-28,0,Recent
 Trafalgar Group,0.7,Nevada,Donald Trump,REP,47.6,1082,Voters,2024-10-25,2024-10-28,0,Recent
 Trafalgar Group,0.7,Ohio,Kamala Harris,DEM,45.6,1127,Voters,2024-10-25,2024-10-28,0,Recent
 Trafalgar Group,0.7,Ohio,Donald Trump,REP,51.7,1127,Voters,2024-10-25,2024-10-28,0,Recent
+Noble Predictive Insights,2.4,Utah,Kamala Harris,DEM,34,695,Voters,2024-10-25,2024-10-28,0,Recent
+Noble Predictive Insights,2.4,Utah,Donald Trump,REP,54,695,Voters,2024-10-25,2024-10-28,0,Recent
+HarrisX,1.5,NA,Kamala Harris,DEM,50,1717,Voters,2024-10-25,2024-10-28,1,Recent
+HarrisX,1.5,NA,Donald Trump,REP,50,1717,Voters,2024-10-25,2024-10-28,1,Recent
+HarrisX,1.5,NA,Kamala Harris,DEM,50,1475,Voters,2024-10-25,2024-10-28,1,Recent
+HarrisX,1.5,NA,Donald Trump,REP,50,1475,Voters,2024-10-25,2024-10-28,1,Recent
+HarrisX,1.5,NA,Kamala Harris,DEM,49,1717,Voters,2024-10-25,2024-10-28,1,Recent
+HarrisX,1.5,NA,Donald Trump,REP,48,1717,Voters,2024-10-25,2024-10-28,1,Recent
+HarrisX,1.5,NA,Kamala Harris,DEM,49,1475,Voters,2024-10-25,2024-10-28,1,Recent
+HarrisX,1.5,NA,Donald Trump,REP,49,1475,Voters,2024-10-25,2024-10-28,1,Recent
 SurveyUSA,2.8,Minnesota,Kamala Harris,DEM,51,728,Voters,2024-10-24,2024-10-28,0,Recent
 SurveyUSA,2.8,Minnesota,Donald Trump,REP,43,728,Voters,2024-10-24,2024-10-28,0,Recent
 Monmouth,2.9,Pennsylvania,Kamala Harris,DEM,46,824,Voters,2024-10-24,2024-10-28,0,Recent
@@ -59,12 +511,46 @@ Quinnipiac,2.8,Pennsylvania,Kamala Harris,DEM,46,2186,Voters,2024-10-24,2024-10-
 Quinnipiac,2.8,Pennsylvania,Donald Trump,REP,47,2186,Voters,2024-10-24,2024-10-28,0,Recent
 Quinnipiac,2.8,Pennsylvania,Kamala Harris,DEM,47,2186,Voters,2024-10-24,2024-10-28,0,Recent
 Quinnipiac,2.8,Pennsylvania,Donald Trump,REP,49,2186,Voters,2024-10-24,2024-10-28,0,Recent
+Beacon/Shaw,2.8,Pennsylvania,Kamala Harris,DEM,48,1310,Voters,2024-10-24,2024-10-28,0,Recent
+Beacon/Shaw,2.8,Pennsylvania,Donald Trump,REP,46,1310,Voters,2024-10-24,2024-10-28,0,Recent
+Beacon/Shaw,2.8,Pennsylvania,Kamala Harris,DEM,48,1057,Voters,2024-10-24,2024-10-28,0,Recent
+Beacon/Shaw,2.8,Pennsylvania,Donald Trump,REP,48,1057,Voters,2024-10-24,2024-10-28,0,Recent
+Beacon/Shaw,2.8,Pennsylvania,Kamala Harris,DEM,50,1310,Voters,2024-10-24,2024-10-28,0,Recent
+Beacon/Shaw,2.8,Pennsylvania,Donald Trump,REP,48,1310,Voters,2024-10-24,2024-10-28,0,Recent
+Beacon/Shaw,2.8,Pennsylvania,Kamala Harris,DEM,49,1057,Voters,2024-10-24,2024-10-28,0,Recent
+Beacon/Shaw,2.8,Pennsylvania,Donald Trump,REP,50,1057,Voters,2024-10-24,2024-10-28,0,Recent
+Beacon/Shaw,2.8,Michigan,Kamala Harris,DEM,48,988,Voters,2024-10-24,2024-10-28,0,Recent
+Beacon/Shaw,2.8,Michigan,Donald Trump,REP,46,988,Voters,2024-10-24,2024-10-28,0,Recent
+Beacon/Shaw,2.8,Michigan,Kamala Harris,DEM,49,1275,Voters,2024-10-24,2024-10-28,0,Recent
+Beacon/Shaw,2.8,Michigan,Donald Trump,REP,45,1275,Voters,2024-10-24,2024-10-28,0,Recent
+Beacon/Shaw,2.8,Michigan,Kamala Harris,DEM,49,988,Voters,2024-10-24,2024-10-28,0,Recent
+Beacon/Shaw,2.8,Michigan,Donald Trump,REP,49,988,Voters,2024-10-24,2024-10-28,0,Recent
+Beacon/Shaw,2.8,Michigan,Kamala Harris,DEM,50,1275,Voters,2024-10-24,2024-10-28,0,Recent
+Beacon/Shaw,2.8,Michigan,Donald Trump,REP,48,1275,Voters,2024-10-24,2024-10-28,0,Recent
+Beacon/Shaw,2.8,North Carolina,Kamala Harris,DEM,47,872,Voters,2024-10-24,2024-10-28,0,Recent
+Beacon/Shaw,2.8,North Carolina,Donald Trump,REP,49,872,Voters,2024-10-24,2024-10-28,0,Recent
+Beacon/Shaw,2.8,North Carolina,Kamala Harris,DEM,48,1113,Voters,2024-10-24,2024-10-28,0,Recent
+Beacon/Shaw,2.8,North Carolina,Donald Trump,REP,47,1113,Voters,2024-10-24,2024-10-28,0,Recent
+Beacon/Shaw,2.8,North Carolina,Kamala Harris,DEM,49,872,Voters,2024-10-24,2024-10-28,0,Recent
+Beacon/Shaw,2.8,North Carolina,Donald Trump,REP,50,872,Voters,2024-10-24,2024-10-28,0,Recent
+Beacon/Shaw,2.8,North Carolina,Kamala Harris,DEM,50,1113,Voters,2024-10-24,2024-10-28,0,Recent
+Beacon/Shaw,2.8,North Carolina,Donald Trump,REP,49,1113,Voters,2024-10-24,2024-10-28,0,Recent
+The Washington Post,3,Michigan,Kamala Harris,DEM,47,1003,Voters,2024-10-24,2024-10-28,0,Recent
+The Washington Post,3,Michigan,Donald Trump,REP,46,1003,Voters,2024-10-24,2024-10-28,0,Recent
+The Washington Post,3,Michigan,Kamala Harris,DEM,45,1003,Voters,2024-10-24,2024-10-28,0,Recent
+The Washington Post,3,Michigan,Donald Trump,REP,47,1003,Voters,2024-10-24,2024-10-28,0,Recent
+EPIC/MRA,1.9,Michigan,Kamala Harris,DEM,48,600,Voters,2024-10-24,2024-10-28,0,Recent
+EPIC/MRA,1.9,Michigan,Donald Trump,REP,45,600,Voters,2024-10-24,2024-10-28,0,Recent
 CNN/SSRS,2.8,Michigan,Kamala Harris,DEM,48,726,Voters,2024-10-23,2024-10-28,0,Recent
 CNN/SSRS,2.8,Michigan,Donald Trump,REP,43,726,Voters,2024-10-23,2024-10-28,0,Recent
 CNN/SSRS,2.8,Pennsylvania,Kamala Harris,DEM,48,819,Voters,2024-10-23,2024-10-28,0,Recent
 CNN/SSRS,2.8,Pennsylvania,Donald Trump,REP,48,819,Voters,2024-10-23,2024-10-28,0,Recent
 CNN/SSRS,2.8,Wisconsin,Kamala Harris,DEM,51,736,Voters,2024-10-23,2024-10-28,0,Recent
 CNN/SSRS,2.8,Wisconsin,Donald Trump,REP,45,736,Voters,2024-10-23,2024-10-28,0,Recent
+CNN/SSRS,2.8,Georgia,Kamala Harris,DEM,47,732,Voters,2024-10-23,2024-10-28,0,Recent
+CNN/SSRS,2.8,Georgia,Donald Trump,REP,48,732,Voters,2024-10-23,2024-10-28,0,Recent
+CNN/SSRS,2.8,North Carolina,Kamala Harris,DEM,48,750,Voters,2024-10-23,2024-10-28,0,Recent
+CNN/SSRS,2.8,North Carolina,Donald Trump,REP,47,750,Voters,2024-10-23,2024-10-28,0,Recent
 YouGov,3,Pennsylvania,Kamala Harris,DEM,49,1273,Voters,2024-10-22,2024-10-28,0,Recent
 YouGov,3,Pennsylvania,Donald Trump,REP,49,1273,Voters,2024-10-22,2024-10-28,0,Recent
 YouGov,3,Nebraska,Kamala Harris,DEM,40,1206,Voters,2024-10-21,2024-10-28,0,Recent
@@ -91,6 +577,8 @@ Emerson,2.9,Michigan,Kamala Harris,DEM,49.3,1000,Voters,2024-10-25,2024-10-27,0,
 Emerson,2.9,Michigan,Donald Trump,REP,49.8,1000,Voters,2024-10-25,2024-10-27,0,Recent
 Ipsos,2.8,NA,Kamala Harris,DEM,44,975,Voters,2024-10-25,2024-10-27,1,Recent
 Ipsos,2.8,NA,Donald Trump,REP,43,975,Voters,2024-10-25,2024-10-27,1,Recent
+Ipsos,2.8,NA,Kamala Harris,DEM,47,850,Voters,2024-10-25,2024-10-27,1,Recent
+Ipsos,2.8,NA,Donald Trump,REP,46,850,Voters,2024-10-25,2024-10-27,1,Recent
 Ipsos,2.8,NA,Kamala Harris,DEM,40,1150,Adults,2024-10-25,2024-10-27,1,Recent
 Ipsos,2.8,NA,Donald Trump,REP,41,1150,Adults,2024-10-25,2024-10-27,1,Recent
 Redfield & Wilton Strategies,1.8,Arizona,Kamala Harris,DEM,47,901,Voters,2024-10-25,2024-10-27,0,Recent
@@ -117,6 +605,8 @@ Susquehanna,2.3,Michigan,Kamala Harris,DEM,51.7,400,Voters,2024-10-23,2024-10-27
 Susquehanna,2.3,Michigan,Donald Trump,REP,46.6,400,Voters,2024-10-23,2024-10-27,0,Recent
 Noble Predictive Insights,2.4,NA,Kamala Harris,DEM,49,707,Voters,2024-10-23,2024-10-27,1,Recent
 Noble Predictive Insights,2.4,NA,Donald Trump,REP,46,707,Voters,2024-10-23,2024-10-27,1,Recent
+University of Wyoming,0.6,Wyoming,Kamala Harris,DEM,28.4,662,Voters,2024-09-24,2024-10-27,0,Recent
+University of Wyoming,0.6,Wyoming,Donald Trump,REP,63.4,662,Voters,2024-09-24,2024-10-27,0,Recent
 TIPP,1.8,NA,Kamala Harris,DEM,48,1292,Voters,2024-10-24,2024-10-26,1,Recent
 TIPP,1.8,NA,Donald Trump,REP,48,1292,Voters,2024-10-24,2024-10-26,1,Recent
 Trafalgar Group,0.7,Georgia,Kamala Harris,DEM,45.9,1087,Voters,2024-10-24,2024-10-26,0,Recent
@@ -131,6 +621,10 @@ Morning Consult,1.9,NA,Kamala Harris,DEM,50,8472,Voters,2024-10-24,2024-10-26,1,
 Morning Consult,1.9,NA,Donald Trump,REP,46,8472,Voters,2024-10-24,2024-10-26,1,Recent
 Emerson,2.9,Massachusetts,Kamala Harris,DEM,60.2,1000,Voters,2024-10-24,2024-10-26,0,Recent
 Emerson,2.9,Massachusetts,Donald Trump,REP,37.2,1000,Voters,2024-10-24,2024-10-26,0,Recent
+Cygnal,2.1,NA,Kamala Harris,DEM,46.1,1507,Voters,2024-10-24,2024-10-26,1,Recent
+Cygnal,2.1,NA,Donald Trump,REP,45,1507,Voters,2024-10-24,2024-10-26,1,Recent
+Cygnal,2.1,NA,Kamala Harris,DEM,49.9,1507,Voters,2024-10-24,2024-10-26,1,Recent
+Cygnal,2.1,NA,Donald Trump,REP,46.9,1507,Voters,2024-10-24,2024-10-26,1,Recent
 Siena/NYT,3,Texas,Kamala Harris,DEM,41,1180,Voters,2024-10-23,2024-10-26,0,Recent
 Siena/NYT,3,Texas,Donald Trump,REP,52,1180,Voters,2024-10-23,2024-10-26,0,Recent
 Siena/NYT,3,Texas,Kamala Harris,DEM,40,1180,Voters,2024-10-23,2024-10-26,0,Recent
@@ -245,6 +739,8 @@ Marquette Law School,3,Wisconsin,Kamala Harris,DEM,51,834,Voters,2024-10-16,2024
 Marquette Law School,3,Wisconsin,Donald Trump,REP,49,834,Voters,2024-10-16,2024-10-24,0,Recent
 Marquette Law School,3,Wisconsin,Kamala Harris,DEM,46,834,Voters,2024-10-16,2024-10-24,0,Recent
 Marquette Law School,3,Wisconsin,Donald Trump,REP,43,834,Voters,2024-10-16,2024-10-24,0,Recent
+University of Massachusetts Lowell/YouGov,2.9,Michigan,Kamala Harris,DEM,49,600,Voters,2024-10-16,2024-10-24,0,Recent
+University of Massachusetts Lowell/YouGov,2.9,Michigan,Donald Trump,REP,45,600,Voters,2024-10-16,2024-10-24,0,Recent
 TIPP,1.8,NA,Kamala Harris,DEM,50,1294,Voters,2024-10-21,2024-10-23,1,Recent
 TIPP,1.8,NA,Donald Trump,REP,47,1294,Voters,2024-10-21,2024-10-23,1,Recent
 Emerson,2.9,New Hampshire,Kamala Harris,DEM,50.9,915,Voters,2024-10-21,2024-10-23,0,Recent
@@ -284,6 +780,12 @@ Big Village,1.2,NA,Donald Trump,REP,45,1592,Voters,2024-10-18,2024-10-23,1,Recen
 Clarity,1.6,NA,Kamala Harris,DEM,50,1314,Voters,2024-10-17,2024-10-23,1,Recent
 Clarity,1.6,NA,Donald Trump,REP,46,1314,Voters,2024-10-17,2024-10-23,1,Recent
 Clarity,1.6,NA,Kamala Harris,DEM,55,1314,Voters,2024-10-17,2024-10-23,1,Recent
+University of Massachusetts Lowell/YouGov,2.9,North Carolina,Kamala Harris,DEM,45,650,Voters,2024-10-16,2024-10-23,0,Recent
+University of Massachusetts Lowell/YouGov,2.9,North Carolina,Donald Trump,REP,47,650,Voters,2024-10-16,2024-10-23,0,Recent
+University of Massachusetts Lowell/YouGov,2.9,Pennsylvania,Kamala Harris,DEM,48,800,Voters,2024-10-16,2024-10-23,0,Recent
+University of Massachusetts Lowell/YouGov,2.9,Pennsylvania,Donald Trump,REP,47,800,Voters,2024-10-16,2024-10-23,0,Recent
+University of Massachusetts Lowell/YouGov,2.9,New Hampshire,Kamala Harris,DEM,50,600,Voters,2024-10-10,2024-10-23,0,Recent
+University of Massachusetts Lowell/YouGov,2.9,New Hampshire,Donald Trump,REP,43,600,Voters,2024-10-10,2024-10-23,0,Recent
 HarrisX,1.5,NA,Kamala Harris,DEM,49,1512,Voters,2024-10-21,2024-10-22,1,Recent
 HarrisX,1.5,NA,Donald Trump,REP,51,1512,Voters,2024-10-21,2024-10-22,1,Recent
 HarrisX,1.5,NA,Kamala Harris,DEM,49,1244,Voters,2024-10-21,2024-10-22,1,Recent
@@ -1016,122 +1518,122 @@ Morning Consult,1.9,NA,Kamala Harris,DEM,51,10844,Voters,2024-10-03,2024-10-05,1
 Morning Consult,1.9,NA,Donald Trump,REP,45,10844,Voters,2024-10-03,2024-10-05,1,Recent
 Suffolk,2.9,Massachusetts,Kamala Harris,DEM,61.2,500,Voters,2024-10-01,2024-10-05,0,Recent
 Suffolk,2.9,Massachusetts,Donald Trump,REP,32.2,500,Voters,2024-10-01,2024-10-05,0,Recent
-TIPP,1.8,NA,Kamala Harris,DEM,49,997,Voters,2024-10-02,2024-10-04,1,Recent
-TIPP,1.8,NA,Donald Trump,REP,46,997,Voters,2024-10-02,2024-10-04,1,Recent
-TIPP,1.8,NA,Kamala Harris,DEM,48,997,Voters,2024-10-02,2024-10-04,1,Recent
-TIPP,1.8,NA,Donald Trump,REP,45,997,Voters,2024-10-02,2024-10-04,1,Recent
-YouGov,3,NA,Kamala Harris,DEM,46,1150,Voters,2024-10-02,2024-10-04,1,Recent
-YouGov,3,NA,Donald Trump,REP,45,1150,Voters,2024-10-02,2024-10-04,1,Recent
-YouGov,3,NA,Kamala Harris,DEM,47,1032,Voters,2024-10-02,2024-10-04,1,Recent
-YouGov,3,NA,Donald Trump,REP,47,1032,Voters,2024-10-02,2024-10-04,1,Recent
-YouGov,3,NA,Kamala Harris,DEM,48,1151,Voters,2024-10-02,2024-10-04,1,Recent
-YouGov,3,NA,Donald Trump,REP,46,1151,Voters,2024-10-02,2024-10-04,1,Recent
-YouGov,3,NA,Kamala Harris,DEM,48,1033,Voters,2024-10-02,2024-10-04,1,Recent
-YouGov,3,NA,Donald Trump,REP,47,1033,Voters,2024-10-02,2024-10-04,1,Recent
-Big Village,1.2,NA,Kamala Harris,DEM,44.5,1013,Adults,2024-10-02,2024-10-04,1,Recent
-Big Village,1.2,NA,Donald Trump,REP,41.5,1013,Adults,2024-10-02,2024-10-04,1,Recent
-Big Village,1.2,NA,Kamala Harris,DEM,48.7,841,Voters,2024-10-02,2024-10-04,1,Recent
-Big Village,1.2,NA,Donald Trump,REP,44.6,841,Voters,2024-10-02,2024-10-04,1,Recent
-Big Village,1.2,NA,Kamala Harris,DEM,49.9,755,Voters,2024-10-02,2024-10-04,1,Recent
-Big Village,1.2,NA,Donald Trump,REP,46.4,755,Voters,2024-10-02,2024-10-04,1,Recent
-Morning Consult,1.9,NA,Kamala Harris,DEM,51,10454,Voters,2024-10-02,2024-10-04,1,Recent
-Morning Consult,1.9,NA,Donald Trump,REP,45,10454,Voters,2024-10-02,2024-10-04,1,Recent
-Noble Predictive Insights,2.4,NA,Kamala Harris,DEM,49,2290,Voters,2024-10-02,2024-10-04,1,Recent
-Noble Predictive Insights,2.4,NA,Donald Trump,REP,46,2290,Voters,2024-10-02,2024-10-04,1,Recent
-Noble Predictive Insights,2.4,NA,Kamala Harris,DEM,49,2290,Voters,2024-10-02,2024-10-04,1,Recent
-Noble Predictive Insights,2.4,NA,Donald Trump,REP,47,2290,Voters,2024-10-02,2024-10-04,1,Recent
-Noble Predictive Insights,2.4,NA,Kamala Harris,DEM,47,2560,Voters,2024-10-02,2024-10-04,1,Recent
-Noble Predictive Insights,2.4,NA,Donald Trump,REP,46,2560,Voters,2024-10-02,2024-10-04,1,Recent
-Noble Predictive Insights,2.4,NA,Kamala Harris,DEM,47,2560,Voters,2024-10-02,2024-10-04,1,Recent
-Noble Predictive Insights,2.4,NA,Donald Trump,REP,45,2560,Voters,2024-10-02,2024-10-04,1,Recent
-Glengariff Group Inc.,1.5,Michigan,Kamala Harris,DEM,46.8,600,Voters,2024-10-01,2024-10-04,0,Recent
-Glengariff Group Inc.,1.5,Michigan,Donald Trump,REP,44.2,600,Voters,2024-10-01,2024-10-04,0,Recent
-Mason-Dixon,2.6,Florida,Kamala Harris,DEM,43,625,Voters,2024-10-01,2024-10-04,0,Recent
-Mason-Dixon,2.6,Florida,Donald Trump,REP,49,625,Voters,2024-10-01,2024-10-04,0,Recent
-CWS Research,1.6,Texas,Kamala Harris,DEM,43,533,Voters,2024-10-01,2024-10-04,0,Recent
-CWS Research,1.6,Texas,Donald Trump,REP,48,533,Voters,2024-10-01,2024-10-04,0,Recent
-Siena/NYT,3,Texas,Kamala Harris,DEM,44,617,Voters,2024-09-29,2024-10-04,0,Recent
-Siena/NYT,3,Texas,Donald Trump,REP,50,617,Voters,2024-09-29,2024-10-04,0,Recent
-Siena/NYT,3,Texas,Kamala Harris,DEM,42,617,Voters,2024-09-29,2024-10-04,0,Recent
-Siena/NYT,3,Texas,Donald Trump,REP,49,617,Voters,2024-09-29,2024-10-04,0,Recent
-Siena/NYT,3,Texas,Kamala Harris,DEM,44,617,Voters,2024-09-29,2024-10-04,0,Recent
-Siena/NYT,3,Texas,Donald Trump,REP,50,617,Voters,2024-09-29,2024-10-04,0,Recent
-Siena/NYT,3,Texas,Kamala Harris,DEM,41,617,Voters,2024-09-29,2024-10-04,0,Recent
-Siena/NYT,3,Texas,Donald Trump,REP,48,617,Voters,2024-09-29,2024-10-04,0,Recent
-Christopher Newport U.,2.8,Virginia,Kamala Harris,DEM,52,800,Voters,2024-09-28,2024-10-04,0,Recent
-Christopher Newport U.,2.8,Virginia,Donald Trump,REP,41,800,Voters,2024-09-28,2024-10-04,0,Recent
-Data for Progress,2.6,NA,Kamala Harris,DEM,49,1211,Voters,2024-10-02,2024-10-03,1,Recent
-Data for Progress,2.6,NA,Donald Trump,REP,46,1211,Voters,2024-10-02,2024-10-03,1,Recent
-Cygnal,2.1,NA,Kamala Harris,DEM,47.2,1500,Voters,2024-10-02,2024-10-03,1,Recent
-Cygnal,2.1,NA,Donald Trump,REP,44.5,1500,Voters,2024-10-02,2024-10-03,1,Recent
-Cygnal,2.1,NA,Kamala Harris,DEM,50.3,1500,Voters,2024-10-02,2024-10-03,1,Recent
-Cygnal,2.1,NA,Donald Trump,REP,47,1500,Voters,2024-10-02,2024-10-03,1,Recent
-Morning Consult,1.9,NA,Kamala Harris,DEM,50,10775,Voters,2024-10-01,2024-10-03,1,Recent
-Morning Consult,1.9,NA,Donald Trump,REP,45,10775,Voters,2024-10-01,2024-10-03,1,Recent
-Impact Research,1.5,Nebraska,Kamala Harris,DEM,38,600,Voters,2024-10-01,2024-10-03,0,Recent
-Impact Research,1.5,Nebraska,Donald Trump,REP,58,600,Voters,2024-10-01,2024-10-03,0,Recent
-RMG Research,2.3,NA,Kamala Harris,DEM,49,2965,Voters,2024-09-30,2024-10-03,1,Recent
-RMG Research,2.3,NA,Donald Trump,REP,49,2965,Voters,2024-09-30,2024-10-03,1,Recent
-RMG Research,2.3,Nevada,Kamala Harris,DEM,49,782,Voters,2024-09-30,2024-10-03,0,Recent
-RMG Research,2.3,Nevada,Donald Trump,REP,49,782,Voters,2024-09-30,2024-10-03,0,Recent
-St. Anselm,2.4,New Hampshire,Kamala Harris,DEM,51,2104,Voters,2024-10-01,2024-10-02,0,Recent
-St. Anselm,2.4,New Hampshire,Donald Trump,REP,44,2104,Voters,2024-10-01,2024-10-02,0,Recent
-RMG Research,2.3,Arizona,Kamala Harris,DEM,46,783,Voters,2024-09-30,2024-10-02,0,Recent
-RMG Research,2.3,Arizona,Donald Trump,REP,50,783,Voters,2024-09-30,2024-10-02,0,Recent
-Morning Consult,1.9,NA,Kamala Harris,DEM,50,11085,Voters,2024-09-30,2024-10-02,1,Recent
-Morning Consult,1.9,NA,Donald Trump,REP,45,11085,Voters,2024-09-30,2024-10-02,1,Recent
-Redfield & Wilton Strategies,1.8,Arizona,Kamala Harris,DEM,47,555,Voters,2024-09-27,2024-10-02,0,Recent
-Redfield & Wilton Strategies,1.8,Arizona,Donald Trump,REP,48,555,Voters,2024-09-27,2024-10-02,0,Recent
-Redfield & Wilton Strategies,1.8,Florida,Kamala Harris,DEM,45,2946,Voters,2024-09-27,2024-10-02,0,Recent
-Redfield & Wilton Strategies,1.8,Florida,Donald Trump,REP,49,2946,Voters,2024-09-27,2024-10-02,0,Recent
-Redfield & Wilton Strategies,1.8,Georgia,Kamala Harris,DEM,47,3783,Voters,2024-09-27,2024-10-02,0,Recent
-Redfield & Wilton Strategies,1.8,Georgia,Donald Trump,REP,47,3783,Voters,2024-09-27,2024-10-02,0,Recent
-Redfield & Wilton Strategies,1.8,Michigan,Kamala Harris,DEM,48,839,Voters,2024-09-27,2024-10-02,0,Recent
-Redfield & Wilton Strategies,1.8,Michigan,Donald Trump,REP,46,839,Voters,2024-09-27,2024-10-02,0,Recent
-Redfield & Wilton Strategies,1.8,Minnesota,Kamala Harris,DEM,51,551,Voters,2024-09-27,2024-10-02,0,Recent
-Redfield & Wilton Strategies,1.8,Minnesota,Donald Trump,REP,43,551,Voters,2024-09-27,2024-10-02,0,Recent
-Redfield & Wilton Strategies,1.8,Nevada,Kamala Harris,DEM,48,514,Voters,2024-09-27,2024-10-02,0,Recent
-Redfield & Wilton Strategies,1.8,Nevada,Donald Trump,REP,47,514,Voters,2024-09-27,2024-10-02,0,Recent
-Redfield & Wilton Strategies,1.8,North Carolina,Kamala Harris,DEM,45,753,Voters,2024-09-27,2024-10-02,0,Recent
-Redfield & Wilton Strategies,1.8,North Carolina,Donald Trump,REP,47,753,Voters,2024-09-27,2024-10-02,0,Recent
-Redfield & Wilton Strategies,1.8,Pennsylvania,Kamala Harris,DEM,48,5686,Voters,2024-09-27,2024-10-02,0,Recent
-Redfield & Wilton Strategies,1.8,Pennsylvania,Donald Trump,REP,47,5686,Voters,2024-09-27,2024-10-02,0,Recent
-Redfield & Wilton Strategies,1.8,Wisconsin,Kamala Harris,DEM,47,533,Voters,2024-09-27,2024-10-02,0,Recent
-Redfield & Wilton Strategies,1.8,Wisconsin,Donald Trump,REP,46,533,Voters,2024-09-27,2024-10-02,0,Recent
-YouGov/Center for Working Class Politics,3,Pennsylvania,Kamala Harris,DEM,46.8,1000,Voters,2024-09-24,2024-10-02,0,Recent
-YouGov/Center for Working Class Politics,3,Pennsylvania,Donald Trump,REP,44.7,1000,Voters,2024-09-24,2024-10-02,0,Recent
-OnMessage Inc.,1.1,Arizona,Kamala Harris,DEM,45,500,Voters,2024-09-24,2024-10-02,0,Recent
-OnMessage Inc.,1.1,Arizona,Donald Trump,REP,47,500,Voters,2024-09-24,2024-10-02,0,Recent
-OnMessage Inc.,1.1,Georgia,Kamala Harris,DEM,44,500,Voters,2024-09-24,2024-10-02,0,Recent
-OnMessage Inc.,1.1,Georgia,Donald Trump,REP,47,500,Voters,2024-09-24,2024-10-02,0,Recent
-OnMessage Inc.,1.1,Michigan,Kamala Harris,DEM,48,500,Voters,2024-09-24,2024-10-02,0,Recent
-OnMessage Inc.,1.1,Michigan,Donald Trump,REP,46,500,Voters,2024-09-24,2024-10-02,0,Recent
-OnMessage Inc.,1.1,Nevada,Kamala Harris,DEM,45,500,Voters,2024-09-24,2024-10-02,0,Recent
-OnMessage Inc.,1.1,Nevada,Donald Trump,REP,47,500,Voters,2024-09-24,2024-10-02,0,Recent
-OnMessage Inc.,1.1,Pennsylvania,Kamala Harris,DEM,46,500,Voters,2024-09-24,2024-10-02,0,Recent
-OnMessage Inc.,1.1,Pennsylvania,Donald Trump,REP,46,500,Voters,2024-09-24,2024-10-02,0,Recent
-OnMessage Inc.,1.1,Wisconsin,Kamala Harris,DEM,46,500,Voters,2024-09-24,2024-10-02,0,Recent
-OnMessage Inc.,1.1,Wisconsin,Donald Trump,REP,47,500,Voters,2024-09-24,2024-10-02,0,Recent
-YouGov,3,NA,Kamala Harris,DEM,48,1463,Voters,2024-09-29,2024-10-01,1,Recent
-YouGov,3,NA,Donald Trump,REP,45,1463,Voters,2024-09-29,2024-10-01,1,Recent
-YouGov,3,NA,Kamala Harris,DEM,49,1261,Voters,2024-09-29,2024-10-01,1,Recent
-YouGov,3,NA,Donald Trump,REP,46,1261,Voters,2024-09-29,2024-10-01,1,Recent
-Emerson,2.9,NA,Kamala Harris,DEM,50.2,1000,Voters,2024-09-29,2024-10-01,1,Recent
-Emerson,2.9,NA,Donald Trump,REP,48.6,1000,Voters,2024-09-29,2024-10-01,1,Recent
-Morning Consult,1.9,NA,Kamala Harris,DEM,50,11274,Voters,2024-09-29,2024-10-01,1,Recent
-Morning Consult,1.9,NA,Donald Trump,REP,46,11274,Voters,2024-09-29,2024-10-01,1,Recent
-Marist,2.9,NA,Kamala Harris,DEM,50,1294,Voters,2024-09-27,2024-10-01,1,Recent
-Marist,2.9,NA,Donald Trump,REP,48,1294,Voters,2024-09-27,2024-10-01,1,Recent
-Marist,2.9,NA,Kamala Harris,DEM,50,1514,Voters,2024-09-27,2024-10-01,1,Recent
-Marist,2.9,NA,Donald Trump,REP,47,1514,Voters,2024-09-27,2024-10-01,1,Recent
-UC Berkeley,2.5,California,Kamala Harris,DEM,57,3045,Voters,2024-09-25,2024-10-01,0,Recent
-UC Berkeley,2.5,California,Donald Trump,REP,35,3045,Voters,2024-09-25,2024-10-01,0,Recent
-Fabrizio/Impact,1.7,Arizona,Kamala Harris,DEM,47,600,Voters,2024-09-24,2024-10-01,0,Recent
-Fabrizio/Impact,1.7,Arizona,Donald Trump,REP,49,600,Voters,2024-09-24,2024-10-01,0,Recent
-Fabrizio/Impact,1.7,Arizona,Kamala Harris,DEM,48,600,Voters,2024-09-24,2024-10-01,0,Recent
-Fabrizio/Impact,1.7,Arizona,Donald Trump,REP,50,600,Voters,2024-09-24,2024-10-01,0,Recent
-Susquehanna,2.3,NA,Kamala Harris,DEM,49,1001,Voters,2024-09-23,2024-10-01,1,Recent
-Susquehanna,2.3,NA,Donald Trump,REP,44,1001,Voters,2024-09-23,2024-10-01,1,Recent
+TIPP,1.8,NA,Kamala Harris,DEM,49,997,Voters,2024-10-02,2024-10-04,1,Older
+TIPP,1.8,NA,Donald Trump,REP,46,997,Voters,2024-10-02,2024-10-04,1,Older
+TIPP,1.8,NA,Kamala Harris,DEM,48,997,Voters,2024-10-02,2024-10-04,1,Older
+TIPP,1.8,NA,Donald Trump,REP,45,997,Voters,2024-10-02,2024-10-04,1,Older
+YouGov,3,NA,Kamala Harris,DEM,46,1150,Voters,2024-10-02,2024-10-04,1,Older
+YouGov,3,NA,Donald Trump,REP,45,1150,Voters,2024-10-02,2024-10-04,1,Older
+YouGov,3,NA,Kamala Harris,DEM,48,1032,Voters,2024-10-02,2024-10-04,1,Older
+YouGov,3,NA,Donald Trump,REP,46,1032,Voters,2024-10-02,2024-10-04,1,Older
+YouGov,3,NA,Kamala Harris,DEM,48,1151,Voters,2024-10-02,2024-10-04,1,Older
+YouGov,3,NA,Donald Trump,REP,46,1151,Voters,2024-10-02,2024-10-04,1,Older
+YouGov,3,NA,Kamala Harris,DEM,49,1033,Voters,2024-10-02,2024-10-04,1,Older
+YouGov,3,NA,Donald Trump,REP,46,1033,Voters,2024-10-02,2024-10-04,1,Older
+Big Village,1.2,NA,Kamala Harris,DEM,44.5,1013,Adults,2024-10-02,2024-10-04,1,Older
+Big Village,1.2,NA,Donald Trump,REP,41.5,1013,Adults,2024-10-02,2024-10-04,1,Older
+Big Village,1.2,NA,Kamala Harris,DEM,48.7,841,Voters,2024-10-02,2024-10-04,1,Older
+Big Village,1.2,NA,Donald Trump,REP,44.6,841,Voters,2024-10-02,2024-10-04,1,Older
+Big Village,1.2,NA,Kamala Harris,DEM,49.9,755,Voters,2024-10-02,2024-10-04,1,Older
+Big Village,1.2,NA,Donald Trump,REP,46.4,755,Voters,2024-10-02,2024-10-04,1,Older
+Morning Consult,1.9,NA,Kamala Harris,DEM,51,10454,Voters,2024-10-02,2024-10-04,1,Older
+Morning Consult,1.9,NA,Donald Trump,REP,45,10454,Voters,2024-10-02,2024-10-04,1,Older
+Noble Predictive Insights,2.4,NA,Kamala Harris,DEM,49,2290,Voters,2024-10-02,2024-10-04,1,Older
+Noble Predictive Insights,2.4,NA,Donald Trump,REP,46,2290,Voters,2024-10-02,2024-10-04,1,Older
+Noble Predictive Insights,2.4,NA,Kamala Harris,DEM,49,2290,Voters,2024-10-02,2024-10-04,1,Older
+Noble Predictive Insights,2.4,NA,Donald Trump,REP,47,2290,Voters,2024-10-02,2024-10-04,1,Older
+Noble Predictive Insights,2.4,NA,Kamala Harris,DEM,47,2560,Voters,2024-10-02,2024-10-04,1,Older
+Noble Predictive Insights,2.4,NA,Donald Trump,REP,46,2560,Voters,2024-10-02,2024-10-04,1,Older
+Noble Predictive Insights,2.4,NA,Kamala Harris,DEM,47,2560,Voters,2024-10-02,2024-10-04,1,Older
+Noble Predictive Insights,2.4,NA,Donald Trump,REP,45,2560,Voters,2024-10-02,2024-10-04,1,Older
+Glengariff Group Inc.,1.5,Michigan,Kamala Harris,DEM,46.8,600,Voters,2024-10-01,2024-10-04,0,Older
+Glengariff Group Inc.,1.5,Michigan,Donald Trump,REP,44.2,600,Voters,2024-10-01,2024-10-04,0,Older
+Mason-Dixon,2.6,Florida,Kamala Harris,DEM,43,625,Voters,2024-10-01,2024-10-04,0,Older
+Mason-Dixon,2.6,Florida,Donald Trump,REP,49,625,Voters,2024-10-01,2024-10-04,0,Older
+CWS Research,1.6,Texas,Kamala Harris,DEM,43,533,Voters,2024-10-01,2024-10-04,0,Older
+CWS Research,1.6,Texas,Donald Trump,REP,48,533,Voters,2024-10-01,2024-10-04,0,Older
+Siena/NYT,3,Texas,Kamala Harris,DEM,44,617,Voters,2024-09-29,2024-10-04,0,Older
+Siena/NYT,3,Texas,Donald Trump,REP,50,617,Voters,2024-09-29,2024-10-04,0,Older
+Siena/NYT,3,Texas,Kamala Harris,DEM,42,617,Voters,2024-09-29,2024-10-04,0,Older
+Siena/NYT,3,Texas,Donald Trump,REP,49,617,Voters,2024-09-29,2024-10-04,0,Older
+Siena/NYT,3,Texas,Kamala Harris,DEM,44,617,Voters,2024-09-29,2024-10-04,0,Older
+Siena/NYT,3,Texas,Donald Trump,REP,50,617,Voters,2024-09-29,2024-10-04,0,Older
+Siena/NYT,3,Texas,Kamala Harris,DEM,41,617,Voters,2024-09-29,2024-10-04,0,Older
+Siena/NYT,3,Texas,Donald Trump,REP,48,617,Voters,2024-09-29,2024-10-04,0,Older
+Christopher Newport U.,2.8,Virginia,Kamala Harris,DEM,52,800,Voters,2024-09-28,2024-10-04,0,Older
+Christopher Newport U.,2.8,Virginia,Donald Trump,REP,41,800,Voters,2024-09-28,2024-10-04,0,Older
+Data for Progress,2.6,NA,Kamala Harris,DEM,49,1211,Voters,2024-10-02,2024-10-03,1,Older
+Data for Progress,2.6,NA,Donald Trump,REP,46,1211,Voters,2024-10-02,2024-10-03,1,Older
+Cygnal,2.1,NA,Kamala Harris,DEM,47.2,1500,Voters,2024-10-02,2024-10-03,1,Older
+Cygnal,2.1,NA,Donald Trump,REP,44.5,1500,Voters,2024-10-02,2024-10-03,1,Older
+Cygnal,2.1,NA,Kamala Harris,DEM,50.3,1500,Voters,2024-10-02,2024-10-03,1,Older
+Cygnal,2.1,NA,Donald Trump,REP,47,1500,Voters,2024-10-02,2024-10-03,1,Older
+Morning Consult,1.9,NA,Kamala Harris,DEM,50,10775,Voters,2024-10-01,2024-10-03,1,Older
+Morning Consult,1.9,NA,Donald Trump,REP,45,10775,Voters,2024-10-01,2024-10-03,1,Older
+Impact Research,1.5,Nebraska,Kamala Harris,DEM,38,600,Voters,2024-10-01,2024-10-03,0,Older
+Impact Research,1.5,Nebraska,Donald Trump,REP,58,600,Voters,2024-10-01,2024-10-03,0,Older
+RMG Research,2.3,NA,Kamala Harris,DEM,49,2965,Voters,2024-09-30,2024-10-03,1,Older
+RMG Research,2.3,NA,Donald Trump,REP,49,2965,Voters,2024-09-30,2024-10-03,1,Older
+RMG Research,2.3,Nevada,Kamala Harris,DEM,49,782,Voters,2024-09-30,2024-10-03,0,Older
+RMG Research,2.3,Nevada,Donald Trump,REP,49,782,Voters,2024-09-30,2024-10-03,0,Older
+St. Anselm,2.4,New Hampshire,Kamala Harris,DEM,51,2104,Voters,2024-10-01,2024-10-02,0,Older
+St. Anselm,2.4,New Hampshire,Donald Trump,REP,44,2104,Voters,2024-10-01,2024-10-02,0,Older
+RMG Research,2.3,Arizona,Kamala Harris,DEM,46,783,Voters,2024-09-30,2024-10-02,0,Older
+RMG Research,2.3,Arizona,Donald Trump,REP,50,783,Voters,2024-09-30,2024-10-02,0,Older
+Morning Consult,1.9,NA,Kamala Harris,DEM,50,11085,Voters,2024-09-30,2024-10-02,1,Older
+Morning Consult,1.9,NA,Donald Trump,REP,45,11085,Voters,2024-09-30,2024-10-02,1,Older
+Redfield & Wilton Strategies,1.8,Arizona,Kamala Harris,DEM,47,555,Voters,2024-09-27,2024-10-02,0,Older
+Redfield & Wilton Strategies,1.8,Arizona,Donald Trump,REP,48,555,Voters,2024-09-27,2024-10-02,0,Older
+Redfield & Wilton Strategies,1.8,Florida,Kamala Harris,DEM,45,2946,Voters,2024-09-27,2024-10-02,0,Older
+Redfield & Wilton Strategies,1.8,Florida,Donald Trump,REP,49,2946,Voters,2024-09-27,2024-10-02,0,Older
+Redfield & Wilton Strategies,1.8,Georgia,Kamala Harris,DEM,47,3783,Voters,2024-09-27,2024-10-02,0,Older
+Redfield & Wilton Strategies,1.8,Georgia,Donald Trump,REP,47,3783,Voters,2024-09-27,2024-10-02,0,Older
+Redfield & Wilton Strategies,1.8,Michigan,Kamala Harris,DEM,48,839,Voters,2024-09-27,2024-10-02,0,Older
+Redfield & Wilton Strategies,1.8,Michigan,Donald Trump,REP,46,839,Voters,2024-09-27,2024-10-02,0,Older
+Redfield & Wilton Strategies,1.8,Minnesota,Kamala Harris,DEM,51,551,Voters,2024-09-27,2024-10-02,0,Older
+Redfield & Wilton Strategies,1.8,Minnesota,Donald Trump,REP,43,551,Voters,2024-09-27,2024-10-02,0,Older
+Redfield & Wilton Strategies,1.8,Nevada,Kamala Harris,DEM,48,514,Voters,2024-09-27,2024-10-02,0,Older
+Redfield & Wilton Strategies,1.8,Nevada,Donald Trump,REP,47,514,Voters,2024-09-27,2024-10-02,0,Older
+Redfield & Wilton Strategies,1.8,North Carolina,Kamala Harris,DEM,45,753,Voters,2024-09-27,2024-10-02,0,Older
+Redfield & Wilton Strategies,1.8,North Carolina,Donald Trump,REP,47,753,Voters,2024-09-27,2024-10-02,0,Older
+Redfield & Wilton Strategies,1.8,Pennsylvania,Kamala Harris,DEM,48,5686,Voters,2024-09-27,2024-10-02,0,Older
+Redfield & Wilton Strategies,1.8,Pennsylvania,Donald Trump,REP,47,5686,Voters,2024-09-27,2024-10-02,0,Older
+Redfield & Wilton Strategies,1.8,Wisconsin,Kamala Harris,DEM,47,533,Voters,2024-09-27,2024-10-02,0,Older
+Redfield & Wilton Strategies,1.8,Wisconsin,Donald Trump,REP,46,533,Voters,2024-09-27,2024-10-02,0,Older
+YouGov/Center for Working Class Politics,3,Pennsylvania,Kamala Harris,DEM,46.8,1000,Voters,2024-09-24,2024-10-02,0,Older
+YouGov/Center for Working Class Politics,3,Pennsylvania,Donald Trump,REP,44.7,1000,Voters,2024-09-24,2024-10-02,0,Older
+OnMessage Inc.,1.1,Arizona,Kamala Harris,DEM,45,500,Voters,2024-09-24,2024-10-02,0,Older
+OnMessage Inc.,1.1,Arizona,Donald Trump,REP,47,500,Voters,2024-09-24,2024-10-02,0,Older
+OnMessage Inc.,1.1,Georgia,Kamala Harris,DEM,44,500,Voters,2024-09-24,2024-10-02,0,Older
+OnMessage Inc.,1.1,Georgia,Donald Trump,REP,47,500,Voters,2024-09-24,2024-10-02,0,Older
+OnMessage Inc.,1.1,Michigan,Kamala Harris,DEM,48,500,Voters,2024-09-24,2024-10-02,0,Older
+OnMessage Inc.,1.1,Michigan,Donald Trump,REP,46,500,Voters,2024-09-24,2024-10-02,0,Older
+OnMessage Inc.,1.1,Nevada,Kamala Harris,DEM,45,500,Voters,2024-09-24,2024-10-02,0,Older
+OnMessage Inc.,1.1,Nevada,Donald Trump,REP,47,500,Voters,2024-09-24,2024-10-02,0,Older
+OnMessage Inc.,1.1,Pennsylvania,Kamala Harris,DEM,46,500,Voters,2024-09-24,2024-10-02,0,Older
+OnMessage Inc.,1.1,Pennsylvania,Donald Trump,REP,46,500,Voters,2024-09-24,2024-10-02,0,Older
+OnMessage Inc.,1.1,Wisconsin,Kamala Harris,DEM,46,500,Voters,2024-09-24,2024-10-02,0,Older
+OnMessage Inc.,1.1,Wisconsin,Donald Trump,REP,47,500,Voters,2024-09-24,2024-10-02,0,Older
+YouGov,3,NA,Kamala Harris,DEM,48,1463,Voters,2024-09-29,2024-10-01,1,Older
+YouGov,3,NA,Donald Trump,REP,45,1463,Voters,2024-09-29,2024-10-01,1,Older
+YouGov,3,NA,Kamala Harris,DEM,49,1261,Voters,2024-09-29,2024-10-01,1,Older
+YouGov,3,NA,Donald Trump,REP,46,1261,Voters,2024-09-29,2024-10-01,1,Older
+Emerson,2.9,NA,Kamala Harris,DEM,50.2,1000,Voters,2024-09-29,2024-10-01,1,Older
+Emerson,2.9,NA,Donald Trump,REP,48.6,1000,Voters,2024-09-29,2024-10-01,1,Older
+Morning Consult,1.9,NA,Kamala Harris,DEM,50,11274,Voters,2024-09-29,2024-10-01,1,Older
+Morning Consult,1.9,NA,Donald Trump,REP,46,11274,Voters,2024-09-29,2024-10-01,1,Older
+Marist,2.9,NA,Kamala Harris,DEM,50,1294,Voters,2024-09-27,2024-10-01,1,Older
+Marist,2.9,NA,Donald Trump,REP,48,1294,Voters,2024-09-27,2024-10-01,1,Older
+Marist,2.9,NA,Kamala Harris,DEM,50,1514,Voters,2024-09-27,2024-10-01,1,Older
+Marist,2.9,NA,Donald Trump,REP,47,1514,Voters,2024-09-27,2024-10-01,1,Older
+UC Berkeley,2.5,California,Kamala Harris,DEM,57,3045,Voters,2024-09-25,2024-10-01,0,Older
+UC Berkeley,2.5,California,Donald Trump,REP,35,3045,Voters,2024-09-25,2024-10-01,0,Older
+Fabrizio/Impact,1.7,Arizona,Kamala Harris,DEM,47,600,Voters,2024-09-24,2024-10-01,0,Older
+Fabrizio/Impact,1.7,Arizona,Donald Trump,REP,49,600,Voters,2024-09-24,2024-10-01,0,Older
+Fabrizio/Impact,1.7,Arizona,Kamala Harris,DEM,48,600,Voters,2024-09-24,2024-10-01,0,Older
+Fabrizio/Impact,1.7,Arizona,Donald Trump,REP,50,600,Voters,2024-09-24,2024-10-01,0,Older
+Susquehanna,2.3,NA,Kamala Harris,DEM,49,1001,Voters,2024-09-23,2024-10-01,1,Older
+Susquehanna,2.3,NA,Donald Trump,REP,44,1001,Voters,2024-09-23,2024-10-01,1,Older
 Mitchell,2.4,Michigan,Kamala Harris,DEM,48,709,Voters,2024-09-30,2024-09-30,0,Older
 Mitchell,2.4,Michigan,Donald Trump,REP,49,709,Voters,2024-09-30,2024-09-30,0,Older
 Mitchell,2.4,Michigan,Kamala Harris,DEM,47,709,Voters,2024-09-30,2024-09-30,0,Older

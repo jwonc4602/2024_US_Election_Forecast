@@ -1,24 +1,116 @@
 pollster,numeric_grade,candidate_name,party,pct,sample_size,population,start_date,end_date,recent_poll
+Patriot Polling,1.1,Kamala Harris,DEM,49.4,1115,Voters,2024-11-01,2024-11-03,Recent
+Patriot Polling,1.1,Donald Trump,REP,48.1,1115,Voters,2024-11-01,2024-11-03,Recent
+Leger,2,Kamala Harris,DEM,49,950,Voters,2024-10-31,2024-11-03,Recent
+Leger,2,Donald Trump,REP,49,950,Voters,2024-10-31,2024-11-03,Recent
+AtlasIntel,2.7,Kamala Harris,DEM,47.2,2463,Voters,2024-11-01,2024-11-02,Recent
+AtlasIntel,2.7,Donald Trump,REP,49,2463,Voters,2024-11-01,2024-11-02,Recent
+AtlasIntel,2.7,Kamala Harris,DEM,48.3,2463,Voters,2024-11-01,2024-11-02,Recent
+AtlasIntel,2.7,Donald Trump,REP,49.8,2463,Voters,2024-11-01,2024-11-02,Recent
+TIPP,1.8,Kamala Harris,DEM,48,1305,Voters,2024-10-31,2024-11-02,Recent
+TIPP,1.8,Donald Trump,REP,49,1305,Voters,2024-10-31,2024-11-02,Recent
+TIPP,1.8,Kamala Harris,DEM,47.6,1305,Voters,2024-10-31,2024-11-02,Recent
+TIPP,1.8,Donald Trump,REP,48.6,1305,Voters,2024-10-31,2024-11-02,Recent
+Emerson,2.9,Kamala Harris,DEM,49.4,1000,Voters,2024-10-30,2024-11-02,Recent
+Emerson,2.9,Donald Trump,REP,49.2,1000,Voters,2024-10-30,2024-11-02,Recent
+Hart/POS,2.6,Kamala Harris,DEM,46,1000,Voters,2024-10-30,2024-11-02,Recent
+Hart/POS,2.6,Donald Trump,REP,47,1000,Voters,2024-10-30,2024-11-02,Recent
+Hart/POS,2.6,Kamala Harris,DEM,49,1000,Voters,2024-10-30,2024-11-02,Recent
+Hart/POS,2.6,Donald Trump,REP,49,1000,Voters,2024-10-30,2024-11-02,Recent
+Ipsos,2.8,Kamala Harris,DEM,49,3140,Adults,2024-10-29,2024-11-01,Recent
+Ipsos,2.8,Donald Trump,REP,46,3140,Adults,2024-10-29,2024-11-01,Recent
+Ipsos,2.8,Kamala Harris,DEM,49,2735,Voters,2024-10-29,2024-11-01,Recent
+Ipsos,2.8,Donald Trump,REP,46,2735,Voters,2024-10-29,2024-11-01,Recent
+Ipsos,2.8,Kamala Harris,DEM,49,2267,Voters,2024-10-29,2024-11-01,Recent
+Ipsos,2.8,Donald Trump,REP,46,2267,Voters,2024-10-29,2024-11-01,Recent
+Kaplan Strategies,2,Kamala Harris,DEM,47,671,Voters,2024-10-31,2024-10-31,Recent
+Kaplan Strategies,2,Donald Trump,REP,48,671,Voters,2024-10-31,2024-10-31,Recent
+AtlasIntel,2.7,Kamala Harris,DEM,47.2,3490,Voters,2024-10-30,2024-10-31,Recent
+AtlasIntel,2.7,Donald Trump,REP,49.1,3490,Voters,2024-10-30,2024-10-31,Recent
+AtlasIntel,2.7,Kamala Harris,DEM,48.2,3490,Voters,2024-10-30,2024-10-31,Recent
+AtlasIntel,2.7,Donald Trump,REP,49.6,3490,Voters,2024-10-30,2024-10-31,Recent
+TIPP,1.8,Kamala Harris,DEM,48,1249,Voters,2024-10-29,2024-10-31,Recent
+TIPP,1.8,Donald Trump,REP,49,1249,Voters,2024-10-29,2024-10-31,Recent
+TIPP,1.8,Kamala Harris,DEM,47.8,1249,Voters,2024-10-29,2024-10-31,Recent
+TIPP,1.8,Donald Trump,REP,48.5,1249,Voters,2024-10-29,2024-10-31,Recent
+Morning Consult,1.9,Kamala Harris,DEM,49,8918,Voters,2024-10-29,2024-10-31,Recent
+Morning Consult,1.9,Donald Trump,REP,47,8918,Voters,2024-10-29,2024-10-31,Recent
+YouGov,3,Kamala Harris,DEM,47,1267,Voters,2024-10-29,2024-10-31,Recent
+YouGov,3,Donald Trump,REP,47,1267,Voters,2024-10-29,2024-10-31,Recent
+YouGov,3,Kamala Harris,DEM,48,1152,Voters,2024-10-29,2024-10-31,Recent
+YouGov,3,Donald Trump,REP,48,1152,Voters,2024-10-29,2024-10-31,Recent
+YouGov,3,Kamala Harris,DEM,48,1267,Voters,2024-10-29,2024-10-31,Recent
+YouGov,3,Donald Trump,REP,48,1267,Voters,2024-10-29,2024-10-31,Recent
+YouGov,3,Kamala Harris,DEM,49,1152,Voters,2024-10-29,2024-10-31,Recent
+YouGov,3,Donald Trump,REP,48,1152,Voters,2024-10-29,2024-10-31,Recent
+Echelon Insights,2.7,Kamala Harris,DEM,49,1328,Voters,2024-10-28,2024-10-31,Recent
+Echelon Insights,2.7,Donald Trump,REP,47,1328,Voters,2024-10-28,2024-10-31,Recent
+Echelon Insights,2.7,Kamala Harris,DEM,50,1328,Voters,2024-10-28,2024-10-31,Recent
+Echelon Insights,2.7,Donald Trump,REP,48,1328,Voters,2024-10-28,2024-10-31,Recent
+TIPP,1.8,Kamala Harris,DEM,48,1265,Voters,2024-10-28,2024-10-30,Recent
+TIPP,1.8,Donald Trump,REP,48,1265,Voters,2024-10-28,2024-10-30,Recent
+TIPP,1.8,Kamala Harris,DEM,48,1265,Voters,2024-10-28,2024-10-30,Recent
+TIPP,1.8,Donald Trump,REP,48,1265,Voters,2024-10-28,2024-10-30,Recent
+OnMessage Inc.,1.1,Kamala Harris,DEM,45,800,Voters,2024-10-28,2024-10-30,Recent
+OnMessage Inc.,1.1,Donald Trump,REP,47,800,Voters,2024-10-28,2024-10-30,Recent
+Morning Consult,1.9,Kamala Harris,DEM,50,8868,Voters,2024-10-28,2024-10-30,Recent
+Morning Consult,1.9,Donald Trump,REP,47,8868,Voters,2024-10-28,2024-10-30,Recent
+RABA Research,1.3,Kamala Harris,DEM,48,781,Voters,2024-10-29,2024-10-29,Recent
+RABA Research,1.3,Donald Trump,REP,44,781,Voters,2024-10-29,2024-10-29,Recent
 TIPP,1.8,Kamala Harris,DEM,48.3,1302,Voters,2024-10-27,2024-10-29,Recent
 TIPP,1.8,Donald Trump,REP,47.5,1302,Voters,2024-10-27,2024-10-29,Recent
 TIPP,1.8,Kamala Harris,DEM,48,1302,Voters,2024-10-27,2024-10-29,Recent
 TIPP,1.8,Donald Trump,REP,47,1302,Voters,2024-10-27,2024-10-29,Recent
+HarrisX,1.5,Kamala Harris,DEM,51,4523,Voters,2024-10-27,2024-10-29,Recent
+HarrisX,1.5,Donald Trump,REP,49,4523,Voters,2024-10-27,2024-10-29,Recent
+HarrisX,1.5,Kamala Harris,DEM,51,3718,Voters,2024-10-27,2024-10-29,Recent
+HarrisX,1.5,Donald Trump,REP,49,3718,Voters,2024-10-27,2024-10-29,Recent
+HarrisX,1.5,Kamala Harris,DEM,48,4523,Voters,2024-10-27,2024-10-29,Recent
+HarrisX,1.5,Donald Trump,REP,47,4523,Voters,2024-10-27,2024-10-29,Recent
+HarrisX,1.5,Kamala Harris,DEM,49,3718,Voters,2024-10-27,2024-10-29,Recent
+HarrisX,1.5,Donald Trump,REP,48,3718,Voters,2024-10-27,2024-10-29,Recent
+Big Data Poll,1.1,Kamala Harris,DEM,49.7,2814,Voters,2024-10-27,2024-10-29,Recent
+Big Data Poll,1.1,Donald Trump,REP,50.3,2814,Voters,2024-10-27,2024-10-29,Recent
+Big Data Poll,1.1,Kamala Harris,DEM,49.9,2992,Voters,2024-10-27,2024-10-29,Recent
+Big Data Poll,1.1,Donald Trump,REP,50.1,2992,Voters,2024-10-27,2024-10-29,Recent
+Big Data Poll,1.1,Kamala Harris,DEM,47.3,2814,Voters,2024-10-27,2024-10-29,Recent
+Big Data Poll,1.1,Donald Trump,REP,48,2814,Voters,2024-10-27,2024-10-29,Recent
+Big Data Poll,1.1,Kamala Harris,DEM,46.8,2992,Voters,2024-10-27,2024-10-29,Recent
+Big Data Poll,1.1,Donald Trump,REP,47,2992,Voters,2024-10-27,2024-10-29,Recent
+Morning Consult,1.9,Kamala Harris,DEM,50,8999,Voters,2024-10-27,2024-10-29,Recent
+Morning Consult,1.9,Donald Trump,REP,47,8999,Voters,2024-10-27,2024-10-29,Recent
 YouGov,3,Kamala Harris,DEM,47,1446,Voters,2024-10-26,2024-10-29,Recent
 YouGov,3,Donald Trump,REP,46,1446,Voters,2024-10-26,2024-10-29,Recent
 YouGov,3,Kamala Harris,DEM,49,1310,Voters,2024-10-26,2024-10-29,Recent
 YouGov,3,Donald Trump,REP,47,1310,Voters,2024-10-26,2024-10-29,Recent
+J.L. Partners,1.6,Kamala Harris,DEM,46,1000,Voters,2024-10-26,2024-10-29,Recent
+J.L. Partners,1.6,Donald Trump,REP,49,1000,Voters,2024-10-26,2024-10-29,Recent
+J.L. Partners,1.6,Kamala Harris,DEM,47,1000,Voters,2024-10-26,2024-10-29,Recent
+J.L. Partners,1.6,Donald Trump,REP,50,1000,Voters,2024-10-26,2024-10-29,Recent
 AtlasIntel,2.7,Kamala Harris,DEM,47,3032,Voters,2024-10-25,2024-10-29,Recent
 AtlasIntel,2.7,Donald Trump,REP,49.5,3032,Voters,2024-10-25,2024-10-29,Recent
 AtlasIntel,2.7,Kamala Harris,DEM,48.1,3032,Voters,2024-10-25,2024-10-29,Recent
 AtlasIntel,2.7,Donald Trump,REP,49.8,3032,Voters,2024-10-25,2024-10-29,Recent
 TIPP,1.8,Kamala Harris,DEM,48,1291,Voters,2024-10-26,2024-10-28,Recent
 TIPP,1.8,Donald Trump,REP,47,1291,Voters,2024-10-26,2024-10-28,Recent
+Morning Consult,1.9,Kamala Harris,DEM,50,9148,Voters,2024-10-26,2024-10-28,Recent
+Morning Consult,1.9,Donald Trump,REP,46,9148,Voters,2024-10-26,2024-10-28,Recent
+HarrisX,1.5,Kamala Harris,DEM,50,1717,Voters,2024-10-25,2024-10-28,Recent
+HarrisX,1.5,Donald Trump,REP,50,1717,Voters,2024-10-25,2024-10-28,Recent
+HarrisX,1.5,Kamala Harris,DEM,50,1475,Voters,2024-10-25,2024-10-28,Recent
+HarrisX,1.5,Donald Trump,REP,50,1475,Voters,2024-10-25,2024-10-28,Recent
+HarrisX,1.5,Kamala Harris,DEM,49,1717,Voters,2024-10-25,2024-10-28,Recent
+HarrisX,1.5,Donald Trump,REP,48,1717,Voters,2024-10-25,2024-10-28,Recent
+HarrisX,1.5,Kamala Harris,DEM,49,1475,Voters,2024-10-25,2024-10-28,Recent
+HarrisX,1.5,Donald Trump,REP,49,1475,Voters,2024-10-25,2024-10-28,Recent
 TIPP,1.8,Kamala Harris,DEM,48,1288,Voters,2024-10-25,2024-10-27,Recent
 TIPP,1.8,Donald Trump,REP,48,1288,Voters,2024-10-25,2024-10-27,Recent
 Morning Consult,1.9,Kamala Harris,DEM,50,8807,Voters,2024-10-25,2024-10-27,Recent
 Morning Consult,1.9,Donald Trump,REP,47,8807,Voters,2024-10-25,2024-10-27,Recent
 Ipsos,2.8,Kamala Harris,DEM,44,975,Voters,2024-10-25,2024-10-27,Recent
 Ipsos,2.8,Donald Trump,REP,43,975,Voters,2024-10-25,2024-10-27,Recent
+Ipsos,2.8,Kamala Harris,DEM,47,850,Voters,2024-10-25,2024-10-27,Recent
+Ipsos,2.8,Donald Trump,REP,46,850,Voters,2024-10-25,2024-10-27,Recent
 Ipsos,2.8,Kamala Harris,DEM,40,1150,Adults,2024-10-25,2024-10-27,Recent
 Ipsos,2.8,Donald Trump,REP,41,1150,Adults,2024-10-25,2024-10-27,Recent
 Angus Reid,2,Kamala Harris,DEM,49,1928,Voters,2024-10-23,2024-10-27,Recent
@@ -29,6 +121,10 @@ TIPP,1.8,Kamala Harris,DEM,48,1292,Voters,2024-10-24,2024-10-26,Recent
 TIPP,1.8,Donald Trump,REP,48,1292,Voters,2024-10-24,2024-10-26,Recent
 Morning Consult,1.9,Kamala Harris,DEM,50,8472,Voters,2024-10-24,2024-10-26,Recent
 Morning Consult,1.9,Donald Trump,REP,46,8472,Voters,2024-10-24,2024-10-26,Recent
+Cygnal,2.1,Kamala Harris,DEM,46.1,1507,Voters,2024-10-24,2024-10-26,Recent
+Cygnal,2.1,Donald Trump,REP,45,1507,Voters,2024-10-24,2024-10-26,Recent
+Cygnal,2.1,Kamala Harris,DEM,49.9,1507,Voters,2024-10-24,2024-10-26,Recent
+Cygnal,2.1,Donald Trump,REP,46.9,1507,Voters,2024-10-24,2024-10-26,Recent
 TIPP,1.8,Kamala Harris,DEM,48,1333,Voters,2024-10-23,2024-10-25,Recent
 TIPP,1.8,Donald Trump,REP,48,1333,Voters,2024-10-23,2024-10-25,Recent
 YouGov,3,Kamala Harris,DEM,50,2154,Voters,2024-10-23,2024-10-25,Recent
@@ -292,60 +388,60 @@ Siena/NYT,3,Kamala Harris,DEM,47,3385,Voters,2024-09-29,2024-10-06,Recent
 Siena/NYT,3,Donald Trump,REP,44,3385,Voters,2024-09-29,2024-10-06,Recent
 Morning Consult,1.9,Kamala Harris,DEM,51,10844,Voters,2024-10-03,2024-10-05,Recent
 Morning Consult,1.9,Donald Trump,REP,45,10844,Voters,2024-10-03,2024-10-05,Recent
-TIPP,1.8,Kamala Harris,DEM,49,997,Voters,2024-10-02,2024-10-04,Recent
-TIPP,1.8,Donald Trump,REP,46,997,Voters,2024-10-02,2024-10-04,Recent
-TIPP,1.8,Kamala Harris,DEM,48,997,Voters,2024-10-02,2024-10-04,Recent
-TIPP,1.8,Donald Trump,REP,45,997,Voters,2024-10-02,2024-10-04,Recent
-YouGov,3,Kamala Harris,DEM,46,1150,Voters,2024-10-02,2024-10-04,Recent
-YouGov,3,Donald Trump,REP,45,1150,Voters,2024-10-02,2024-10-04,Recent
-YouGov,3,Kamala Harris,DEM,47,1032,Voters,2024-10-02,2024-10-04,Recent
-YouGov,3,Donald Trump,REP,47,1032,Voters,2024-10-02,2024-10-04,Recent
-YouGov,3,Kamala Harris,DEM,48,1151,Voters,2024-10-02,2024-10-04,Recent
-YouGov,3,Donald Trump,REP,46,1151,Voters,2024-10-02,2024-10-04,Recent
-YouGov,3,Kamala Harris,DEM,48,1033,Voters,2024-10-02,2024-10-04,Recent
-YouGov,3,Donald Trump,REP,47,1033,Voters,2024-10-02,2024-10-04,Recent
-Big Village,1.2,Kamala Harris,DEM,44.5,1013,Adults,2024-10-02,2024-10-04,Recent
-Big Village,1.2,Donald Trump,REP,41.5,1013,Adults,2024-10-02,2024-10-04,Recent
-Big Village,1.2,Kamala Harris,DEM,48.7,841,Voters,2024-10-02,2024-10-04,Recent
-Big Village,1.2,Donald Trump,REP,44.6,841,Voters,2024-10-02,2024-10-04,Recent
-Big Village,1.2,Kamala Harris,DEM,49.9,755,Voters,2024-10-02,2024-10-04,Recent
-Big Village,1.2,Donald Trump,REP,46.4,755,Voters,2024-10-02,2024-10-04,Recent
-Morning Consult,1.9,Kamala Harris,DEM,51,10454,Voters,2024-10-02,2024-10-04,Recent
-Morning Consult,1.9,Donald Trump,REP,45,10454,Voters,2024-10-02,2024-10-04,Recent
-Noble Predictive Insights,2.4,Kamala Harris,DEM,49,2290,Voters,2024-10-02,2024-10-04,Recent
-Noble Predictive Insights,2.4,Donald Trump,REP,46,2290,Voters,2024-10-02,2024-10-04,Recent
-Noble Predictive Insights,2.4,Kamala Harris,DEM,49,2290,Voters,2024-10-02,2024-10-04,Recent
-Noble Predictive Insights,2.4,Donald Trump,REP,47,2290,Voters,2024-10-02,2024-10-04,Recent
-Noble Predictive Insights,2.4,Kamala Harris,DEM,47,2560,Voters,2024-10-02,2024-10-04,Recent
-Noble Predictive Insights,2.4,Donald Trump,REP,46,2560,Voters,2024-10-02,2024-10-04,Recent
-Noble Predictive Insights,2.4,Kamala Harris,DEM,47,2560,Voters,2024-10-02,2024-10-04,Recent
-Noble Predictive Insights,2.4,Donald Trump,REP,45,2560,Voters,2024-10-02,2024-10-04,Recent
-Data for Progress,2.6,Kamala Harris,DEM,49,1211,Voters,2024-10-02,2024-10-03,Recent
-Data for Progress,2.6,Donald Trump,REP,46,1211,Voters,2024-10-02,2024-10-03,Recent
-Cygnal,2.1,Kamala Harris,DEM,47.2,1500,Voters,2024-10-02,2024-10-03,Recent
-Cygnal,2.1,Donald Trump,REP,44.5,1500,Voters,2024-10-02,2024-10-03,Recent
-Cygnal,2.1,Kamala Harris,DEM,50.3,1500,Voters,2024-10-02,2024-10-03,Recent
-Cygnal,2.1,Donald Trump,REP,47,1500,Voters,2024-10-02,2024-10-03,Recent
-Morning Consult,1.9,Kamala Harris,DEM,50,10775,Voters,2024-10-01,2024-10-03,Recent
-Morning Consult,1.9,Donald Trump,REP,45,10775,Voters,2024-10-01,2024-10-03,Recent
-RMG Research,2.3,Kamala Harris,DEM,49,2965,Voters,2024-09-30,2024-10-03,Recent
-RMG Research,2.3,Donald Trump,REP,49,2965,Voters,2024-09-30,2024-10-03,Recent
-Morning Consult,1.9,Kamala Harris,DEM,50,11085,Voters,2024-09-30,2024-10-02,Recent
-Morning Consult,1.9,Donald Trump,REP,45,11085,Voters,2024-09-30,2024-10-02,Recent
-YouGov,3,Kamala Harris,DEM,48,1463,Voters,2024-09-29,2024-10-01,Recent
-YouGov,3,Donald Trump,REP,45,1463,Voters,2024-09-29,2024-10-01,Recent
-YouGov,3,Kamala Harris,DEM,49,1261,Voters,2024-09-29,2024-10-01,Recent
-YouGov,3,Donald Trump,REP,46,1261,Voters,2024-09-29,2024-10-01,Recent
-Emerson,2.9,Kamala Harris,DEM,50.2,1000,Voters,2024-09-29,2024-10-01,Recent
-Emerson,2.9,Donald Trump,REP,48.6,1000,Voters,2024-09-29,2024-10-01,Recent
-Morning Consult,1.9,Kamala Harris,DEM,50,11274,Voters,2024-09-29,2024-10-01,Recent
-Morning Consult,1.9,Donald Trump,REP,46,11274,Voters,2024-09-29,2024-10-01,Recent
-Marist,2.9,Kamala Harris,DEM,50,1294,Voters,2024-09-27,2024-10-01,Recent
-Marist,2.9,Donald Trump,REP,48,1294,Voters,2024-09-27,2024-10-01,Recent
-Marist,2.9,Kamala Harris,DEM,50,1514,Voters,2024-09-27,2024-10-01,Recent
-Marist,2.9,Donald Trump,REP,47,1514,Voters,2024-09-27,2024-10-01,Recent
-Susquehanna,2.3,Kamala Harris,DEM,49,1001,Voters,2024-09-23,2024-10-01,Recent
-Susquehanna,2.3,Donald Trump,REP,44,1001,Voters,2024-09-23,2024-10-01,Recent
+TIPP,1.8,Kamala Harris,DEM,49,997,Voters,2024-10-02,2024-10-04,Older
+TIPP,1.8,Donald Trump,REP,46,997,Voters,2024-10-02,2024-10-04,Older
+TIPP,1.8,Kamala Harris,DEM,48,997,Voters,2024-10-02,2024-10-04,Older
+TIPP,1.8,Donald Trump,REP,45,997,Voters,2024-10-02,2024-10-04,Older
+YouGov,3,Kamala Harris,DEM,46,1150,Voters,2024-10-02,2024-10-04,Older
+YouGov,3,Donald Trump,REP,45,1150,Voters,2024-10-02,2024-10-04,Older
+YouGov,3,Kamala Harris,DEM,48,1032,Voters,2024-10-02,2024-10-04,Older
+YouGov,3,Donald Trump,REP,46,1032,Voters,2024-10-02,2024-10-04,Older
+YouGov,3,Kamala Harris,DEM,48,1151,Voters,2024-10-02,2024-10-04,Older
+YouGov,3,Donald Trump,REP,46,1151,Voters,2024-10-02,2024-10-04,Older
+YouGov,3,Kamala Harris,DEM,49,1033,Voters,2024-10-02,2024-10-04,Older
+YouGov,3,Donald Trump,REP,46,1033,Voters,2024-10-02,2024-10-04,Older
+Big Village,1.2,Kamala Harris,DEM,44.5,1013,Adults,2024-10-02,2024-10-04,Older
+Big Village,1.2,Donald Trump,REP,41.5,1013,Adults,2024-10-02,2024-10-04,Older
+Big Village,1.2,Kamala Harris,DEM,48.7,841,Voters,2024-10-02,2024-10-04,Older
+Big Village,1.2,Donald Trump,REP,44.6,841,Voters,2024-10-02,2024-10-04,Older
+Big Village,1.2,Kamala Harris,DEM,49.9,755,Voters,2024-10-02,2024-10-04,Older
+Big Village,1.2,Donald Trump,REP,46.4,755,Voters,2024-10-02,2024-10-04,Older
+Morning Consult,1.9,Kamala Harris,DEM,51,10454,Voters,2024-10-02,2024-10-04,Older
+Morning Consult,1.9,Donald Trump,REP,45,10454,Voters,2024-10-02,2024-10-04,Older
+Noble Predictive Insights,2.4,Kamala Harris,DEM,49,2290,Voters,2024-10-02,2024-10-04,Older
+Noble Predictive Insights,2.4,Donald Trump,REP,46,2290,Voters,2024-10-02,2024-10-04,Older
+Noble Predictive Insights,2.4,Kamala Harris,DEM,49,2290,Voters,2024-10-02,2024-10-04,Older
+Noble Predictive Insights,2.4,Donald Trump,REP,47,2290,Voters,2024-10-02,2024-10-04,Older
+Noble Predictive Insights,2.4,Kamala Harris,DEM,47,2560,Voters,2024-10-02,2024-10-04,Older
+Noble Predictive Insights,2.4,Donald Trump,REP,46,2560,Voters,2024-10-02,2024-10-04,Older
+Noble Predictive Insights,2.4,Kamala Harris,DEM,47,2560,Voters,2024-10-02,2024-10-04,Older
+Noble Predictive Insights,2.4,Donald Trump,REP,45,2560,Voters,2024-10-02,2024-10-04,Older
+Data for Progress,2.6,Kamala Harris,DEM,49,1211,Voters,2024-10-02,2024-10-03,Older
+Data for Progress,2.6,Donald Trump,REP,46,1211,Voters,2024-10-02,2024-10-03,Older
+Cygnal,2.1,Kamala Harris,DEM,47.2,1500,Voters,2024-10-02,2024-10-03,Older
+Cygnal,2.1,Donald Trump,REP,44.5,1500,Voters,2024-10-02,2024-10-03,Older
+Cygnal,2.1,Kamala Harris,DEM,50.3,1500,Voters,2024-10-02,2024-10-03,Older
+Cygnal,2.1,Donald Trump,REP,47,1500,Voters,2024-10-02,2024-10-03,Older
+Morning Consult,1.9,Kamala Harris,DEM,50,10775,Voters,2024-10-01,2024-10-03,Older
+Morning Consult,1.9,Donald Trump,REP,45,10775,Voters,2024-10-01,2024-10-03,Older
+RMG Research,2.3,Kamala Harris,DEM,49,2965,Voters,2024-09-30,2024-10-03,Older
+RMG Research,2.3,Donald Trump,REP,49,2965,Voters,2024-09-30,2024-10-03,Older
+Morning Consult,1.9,Kamala Harris,DEM,50,11085,Voters,2024-09-30,2024-10-02,Older
+Morning Consult,1.9,Donald Trump,REP,45,11085,Voters,2024-09-30,2024-10-02,Older
+YouGov,3,Kamala Harris,DEM,48,1463,Voters,2024-09-29,2024-10-01,Older
+YouGov,3,Donald Trump,REP,45,1463,Voters,2024-09-29,2024-10-01,Older
+YouGov,3,Kamala Harris,DEM,49,1261,Voters,2024-09-29,2024-10-01,Older
+YouGov,3,Donald Trump,REP,46,1261,Voters,2024-09-29,2024-10-01,Older
+Emerson,2.9,Kamala Harris,DEM,50.2,1000,Voters,2024-09-29,2024-10-01,Older
+Emerson,2.9,Donald Trump,REP,48.6,1000,Voters,2024-09-29,2024-10-01,Older
+Morning Consult,1.9,Kamala Harris,DEM,50,11274,Voters,2024-09-29,2024-10-01,Older
+Morning Consult,1.9,Donald Trump,REP,46,11274,Voters,2024-09-29,2024-10-01,Older
+Marist,2.9,Kamala Harris,DEM,50,1294,Voters,2024-09-27,2024-10-01,Older
+Marist,2.9,Donald Trump,REP,48,1294,Voters,2024-09-27,2024-10-01,Older
+Marist,2.9,Kamala Harris,DEM,50,1514,Voters,2024-09-27,2024-10-01,Older
+Marist,2.9,Donald Trump,REP,47,1514,Voters,2024-09-27,2024-10-01,Older
+Susquehanna,2.3,Kamala Harris,DEM,49,1001,Voters,2024-09-23,2024-10-01,Older
+Susquehanna,2.3,Donald Trump,REP,44,1001,Voters,2024-09-23,2024-10-01,Older
 Morning Consult,1.9,Kamala Harris,DEM,50,11568,Voters,2024-09-28,2024-09-30,Older
 Morning Consult,1.9,Donald Trump,REP,46,11568,Voters,2024-09-28,2024-09-30,Older
 Redfield & Wilton Strategies,1.8,Kamala Harris,DEM,48,1616,Voters,2024-09-28,2024-09-29,Older
