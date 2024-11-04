@@ -1,13 +1,13 @@
 ---
 title: "A Polls-of-Polls Forecast for the 2024 United States Presidential Election Through Generalized Linear Model"
-subtitle: "The Impact of Pollster Differences, Population Type, and Poll Regency on Predicting Support for Kamala Harris"
+subtitle: "The Impact of Pollster Differences, Population Type, and Poll Recency on Predicting Support for Kamala Harris"
 author: 
   - Jiwon Choi
   - Kevin Roe
 thanks: "Code and data are available at: [https://github.com/jwonc4602/2024_US_Election_Forecast](https://github.com/jwonc4602/2024_US_Election_Forecast)."
 date: today
 date-format: long
-abstract: "First sentence. Second sentence. Third sentence. Fourth sentence."
+abstract: "The 2024 U.S. Presidential Election has far-reaching global implications for economic, environmental, and social policy, making it a focal point for international attention. This paper applies a Bayesian generalized linear model to analyze trends in Kamala Harris' support, accounting for pollster differences, population types, and poll recency. Despite steady support at 48%, Harris is projected to lose the national popular vote and key battleground states to Donald Trump. Our findings emphasize the significance of polling methodologies and their role in predicting U.S. policy outcomes. Future research should incorporate the Electoral College to address current limitations."
 format: pdf
 number-sections: true
 toc: true
@@ -42,7 +42,7 @@ The United States Presidential Election is one of the most consequential events 
 
 We forecast support for Kamala Harris based on polling results and apply a Bayesian generalized linear model. The main parameter of interest is the proportion of vote or support that Harris received in surveys, which is traced over time. By considering the results from different poll-making organizations and other demographic factors, our objective is to correct for variation across different voter bases with
 
-Factoring in the different results of poll-making organizations, our model found that specific pollsters or demographic characteristics increase or decrease Harris' predicted voter share. Understanding the trajectory of the US might make in foreign policy, economic or global politics prediction allows global stakeholders to take preemptive measures for policy changes of the newly elected government. Thus, this study is a strong tool to navigate uncertainty around the 2024 election.
+Factoring in the different results of poll-making organizations, our model found that specific pollsters or demographic characteristics increase or decrease Harris' predicted voter share. Analyzing the data at a national and state level, we predict that Harris has a minority in the national popular vote and in key swing states, leading us to conclude that Donald Trump will win the 2024 US Presidential Election. Understanding the trajectory of the US might make in foreign policy, economic or global politics prediction allows global stakeholders to take preemptive measures for policy changes of the newly elected government. Thus, this study is a strong tool to navigate uncertainty around the 2024 election.
 
 The paper is structured as follows: @sec-data and @sec-model explores the data and methodology used, highlighting the filtering and modeling techniques applied to the data; @sec-results presents the results from the Bayesian generalized linear model; @sec-discussion discusses the broader implications of our findings; and @sec-appendix highlights YouGov's methodology, outlines an idealized survey methodology, and shows model diagnostics.
 
@@ -166,6 +166,8 @@ ggplot(prediction, aes(x = predicted_pct)) +
 
 The pollster variable was selected to consider the effect of changes in pollster on the observed variable. The pollster variable represents the polling organization that conducted the poll. The distribution of polling counts for different pollsters in @fig-pollster suggests that the data is dominated by two pollsters: YouGov and Siena/NYT. Further analysis is needed in their polling methodology to determine potential biases. 
 
+\newpage
+
 ```{r}
 #| label: tbl-pollster
 #| tbl-cap: Number of unique high-quality polling organizations
@@ -204,6 +206,7 @@ ggplot(prediction, aes(x = pollster)) +
   theme(axis.text.x = element_text(angle = 90, hjust = 1))
 ```
 
+\newpage
 
 ### Population Type {#sec-data-populationtype}
 
@@ -227,7 +230,7 @@ summary_stats %>%
   kable_styling(bootstrap_options = c("striped", "hover", "condensed"), full_width = F)
 
 ```
-
+\newpage
 ```{r}
 #| label: fig-populationtype
 #| fig-cap: Distribution of population type 
@@ -245,11 +248,11 @@ ggplot(prediction, aes(x = population)) +
        y = "Count") +
   theme(axis.text.x = element_text(angle = 90, hjust = 1))
 ```
+\newpage
 
 ### Poll Recency {#sec-data-pollrecency}
 
 Poll Recency, shown through the variable `recent_poll`, labels any polls conducted in the last 30 days as Recent and any polls collected before that are labeled Older. Based on our results shown in @tbl-recency, 19 more polls have been collected in the last 30 days than before. This introduces biases in responses as recent responses are more represented in our model. In rapidly changing political environments, public opinion can shift dramatically due to major events, debates, or crises, making recent data crucial for accurate modeling. The distribution of this variable can also be found in @fig-recency.
-
 
 ```{r}
 #| label: tbl-recency
@@ -270,7 +273,7 @@ summary_stats %>%
   kable_styling(bootstrap_options = c("striped", "hover", "condensed"), full_width = F)
 
 ```
-
+\newpage
 ```{r}
 #| label: fig-recency
 #| fig-cap: Distribution of on the amount of polls collected in 30 days 
@@ -287,7 +290,7 @@ ggplot(prediction, aes(x = recent_poll)) +
   theme(axis.text.x = element_text(angle = 90, hjust = 1))
 ```
 
-
+\newpage
 
 # Model {#sec-model}
 
@@ -350,7 +353,13 @@ coefficients %>%
 
 ## How has the Forecast Changed Over Time? {#sec-first-point}
 
+@fig-predicted-and-real maps the predicted and real approval percentages for Kamala Harris during the time of her campagin. In @fig-predicted-and-real, our model shows that predicted approval ratings during Kamala Harris' campagin sat at around 47%, on average, which is in line with current ABC polling methods. However, if we examine the real polling approval rating percentages, it shows that Kamala Harris' approval rating across polls significantly varied over time, but remained below 50%. The observed proportion of support over time varies because different polls have different methodlogies and suggests that there was significant variation in Kamala Harris' polling results during her campaign. 
 
+At the beginning of her campagin, Harris' approval rating significantly rose, but it eventually leveled out to just around 47%. Her initial rise in the polls came from excitement from the replacement of Joe Biden and the added momentum from a new candidate. Evidently, leading up to the election, Harris' approval ratings saw spikes and dips, most likely due to key catalysts such as the Presidential Debate, Hurricane Milton, and the escalation in the Ukraine-Russian War and the Israel-Palestine Conflict. However, leading up to the election, @fig-predicted-and-real shows Harris' approval rating settling just approximately at 47%, signalling that Harris is likely to lose the popular vote, or at very best, the 2024 US presidential election will be extremeley close.
+
+The most apparent observation from @fig-predicted-and-real is that Harris' approval rating is quite volatile over time. The reason for this volatility is due to the differences between pollsters' methodology, leading to drastically different results. Our model factors for these differences and notes the different pollsters as a notable predictor variable. The apprarent variation in @fig-predicted-and-real suggests the influence methodology and time have on the results of the poll. As time progressed, Harris' approval rating also varied, signalling that any candidate's momentum can change rapidly and maintaining a stable base of support can be challenging in a dynamic environment. 
+
+Overall, @fig-predicted-and-real evaluates Harris' approval rate throughout the duration of her campagin. Evaluating the real results and predicted percentages from the pollsters and models, respectively, Harris' is at a disadvantage heading into the election, with Donald Trump expected to win the popular vote. 
 
 ```{r}
 #| label: fig-predicted-and-real
@@ -375,6 +384,15 @@ ggplot(filtered_prediction, aes(x = end_date)) +
 
 ## Which States Prefer Harris? {#sec-second-point}
 
+However, unlike other countries, the United States' election runs through the Electoral College. To increase representation for smaller states, the Electoral College led to the formation of "swing states", which are states that have similar levels of support among voters and important to the outcome of the election. Notable swing states include Wisconsin, Pennsylvania, Arizona, Minnnesota, Georgia, and Florida. Therefore, to have a clearer picture on the outcome of the United States election, it is important to do a state-by-state analysis to understand Harris' approval ratings across key states. 
+
+In our model, by separating for state-specific polls, we are able to analyze and model out the poll results by states where state-specific polls were conducted. Examining @fig-state-comparison, common battle ground states such as Arizona, Pennsylvania, Wisconsin and Michigan are polled more frequently at the state-level than partisan states such as California and New York. Examining the results at these key battleground states, the results show that Harris' popularity recenty fell below 50% during October and November in key states such as Arizona, Michigan, Pennsylvania, Nevada and Wisconsin. Though Harris has predicted to have a majority in Ohio and Florida, the disappointing results in the other states make sher lead in these states less signifiant. Moreover, looking at the general NA category,representing all non-state specific polls, Harris' predicted approval rating hovers at 48%, which means she is expected to lose the popular vote to Trump. 
+
+@fig-state-summary shows that Harris is projected to have a minor lead with 50.4% of the popular vote in five key states: Virginia, Ohio, New Hampshire, Minnesota, and Florida. However, in the other states, she is expected to lose the popular vote. States such as Pennsylvania, Nevada, Michigan, and Georgia are critical states in order to win the election. As Harris has a noticeable projected minority in these states, she not only is expected to lose the popular vote, but Trump has a projected lead over Harris in these battleground states, hurting her chances at being elected.
+
+Overall, our model predicts that Harris is unlikely to win the general popular vote or key swing states. Consequently, we anticipate Donald Trump will win the 2024 U.S. Presidential election.
+
+\newpage
 
 ```{r}
 #| label: tbl-state-missing
@@ -400,7 +418,6 @@ missing_data_summary %>%
 #| label: fig-state-comparison
 #| fig-cap: State-by-State comparison of predicted percentages over time
 #| echo: false
-#| fig-width: 5 
 #| fig-align: center
 
 # Plot with points for sparse data
@@ -413,7 +430,7 @@ ggplot(prediction, aes(x = end_date, y = predicted_pct, color = state)) +
        y = "Predicted Percentage (%)") +
   theme_minimal() +
   theme(legend.position = "none",
-        strip.text = element_text(size = 10))  # Increase facet label size
+        strip.text = element_text(size = 8))  # Increase facet label size
 
 ```
 
@@ -421,7 +438,6 @@ ggplot(prediction, aes(x = end_date, y = predicted_pct, color = state)) +
 #| label: fig-state-summary
 #| fig-cap: Summary of Kamala Harris' predicted popular vote by key states
 #| echo: false
-#| fig-width: 5 
 #| fig-align: center
 
 # Filter to keep only the most recent entry for each state based on 'end_date'
@@ -449,13 +465,18 @@ ggplot(filtered_data, aes(x = reorder(state, predicted_pct), y = predicted_pct, 
 
 ## Implications {#sec-implications}
 
-asdfasdfasdf
+If our prediction is correct and Trump returns to office, we would see a shift in the United States' domestic and foreign policy compared to the Biden administration. Donald Trump's past presidency from 2016 to 2020 was marked with tax cuts, stronger border enforcement, isolationist foreign policy, and a massive rollback on environmental regulations [@BBCNews2024]. During this campaign cycle, Trump has largely promoted similar policies, representing a stark contrast to Harris' campaign. The implication of the paper is that if Trump wins the election as projected, then we would see the re-introduction of these policies and a different America on the global stage. As the United States election is one of the most important international events of this year, predicting the event's outcome is critical for foreign governments and businesses to guide strategy on US relations and regulations. 
+
+Moreover, the paper has significant lessons for the Harris campaign. Harris should prioritize swing states where small shifts in public opinion can determine electoral outcomes. Harris' campagin may need to adjust its messaging and outreach in battleground states to mitigate her projected losses. Also, shown through @fig-predicted-and-real, popularity can flucturate based on public enthusiasm and external factors. Campagins must focus on mobilizing their voter base effectively in the weeks leading up to the election. Though the paper can help guide the Harris campaign leading up to the election, it also can serve to help future candidates in guiding their strategy surrounding shaping public opinion and prioritizing swing states.
+
 
 ## Weaknesses and Next Steps {#sec-weaknesses}
 
--   if filter thorugh state, data not collected easily
+The first weakness in our study is the discrepancy of datapoints between states. @fig-state-summary shows that certain states have more frequent state-specific polls than others. While states like California, Montana, and New York have historically leaned towards one party than the other, the discrepancy in datapoints between states is a weakness in our data and hurts our abilty to draw conclusions from our data, as it is difficult to make out trends. Therefore, for future studies, a next potential step could be to conduct more state-specific polls and map out a candidate's popularity across each state. 
 
-Weaknesses and next steps should also be included.
+The second weakness of the study is its reliance on the popular vote, which may not accurately reflect the results of the election. The United States does not elect its President based on the popular vote, but it uses the Electoral College. While the popular vote is a valuable metric, the Electoral College system means that a candidate can lose the popular vote and still win the presidency, as seen in past elections. Harris' projected loss in key states, combine dwith a predicted minority in the national polls, signals that simply gaining a majority in the popular vote may not be sufficient for electoral success under the current system. Therefore, the next step for this study is to further incorporate the Electoral College and its methodology to the study, requiring more state-specific polling and adjusting the estimand. 
+
+Finally, as we are working with polling data, there is potential for bias. As mentioned earlier in @sec-data-pollrecency, potential for bias may disproportionately influence model predictions. This has broader implications for the accuracy of electoral forecasts and highlights the need for continually updated polling to provide a more accurate reflection of voter sentiment as Election Day approaches. 
 
 \newpage
 
