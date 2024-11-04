@@ -156,6 +156,7 @@ ggplot(prediction, aes(x = predicted_pct)) +
   labs(x = "Predicted Percentage of Support (predicted_pct)", 
        y = "Count")
 ```
+\newpage
 
 ## Predictor variables {#sec-data-predictor}
 
@@ -163,7 +164,6 @@ ggplot(prediction, aes(x = predicted_pct)) +
 
 The pollster variable was selected to consider the effect of changes in pollster on the observed variable. The pollster variable represents the polling organization that conducted the poll. The distribution of polling counts for different pollsters in @fig-pollster suggests that the data is dominated by two pollsters: YouGov and Siena/NYT. Further analysis is needed in their polling methodology to determine potential biases. 
 
-\newpage
 
 ```{r}
 #| label: tbl-pollster
@@ -232,7 +232,8 @@ summary_stats %>%
 #| label: fig-populationtype
 #| fig-cap: Distribution of population type 
 #| echo: false
-#| fig-width: 5 
+#| fig-width: 5
+#| fig-height: 5
 #| fig-align: center
 
 
@@ -276,6 +277,7 @@ summary_stats %>%
 #| fig-cap: Distribution of on the amount of polls collected in 30 days 
 #| echo: false
 #| fig-width: 5 
+#| fig-height: 5
 #| fig-align: center
 
 # Plot distribution of Population Type using histogram
@@ -393,7 +395,7 @@ Thus, our model predicts that Harris is unlikely to win the general popular vote
 
 ```{r}
 #| label: tbl-state-missing
-#| fig-cap: Summary of missing and total dates across key states
+#| tbl-cap: Summary of missing and total dates across key states
 #| echo: false
 #| tbl-align: center
 
@@ -415,6 +417,7 @@ missing_data_summary %>%
 #| label: fig-state-comparison
 #| fig-cap: State-by-State comparison of predicted percentages over time
 #| echo: false
+#| message: false
 #| fig-align: center
 
 # Plot with points for sparse data
@@ -435,6 +438,7 @@ ggplot(prediction, aes(x = end_date, y = predicted_pct, color = state)) +
 #| label: fig-state-summary
 #| fig-cap: Summary of Kamala Harris' predicted popular vote by key states
 #| echo: false
+#| message: false
 #| fig-align: center
 
 # Filter to keep only the most recent entry for each state based on 'end_date'
