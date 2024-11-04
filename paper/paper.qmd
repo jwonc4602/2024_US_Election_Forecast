@@ -346,7 +346,7 @@ coefficients %>%
   theme(axis.text.y = element_text(size = 7))
 ```
 
-@fig-coefficient-estimates represents the model coefficients, with error bars indicating the confidence interval for each estimate. Positive coefficients suggest that specific pollsters or demographic characteristics increase Harris’s predicted vote share. For example, the 'CES / YouGov' pollster shows a positive impact, while 'Siena/NYT' has a slight negative effect. These error bars help contextualize the reliability of each predictor.
+@fig-coefficient-estimates represents the model coefficients, with error bars indicating the confidence interval for each estimate. Positive coefficients suggest that specific pollsters or demographic characteristics increase Harris’s predicted vote share. For example, the 'populationVoters' shows a positive impact, while most of the pollsters has a slight negative effect. These error bars help contextualize the reliability of each predictor.
 
 # Discussion {#sec-discussion}
 
