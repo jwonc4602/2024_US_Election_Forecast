@@ -51,7 +51,7 @@ The paper is structured as follows: @sec-data and @sec-model explores the data a
 
 We have used a poll-of-polls of the upcoming US presidential election dataset obtained from FiveThirtyEight [@fivethirtyeight_polls]. Data was collected and analyzed using R statistical programming software [@citeR], with additional packages like tidyverse [@tidyverse], rstanarm [@rstanarm] knitr [@citeKnitr], here [@here], and many others for support. The dataset includes a wide range of poll results from various polls, with keyv ariables such as pollster, sample size, percentage of support for Harris, and the date conducted for polls.
 
-To ensure high data quality, we filtered the dataset to include polls with a numeric grade of 2.7 or above and focused only on polls conducted after July 21, 2024, the date of Harris' declaration of candidacy. The filter helped limit bias from older polls from when Joe Biden was the Democratic nominee, which may not reflect the current voter sentiment.
+To ensure high data quality, we filtered the dataset to include polls with a numeric grade of 3.0 and focused only on polls conducted after July 21, 2024, the date of Harris' declaration of candidacy. The filter helped limit bias from older polls from when Joe Biden was the Democratic nominee, which may not reflect the current voter sentiment.
 
 In performing the analysis, we used several R pacakages. We used tidyverse [@tidyverse] for data manipulation and visualization, and rstanarm [@rstanarm] for Bayesian modeling. To visualize results, we used ggplot2 [@ggplot2] and kableExtra [@citekableExtra] to format tables for presentation.
 
@@ -67,7 +67,7 @@ Beyond filtering for high-quality pollsters, we filtered for various criteria to
 
 ### The Predicted Proportion of Support a Candidate Received in a Poll
 
-The main variable we aim to forecast is the pct variable, which represents the proportion of the vote a candidate received in a poll.@tbl-pct-cleaned and @fig-pct-cleaned shows the summary statistics and distribution of pct variable in a filtered dataset that only comprises of votes from relatively high-quality polling organizations. We also get the popular vote predictions for each candidate using the predict() function and add this to the dataset as the predicted_pct variable. We have showed the summary statistics and distribution for predicted_pct in @tbl-pct-predicted and @fig-pct-predicted, respectively.
+The main variable we aim to forecast is the pct variable, which represents the proportion of the vote a candidate received in a poll. @tbl-pct-cleaned and @fig-pct-cleaned shows the summary statistics and distribution of pct variable in a filtered dataset that only comprises of votes from relatively high-quality polling organizations. We also get the popular vote predictions for each candidate using the predict() function and add this to the dataset as the predicted_pct variable. We have showed the summary statistics and distribution for predicted_pct in @tbl-pct-predicted and @fig-pct-predicted, respectively.
 
 Comparing our predictions to the data, our predictions have a smaller range than the cleaned data. While the difference in mean is 2% lower for our prediction than our cleaned data. The results suggest there is less variation in our predictions than the cleaned dataset. 
 
@@ -163,13 +163,13 @@ ggplot(prediction, aes(x = predicted_pct)) +
 
 ## Predictor variables {#sec-data-predictor}
 
-### Type of Pollster {sec-data-pollster}
+### Type of Pollster {#sec-data-pollster}
 
-The pollster variable was selected to consider the effect of changes in pollster on the observed variable. The pollster variable represents the polling organization that conducted the poll. The distribution of polling counts for different pollsters in @fig-pollster suggests that the data is dominated by three pollsters: Ipsos, YouGov and Siena/NYT. Further analysis is needed in their polling methodology to determine potential biases. 
+The pollster variable was selected to consider the effect of changes in pollster on the observed variable. The pollster variable represents the polling organization that conducted the poll. The distribution of polling counts for different pollsters in @fig-pollster suggests that the data is dominated by two pollsters: YouGov and Siena/NYT. Further analysis is needed in their polling methodology to determine potential biases. 
 
 ```{r}
 #| label: tbl-pollster
-#| fig-cap: Number of unique high-quality polling organizations
+#| tbl-cap: Number of unique high-quality polling organizations
 #| echo: false
 #| tbl-align: center
 #| tbl-width: 82%
@@ -177,9 +177,7 @@ The pollster variable was selected to consider the effect of changes in pollster
 
 # Calculate summary statistics for the 'pollster' variable
 summary_stats <- prediction %>%
-  summarize(
-    count(pollster, name = "Count")
-  )
+  count(pollster, name = "Count")
 
 # Display the summary statistics in a nicely formatted table
 summary_stats %>%
@@ -203,17 +201,18 @@ ggplot(prediction, aes(x = pollster)) +
   theme_minimal() +
   labs(x = "Pollster",
        y = "Count") +
+  coord_flip() +
   theme(axis.text.x = element_text(angle = 90, hjust = 1))
 ```
 
 
-### Population Type {sec-data-populationtype}
+### Population Type {#sec-data-populationtype}
 
 Population Type distinguishes among different groups surveyed into two groups surveyed: voters and adults. Adults is a more general poll that includes voters, likely voters and non-voters. @fig-populationtype shows that majority of the polls surveyed voters rather than the general adult population. The discrepancy between number of polls who surveyed voters and adults could introduce potential biases in responses, as those who are voters may have stronger opinions than those who are not. 
 
 ```{r}
 #| label: tbl-populationtype
-#| fig-cap: Number of unique high-quality polling organizations
+#| tbl-cap: Number of unique high-quality polling organizations
 #| echo: false
 #| tbl-align: center
 #| tbl-width: 82%
@@ -248,14 +247,14 @@ ggplot(prediction, aes(x = population)) +
   theme(axis.text.x = element_text(angle = 90, hjust = 1))
 ```
 
-### Poll Recency {sec-data-pollrecency}
+### Poll Recency {#sec-data-pollrecency}
 
-Poll Recency, shown through the variable `recent_poll`, labels any polls that have been conducted in the last 30 days as Recent and any polls collected before that are labeled Older. Based on our results shown in @tbl-recency, there are 32 less polls collected in the last 30 days than before. This introduces biases in responses as older responses are more represented in our model. In rapidly changing political environments, public opinion can shift dramatically due to major events, debates or crises, making recent data crucial for accurate modeling.The distribution of this variable can also be found in @fig-recency.
+Poll Recency, shown through the variable `recent_poll`, labels any polls conducted in the last 30 days as Recent and any polls collected before that are labeled Older. Based on our results shown in @tbl-recency, 19 more polls have been collected in the last 30 days than before. This introduces biases in responses as recent responses are more represented in our model. In rapidly changing political environments, public opinion can shift dramatically due to major events, debates, or crises, making recent data crucial for accurate modeling. The distribution of this variable can also be found in @fig-recency.
 
 
 ```{r}
 #| label: tbl-recency
-#| fig-cap: Number of polls that were collected within 30 days and after
+#| tbl-cap: Number of polls that were collected within 30 days and after
 #| echo: false
 #| tbl-align: center
 #| tbl-width: 82%
@@ -295,7 +294,7 @@ ggplot(prediction, aes(x = recent_poll)) +
 
 For our analysis, we employ a Bayesian generalized linear model (GLM) to forecast the popular vote percentage for Kamala Harris. This approach allows us to capture polling characteristics and account for known variations between pollsters, population types, and the recency of polling data. By incorporating these factors, we aim to model a nuanced estimate of Harris's projected popular vote.
 
-The first step in our process involved selecting a reliable dataset for model development. Here, we utilized high-quality national polling data gathered after Harris’s campaign announcement. We filtered the dataset to include polls with a numeric grade of 2.7 or above, ensuring data quality, and focused only on polls conducted after July 21, 2024, the date of Harris’s declaration of candidacy. This filter helps limit bias from older polls that may not reflect the current voter sentiment.
+The first step in our process involved selecting a reliable dataset for model development. Here, we utilized high-quality national polling data gathered after Harris’s campaign announcement. We filtered the dataset to include polls with a numeric grade of 3.0, ensuring data quality, and focused only on polls conducted after July 21, 2024, the date of Harris’s declaration of candidacy. This filter helps limit bias from older polls that may not reflect the current voter sentiment.
 
 The GLM is specified as follows: \begin{equation}
 Y_i = \beta_{0} + \beta_{1}x_{pollster_i} + \beta_{2}x_{population_i} + \beta_{3}x_{recentpoll_i} + \epsilon_{i}
